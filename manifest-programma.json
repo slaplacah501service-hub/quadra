@@ -1,5 +1,45 @@
 {
-  "versione": "2.9",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v2.9/Quadra-Setup-2.9.exe",
-  "sha256": "3abd711714098fedc76625068d76c3d84ab9a174236cf7aa3f597a7d552aef32"
+  "versione": "3.0",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.0/Quadra-Setup-3.0.exe",
+  "sha256": "3b84b0d4340db4a23bb52645075ff1990f65d410804fb380219c87cb353fe27d",
+  "novita": [
+    {
+      "versione": "3.0",
+      "data": "2026-11-02",
+      "titolo": "Barre più snelle e Quadra a modo tuo",
+      "voci": [
+        "Nuova barra in basso con «+ Nuovo», la ricerca veloce e il manuale: la barra in alto resta più snella, con Impostazioni a destra.",
+        "Impostazioni › Personalizza Quadra: scegli il colore del programma (o uno a piacere), il carattere e la grandezza delle scritte, con anteprima immediata.",
+        "Comprende tutte le novità della 2.9: frecce avanti/indietro, documento precedente/successivo, ricerca Ctrl+K, filtri per anno e stato, colonne ordinabili, avviso modifiche non salvate, scorciatoie Ctrl+S e Ctrl+P, «Cosa c'è di nuovo»."
+      ]
+    },
+    {
+      "versione": "2.9",
+      "data": "2026-11-02",
+      "titolo": "Più veloce da usare",
+      "voci": [
+        "Frecce ← → in alto per tornare alla pagina precedente o andare avanti (anche Alt+← / Alt+→ e i tasti laterali del mouse).",
+        "Dentro fatture, DDT e preventivi le frecce ‹ › accanto al titolo aprono il documento precedente e successivo (Alt+PagSu / Alt+PagGiù).",
+        "Ricerca veloce nella barra in alto (Ctrl+K): clienti, partite IVA, numeri di documento e articoli.",
+        "Pulsante «+ Nuovo» sempre visibile: fattura, DDT, preventivo, cliente o articolo da qualsiasi pagina.",
+        "Elenchi filtrabili per anno e stato (da incassare, scadute, DDT da fatturare…) con numero di documenti e totale.",
+        "Colonne ordinabili con un clic sul titolo.",
+        "Avviso se esci da un documento o da una scheda senza salvare.",
+        "Nuove scorciatoie: Ctrl+S salva, Ctrl+P apre l'anteprima PDF.",
+        "Le novità di ogni aggiornamento si leggono in Quadra prima di installarlo e compaiono alla prima apertura dopo l'aggiornamento."
+      ]
+    },
+    {
+      "versione": "2.8",
+      "data": "2026-11-01",
+      "titolo": "DDT, licenza e moduli",
+      "voci": [
+        "DDT – Documenti di trasporto: destinazione, causale, vettore, porto, colli, peso, inizio trasporto; PDF con o senza prezzi e con gli spazi per le firme.",
+        "Dal preventivo al DDT con «Crea DDT».",
+        "Fattura differita: uno o più DDT dello stesso cliente diventano una fattura TD24 con i riferimenti ai DDT anche nell'XML.",
+        "Licenza per postazione in Impostazioni › Licenza, con avviso 30 giorni prima dell'eventuale scadenza.",
+        "Moduli a scelta: Preventivi, DDT, Report, Email e commercialista, WhatsApp, Listini, Collaboratori."
+      ]
+    }
+  ]
 }
