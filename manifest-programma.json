@@ -1,8 +1,34 @@
 {
-  "versione": "3.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.3/Quadra-Setup-3.3.exe",
-  "sha256": "5999ca45d120a42cc1567d05df0ad10e22d58712e34931fd3fcb16cab58b4c08",
+  "versione": "3.5",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.5/Quadra-Setup-3.5.exe",
+  "sha256": "64c0bee3be82aac667472a32fbfbe5cd8130b6eba4656099e36dfa50b1cd1a14",
   "novita": [
+    {
+      "versione": "3.5",
+      "data": "2026-11-02",
+      "titolo": "Grafico dell'andamento e fatture ricevute dalla PEC",
+      "voci": [
+        "Nuovo grafico «Andamento» in Home: fatturato, incassato, da incassare e preventivi con linee di colori diversi. Togli la spunta da una voce per nasconderne la linea.",
+        "Periodi pronti (mese in corso, mese scorso, ultimi 6 mesi, anno in corso, anno scorso) oppure date a scelta; valori per giorno o per mese, anche progressivi. Passando sul grafico leggi i valori di ogni punto.",
+        "Le fatture dei fornitori recapitate in PEC si importano in Acquisti anche senza il modulo di invio allo SdI: basta il modulo Acquisti e fornitori (Impostazioni › PEC: fatture ricevute).",
+        "In Acquisti il nuovo pulsante «Controlla la PEC» legge subito la casella.",
+        "Manuale aggiornato: grafico nel capitolo 3, fatture ricevute dalla PEC nel capitolo 9."
+      ]
+    },
+    {
+      "versione": "3.4",
+      "data": "2026-11-02",
+      "titolo": "Quadra anche da fuori ufficio, senza VPN",
+      "voci": [
+        "Nuova pagina Impostazioni › Accesso da Internet: gli utenti che abiliti usano Quadra da casa, dal cantiere o dalla rete del telefono, con un collegamento cifrato HTTPS.",
+        "Indirizzo fisso gratuito con DuckDNS, aggiornato da Quadra ogni 5 minuti; certificato HTTPS di Let's Encrypt ottenuto e rinnovato da solo. Chi ha un suo dominio può caricare un certificato .pfx.",
+        "Da Internet per entrare servono la password e un codice di 6 cifre dall'app di autenticazione (Google o Microsoft Authenticator). Il codice si configura inquadrando un QR code.",
+        "Ogni utente può cambiare la propria password da «Il mio account» (tocca il tuo nome in alto a destra).",
+        "Blocco dei tentativi sbagliati per indirizzo, per utente e per tutto Internet; registro degli ultimi accessi con i tentativi falliti.",
+        "Dalla rete locale Quadra accetta solo indirizzi dell'ufficio o di una VPN. Gli utenti in rete possono entrare anche dopo la fine della prova, in sola consultazione.",
+        "È il nuovo modulo «Accesso da Internet» della licenza. Il manuale ha il nuovo capitolo 16."
+      ]
+    },
     {
       "versione": "3.3",
       "data": "2026-11-02",
