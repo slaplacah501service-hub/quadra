@@ -1,8 +1,35 @@
 {
-  "versione": "3.0",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.0/Quadra-Setup-3.0.exe",
-  "sha256": "3b84b0d4340db4a23bb52645075ff1990f65d410804fb380219c87cb353fe27d",
+  "versione": "3.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.2/Quadra-Setup-3.2.exe",
+  "sha256": "ad5f990688ca8b9c157292c98545e9a61c7487884d0d59109e234f113ae2626b",
   "novita": [
+    {
+      "versione": "3.2",
+      "data": "2026-11-02",
+      "titolo": "Fatture allo SdI direttamente con la tua PEC",
+      "voci": [
+        "Nuovo pulsante «Invia allo SdI (PEC)» nella fattura: Quadra la emette, controlla l'XML e la spedisce al Sistema di Interscambio dalla tua casella PEC. Nessun accreditamento, nessun intermediario, nessun costo per fattura.",
+        "Impostazioni › Invio allo SdI (PEC): scegli il gestore (Aruba, Legalmail, Poste, Register.it, Namirial), scrivi indirizzo e password e prova la connessione.",
+        "Quadra legge da sola le ricevute dello SdI (all'apertura e ogni 15 minuti): consegnata, non recapitata, scartata con il motivo dell'errore. Lo stato compare nella fattura e nell'elenco.",
+        "Fattura scartata: avviso in Home e pulsante «Correggi e invia di nuovo», che rimanda la fattura con lo stesso numero e un nuovo nome di file come chiede lo SdI.",
+        "Primo invio a sdi01@pec.fatturapa.it, poi Quadra usa da sola l'indirizzo assegnato dallo SdI.",
+        "Le fatture dei fornitori che lo SdI recapita alla tua PEC vengono importate in Acquisti (con il modulo Acquisti).",
+        "È il nuovo modulo «Invio allo SdI via PEC» della licenza. Il manuale ha il nuovo capitolo 6 che spiega come funziona."
+      ]
+    },
+    {
+      "versione": "3.1",
+      "data": "2026-11-02",
+      "titolo": "Fatture ricevute e rubrica fornitori",
+      "voci": [
+        "Nuova voce «Acquisti»: importi le fatture elettroniche ricevute dai fornitori trascinando i file .xml, .xml.p7m firmati o uno .zip con tante fatture.",
+        "Dal file Quadra legge i dati del fornitore e lo salva nella nuova rubrica Anagrafiche › Fornitori (se c'è già completa solo i dati mancanti, compresi IBAN e modalità di pagamento).",
+        "Per ogni fattura ricevuta: righe, riepilogo IVA, scadenza, IBAN, PDF allegato dal fornitore e il file XML originale da salvare quando serve.",
+        "Segna le fatture come pagate; in Home la tessera «Da pagare ai fornitori» ti avvisa di quelle scadute. Elenco con filtri per anno, stato e fornitore.",
+        "Doppioni riconosciuti e saltati, ricevute SdI ignorate, avviso se la fattura è intestata a un'altra partita IVA. I file delle fatture ricevute entrano anche nei backup.",
+        "È il nuovo modulo «Acquisti e fornitori» della licenza."
+      ]
+    },
     {
       "versione": "3.0",
       "data": "2026-11-02",
