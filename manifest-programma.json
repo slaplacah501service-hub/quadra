@@ -1,8 +1,21 @@
 {
-  "versione": "3.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.2/Quadra-Setup-3.2.exe",
-  "sha256": "ad5f990688ca8b9c157292c98545e9a61c7487884d0d59109e234f113ae2626b",
+  "versione": "3.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.3/Quadra-Setup-3.3.exe",
+  "sha256": "5999ca45d120a42cc1567d05df0ad10e22d58712e34931fd3fcb16cab58b4c08",
   "novita": [
+    {
+      "versione": "3.3",
+      "data": "2026-11-02",
+      "titolo": "Più persone insieme: altri PC e cellulare",
+      "voci": [
+        "Gli altri PC, i tablet e i cellulari della stessa rete lavorano su Quadra dal browser, senza installare niente: stesso archivio, in tempo reale. Quadra resta installato solo sul PC principale.",
+        "Impostazioni › Utenti e rete: attivi l'accesso dalla rete, crei gli utenti con nome utente e password e scegli i permessi (amministratore, operatore, sola consultazione).",
+        "Sul cellulare si entra inquadrando il QR code mostrato in Utenti e rete. Le pagine si adattano allo schermo piccolo: menu ☰ e righe dei documenti una sotto l'altra.",
+        "La licenza indica quanti utenti possono lavorare insieme, compreso il PC principale. Chi ha finito preme «Esci» e libera il posto; dopo 15 minuti di inattività si libera da solo. L'amministratore vede chi è collegato e può scollegarlo.",
+        "Un documento si modifica da una persona alla volta: chi lo apre mentre un collega ci lavora lo vede in sola lettura, con il nome di chi lo sta modificando.",
+        "Il setup apre la porta di Quadra nel firewall di Windows solo per le reti private. Il manuale ha il nuovo capitolo 15 che spiega tutto."
+      ]
+    },
     {
       "versione": "3.2",
       "data": "2026-11-02",
