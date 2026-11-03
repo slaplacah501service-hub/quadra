@@ -1,8 +1,21 @@
 {
-  "versione": "3.7.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.7.1/Quadra-Setup-3.7.1.exe",
-  "sha256": "4f73110e4ad3fe984b23794fbaa3540615da607c8c9e2a358ed0fe77e2a0080d",
+  "versione": "3.8",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.8/Quadra-Setup-3.8.exe",
+  "sha256": "612ad0d2393ccfc94efc3b045b8f2bc7e84f5703b65d409e4c60c6df0ee244e0",
   "novita": [
+    {
+      "versione": "3.8",
+      "data": "2026-11-03",
+      "titolo": "Destinazioni, fattura accompagnatoria e solleciti",
+      "voci": [
+        "Destinazioni di clienti e fornitori: cantieri, filiali, punti vendita e magazzini si salvano nella scheda, con referente e note.",
+        "Nella testata di preventivi, ordini, DDT e fatture scegli la destinazione della merce (o scrivi un altro indirizzo); passa da un documento all'altro ed è stampata nel PDF.",
+        "Ordini e bolle dei fornitori: scelta della sede del fornitore, stampata nell'ordine.",
+        "Fattura accompagnatoria: con una spunta la fattura ha i dati del trasporto come un DDT, nel PDF e nell'XML con l'indirizzo di resa.",
+        "Solleciti di pagamento via email: le fatture scadute raggruppate per cliente, una sola email per cliente con elenco, totale e IBAN; il tono sale da promemoria a sollecito a ultimo avviso. Avviso in Home e pulsante sulla fattura scaduta.",
+        "Manuale aggiornato: Destinazioni (capitolo 4), Fattura accompagnatoria e Solleciti di pagamento (capitolo 5)."
+      ]
+    },
     {
       "versione": "3.7.1",
       "data": "2026-11-03",
@@ -114,22 +127,6 @@
         "Nuova barra in basso con «+ Nuovo», la ricerca veloce e il manuale: la barra in alto resta più snella, con Impostazioni a destra.",
         "Impostazioni › Personalizza Quadra: scegli il colore del programma (o uno a piacere), il carattere e la grandezza delle scritte, con anteprima immediata.",
         "Comprende tutte le novità della 2.9: frecce avanti/indietro, documento precedente/successivo, ricerca Ctrl+K, filtri per anno e stato, colonne ordinabili, avviso modifiche non salvate, scorciatoie Ctrl+S e Ctrl+P, «Cosa c'è di nuovo»."
-      ]
-    },
-    {
-      "versione": "2.9",
-      "data": "2026-11-02",
-      "titolo": "Più veloce da usare",
-      "voci": [
-        "Frecce ← → in alto per tornare alla pagina precedente o andare avanti (anche Alt+← / Alt+→ e i tasti laterali del mouse).",
-        "Dentro fatture, DDT e preventivi le frecce ‹ › accanto al titolo aprono il documento precedente e successivo (Alt+PagSu / Alt+PagGiù).",
-        "Ricerca veloce nella barra in alto (Ctrl+K): clienti, partite IVA, numeri di documento e articoli.",
-        "Pulsante «+ Nuovo» sempre visibile: fattura, DDT, preventivo, cliente o articolo da qualsiasi pagina.",
-        "Elenchi filtrabili per anno e stato (da incassare, scadute, DDT da fatturare…) con numero di documenti e totale.",
-        "Colonne ordinabili con un clic sul titolo.",
-        "Avviso se esci da un documento o da una scheda senza salvare.",
-        "Nuove scorciatoie: Ctrl+S salva, Ctrl+P apre l'anteprima PDF.",
-        "Le novità di ogni aggiornamento si leggono in Quadra prima di installarlo e compaiono alla prima apertura dopo l'aggiornamento."
       ]
     }
   ]
