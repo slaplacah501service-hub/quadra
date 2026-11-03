@@ -1,8 +1,20 @@
 {
-  "versione": "3.9.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.9.3/Quadra-Setup-3.9.3.exe",
-  "sha256": "df7c86fe74567cbc182a28cecadce8c43a868e38070b537ee3bc2e16f66d493d",
+  "versione": "4.0",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.0/Quadra-Setup-4.0.exe",
+  "sha256": "3dfb0894623de4cb0e6a8137c82bf22f31aefa093c8432a2e097dde44ed229ce",
   "novita": [
+    {
+      "versione": "4.0",
+      "data": "2026-11-03",
+      "titolo": "Offerte per i clienti dalle licenze",
+      "voci": [
+        "Licenze clienti (fornitore): nuovo tasto «Genera offerta». Prende i moduli spuntati e gli utenti e apre il foglio dell'offerta; il codice postazione non serve.",
+        "Il foglio dell'offerta funziona come Excel: celle da modificare, frecce, Tab e Invio, righe da aggiungere o togliere (es. installazione e corso), totale calcolato da solo.",
+        "Prezzo riservato facoltativo (anche come sconto, es. -10%): nel PDF il totale di listino esce barrato e il prezzo riservato evidenziato, con il risparmio.",
+        "Intestatario scelto anche tra i clienti, note per il cliente, numerazione 2026/001; l'offerta si apre in PDF, si invia per email e si esporta in Excel.",
+        "Elenco «Offerte fatte» con «Crea la licenza»: il modulo della licenza si compila con intestatario, moduli e utenti dell'offerta e registra il prezzo concordato."
+      ]
+    },
     {
       "versione": "3.9.3",
       "data": "2026-11-03",
@@ -102,20 +114,6 @@
         "Le fatture dei fornitori recapitate in PEC si importano in Acquisti anche senza il modulo di invio allo SdI: basta il modulo Acquisti e fornitori (Impostazioni › PEC: fatture ricevute).",
         "In Acquisti il nuovo pulsante «Controlla la PEC» legge subito la casella.",
         "Manuale aggiornato: grafico nel capitolo 3, fatture ricevute dalla PEC nel capitolo 9."
-      ]
-    },
-    {
-      "versione": "3.4",
-      "data": "2026-11-02",
-      "titolo": "Quadra anche da fuori ufficio, senza VPN",
-      "voci": [
-        "Nuova pagina Impostazioni › Accesso da Internet: gli utenti che abiliti usano Quadra da casa, dal cantiere o dalla rete del telefono, con un collegamento cifrato HTTPS.",
-        "Indirizzo fisso gratuito con DuckDNS, aggiornato da Quadra ogni 5 minuti; certificato HTTPS di Let's Encrypt ottenuto e rinnovato da solo. Chi ha un suo dominio può caricare un certificato .pfx.",
-        "Da Internet per entrare servono la password e un codice di 6 cifre dall'app di autenticazione (Google o Microsoft Authenticator). Il codice si configura inquadrando un QR code.",
-        "Ogni utente può cambiare la propria password da «Il mio account» (tocca il tuo nome in alto a destra).",
-        "Blocco dei tentativi sbagliati per indirizzo, per utente e per tutto Internet; registro degli ultimi accessi con i tentativi falliti.",
-        "Dalla rete locale Quadra accetta solo indirizzi dell'ufficio o di una VPN. Gli utenti in rete possono entrare anche dopo la fine della prova, in sola consultazione.",
-        "È il nuovo modulo «Accesso da Internet» della licenza. Il manuale ha il nuovo capitolo 16."
       ]
     }
   ]
