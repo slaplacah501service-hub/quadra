@@ -1,8 +1,20 @@
 {
-  "versione": "3.8",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.8/Quadra-Setup-3.8.exe",
-  "sha256": "612ad0d2393ccfc94efc3b045b8f2bc7e84f5703b65d409e4c60c6df0ee244e0",
+  "versione": "3.9",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.9/Quadra-Setup-3.9.exe",
+  "sha256": "9be8786e93740f268d789eeba80ff08552bfad4600e1a7cd2871bcf6937ecd4b",
   "novita": [
+    {
+      "versione": "3.9",
+      "data": "2026-11-03",
+      "titolo": "Quadra per PC e Mac",
+      "voci": [
+        "Nuovo programma «Quadra per PC e Mac» per gli altri PC Windows e i Mac: apre Quadra in una finestra sua invece che nel browser e chiede nome utente e password, come dal cellulare.",
+        "Alla prima apertura «Cerca nella rete» trova da solo il PC principale; si può aggiungere anche l'indirizzo da Internet, usato quando si è fuori ufficio (con il codice dall'app).",
+        "Dal programma i PDF si aprono con il lettore del computer e i file esportati (Excel, XML, PDF da scaricare) vanno nella cartella Download.",
+        "Il programma ricorda gli indirizzi e il nome utente, mai la password. In «Collegati adesso» compare come «Programma Quadra · Windows» o «· Mac».",
+        "Impostazioni › Utenti e rete: collegamento per scaricare il programma. Manuale: capitolo 16."
+      ]
+    },
     {
       "versione": "3.8",
       "data": "2026-11-03",
@@ -117,16 +129,6 @@
         "Segna le fatture come pagate; in Home la tessera «Da pagare ai fornitori» ti avvisa di quelle scadute. Elenco con filtri per anno, stato e fornitore.",
         "Doppioni riconosciuti e saltati, ricevute SdI ignorate, avviso se la fattura è intestata a un'altra partita IVA. I file delle fatture ricevute entrano anche nei backup.",
         "È il nuovo modulo «Acquisti e fornitori» della licenza."
-      ]
-    },
-    {
-      "versione": "3.0",
-      "data": "2026-11-02",
-      "titolo": "Barre più snelle e Quadra a modo tuo",
-      "voci": [
-        "Nuova barra in basso con «+ Nuovo», la ricerca veloce e il manuale: la barra in alto resta più snella, con Impostazioni a destra.",
-        "Impostazioni › Personalizza Quadra: scegli il colore del programma (o uno a piacere), il carattere e la grandezza delle scritte, con anteprima immediata.",
-        "Comprende tutte le novità della 2.9: frecce avanti/indietro, documento precedente/successivo, ricerca Ctrl+K, filtri per anno e stato, colonne ordinabili, avviso modifiche non salvate, scorciatoie Ctrl+S e Ctrl+P, «Cosa c'è di nuovo»."
       ]
     }
   ]
