@@ -1,8 +1,17 @@
 {
-  "versione": "3.9.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.9.1/Quadra-Setup-3.9.1.exe",
-  "sha256": "5348b53af2293b4bcb3358862c62b48c1c08e16fde813e47a84295e63502d8e8",
+  "versione": "3.9.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.9.2/Quadra-Setup-3.9.2.exe",
+  "sha256": "b77786a58664ecc5fb4d742402b7d84de40f8c059ed95ac4230b430d239aaa12",
   "novita": [
+    {
+      "versione": "3.9.2",
+      "data": "2026-11-03",
+      "titolo": "Diagnosi dell'accesso da Internet",
+      "voci": [
+        "Accesso da Internet: se Windows non accetta la chiave del certificato, Quadra prova da sola a caricarla in un altro modo e usa quello che funziona.",
+        "La pagina Accesso da Internet mostra il motivo preciso, con il codice di Windows, se il collegamento HTTPS non riesce."
+      ]
+    },
     {
       "versione": "3.9.1",
       "data": "2026-11-03",
@@ -111,20 +120,6 @@
         "La licenza indica quanti utenti possono lavorare insieme, compreso il PC principale. Chi ha finito preme «Esci» e libera il posto; dopo 15 minuti di inattività si libera da solo. L'amministratore vede chi è collegato e può scollegarlo.",
         "Un documento si modifica da una persona alla volta: chi lo apre mentre un collega ci lavora lo vede in sola lettura, con il nome di chi lo sta modificando.",
         "Il setup apre la porta di Quadra nel firewall di Windows solo per le reti private. Il manuale ha il nuovo capitolo 15 che spiega tutto."
-      ]
-    },
-    {
-      "versione": "3.2",
-      "data": "2026-11-02",
-      "titolo": "Fatture allo SdI direttamente con la tua PEC",
-      "voci": [
-        "Nuovo pulsante «Invia allo SdI (PEC)» nella fattura: Quadra la emette, controlla l'XML e la spedisce al Sistema di Interscambio dalla tua casella PEC. Nessun accreditamento, nessun intermediario, nessun costo per fattura.",
-        "Impostazioni › Invio allo SdI (PEC): scegli il gestore (Aruba, Legalmail, Poste, Register.it, Namirial), scrivi indirizzo e password e prova la connessione.",
-        "Quadra legge da sola le ricevute dello SdI (all'apertura e ogni 15 minuti): consegnata, non recapitata, scartata con il motivo dell'errore. Lo stato compare nella fattura e nell'elenco.",
-        "Fattura scartata: avviso in Home e pulsante «Correggi e invia di nuovo», che rimanda la fattura con lo stesso numero e un nuovo nome di file come chiede lo SdI.",
-        "Primo invio a sdi01@pec.fatturapa.it, poi Quadra usa da sola l'indirizzo assegnato dallo SdI.",
-        "Le fatture dei fornitori che lo SdI recapita alla tua PEC vengono importate in Acquisti (con il modulo Acquisti).",
-        "È il nuovo modulo «Invio allo SdI via PEC» della licenza. Il manuale ha il nuovo capitolo 6 che spiega come funziona."
       ]
     }
   ]
