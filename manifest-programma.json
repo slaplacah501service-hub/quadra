@@ -1,8 +1,17 @@
 {
-  "versione": "3.9",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.9/Quadra-Setup-3.9.exe",
-  "sha256": "9be8786e93740f268d789eeba80ff08552bfad4600e1a7cd2871bcf6937ecd4b",
+  "versione": "3.9.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.9.1/Quadra-Setup-3.9.1.exe",
+  "sha256": "5348b53af2293b4bcb3358862c62b48c1c08e16fde813e47a84295e63502d8e8",
   "novita": [
+    {
+      "versione": "3.9.1",
+      "data": "2026-11-03",
+      "titolo": "Correzione dell'accesso da Internet",
+      "voci": [
+        "Accesso da Internet: sui PC con Windows 10 il collegamento HTTPS non partiva («il sito non può fornire una connessione protetta»). Ora funziona.",
+        "Impostazioni › Accesso da Internet prova da sola il collegamento HTTPS e, se non riesce, ne mostra il motivo."
+      ]
+    },
     {
       "versione": "3.9",
       "data": "2026-11-03",
@@ -116,19 +125,6 @@
         "Primo invio a sdi01@pec.fatturapa.it, poi Quadra usa da sola l'indirizzo assegnato dallo SdI.",
         "Le fatture dei fornitori che lo SdI recapita alla tua PEC vengono importate in Acquisti (con il modulo Acquisti).",
         "È il nuovo modulo «Invio allo SdI via PEC» della licenza. Il manuale ha il nuovo capitolo 6 che spiega come funziona."
-      ]
-    },
-    {
-      "versione": "3.1",
-      "data": "2026-11-02",
-      "titolo": "Fatture ricevute e rubrica fornitori",
-      "voci": [
-        "Nuova voce «Acquisti»: importi le fatture elettroniche ricevute dai fornitori trascinando i file .xml, .xml.p7m firmati o uno .zip con tante fatture.",
-        "Dal file Quadra legge i dati del fornitore e lo salva nella nuova rubrica Anagrafiche › Fornitori (se c'è già completa solo i dati mancanti, compresi IBAN e modalità di pagamento).",
-        "Per ogni fattura ricevuta: righe, riepilogo IVA, scadenza, IBAN, PDF allegato dal fornitore e il file XML originale da salvare quando serve.",
-        "Segna le fatture come pagate; in Home la tessera «Da pagare ai fornitori» ti avvisa di quelle scadute. Elenco con filtri per anno, stato e fornitore.",
-        "Doppioni riconosciuti e saltati, ricevute SdI ignorate, avviso se la fattura è intestata a un'altra partita IVA. I file delle fatture ricevute entrano anche nei backup.",
-        "È il nuovo modulo «Acquisti e fornitori» della licenza."
       ]
     }
   ]
