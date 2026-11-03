@@ -1,8 +1,31 @@
 {
-  "versione": "3.6",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.6/Quadra-Setup-3.6.exe",
-  "sha256": "027cf3839a59fdd7297dce3a1615850300bf51da60635e6d6f509921bb1de462",
+  "versione": "3.7.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.7.1/Quadra-Setup-3.7.1.exe",
+  "sha256": "4f73110e4ad3fe984b23794fbaa3540615da607c8c9e2a358ed0fe77e2a0080d",
   "novita": [
+    {
+      "versione": "3.7.1",
+      "data": "2026-11-03",
+      "titolo": "Barra dei menu sempre visibile",
+      "voci": [
+        "La barra in alto con i menu resta ferma mentre scorri la pagina, come quella in basso.",
+        "Nel menu Magazzino le voci Lotti e scadenze, Matricole e Rintraccia (se comprese nella licenza)."
+      ]
+    },
+    {
+      "versione": "3.7",
+      "data": "2026-11-03",
+      "titolo": "Lotti, matricole, ubicazioni, taglie e colori",
+      "voci": [
+        "Quattro sottomoduli del Magazzino, attivabili uno per uno nella licenza: Lotti e scadenze, Matricole, Ubicazioni, Taglie e colori.",
+        "Lotti e scadenze: lotto e scadenza su bolle, fatture ricevute, DDT, fatture e movimenti; all'uscita Quadra propone prima i lotti che scadono prima. Elenco dei lotti in scadenza e tessera in Home.",
+        "Matricole: numero di serie di ogni pezzo, anche con il lettore di codici a barre; elenco delle matricole in giacenza.",
+        "Rintraccia: da un lotto o una matricola vedi da quale fornitore è arrivato e a quali clienti è andato. Lotti e matricole vanno nel PDF e nell'XML della fattura.",
+        "Ubicazioni: scaffale e ripiano di ogni articolo, lista di prelievo stampabile in ordine di scaffale, foglio di conta ordinato per ubicazione.",
+        "Taglie e colori: dal modello Quadra crea le varianti; nei documenti si inseriscono le quantità a griglia; pagina con le giacenze per taglia e colore.",
+        "Manuale aggiornato: nuove sezioni nel capitolo 10."
+      ]
+    },
     {
       "versione": "3.6",
       "data": "2026-11-03",
@@ -107,18 +130,6 @@
         "Avviso se esci da un documento o da una scheda senza salvare.",
         "Nuove scorciatoie: Ctrl+S salva, Ctrl+P apre l'anteprima PDF.",
         "Le novità di ogni aggiornamento si leggono in Quadra prima di installarlo e compaiono alla prima apertura dopo l'aggiornamento."
-      ]
-    },
-    {
-      "versione": "2.8",
-      "data": "2026-11-01",
-      "titolo": "DDT, licenza e moduli",
-      "voci": [
-        "DDT – Documenti di trasporto: destinazione, causale, vettore, porto, colli, peso, inizio trasporto; PDF con o senza prezzi e con gli spazi per le firme.",
-        "Dal preventivo al DDT con «Crea DDT».",
-        "Fattura differita: uno o più DDT dello stesso cliente diventano una fattura TD24 con i riferimenti ai DDT anche nell'XML.",
-        "Licenza per postazione in Impostazioni › Licenza, con avviso 30 giorni prima dell'eventuale scadenza.",
-        "Moduli a scelta: Preventivi, DDT, Report, Email e commercialista, WhatsApp, Listini, Collaboratori."
       ]
     }
   ]
