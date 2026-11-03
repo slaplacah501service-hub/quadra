@@ -1,8 +1,22 @@
 {
-  "versione": "3.5",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.5/Quadra-Setup-3.5.exe",
-  "sha256": "64c0bee3be82aac667472a32fbfbe5cd8130b6eba4656099e36dfa50b1cd1a14",
+  "versione": "3.6",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v3.6/Quadra-Setup-3.6.exe",
+  "sha256": "027cf3839a59fdd7297dce3a1615850300bf51da60635e6d6f509921bb1de462",
   "novita": [
+    {
+      "versione": "3.6",
+      "data": "2026-11-03",
+      "titolo": "Magazzino: giacenze, ordini e bolle fornitori",
+      "voci": [
+        "Nuovo modulo «Magazzino»: per gli articoli che segni come gestiti a magazzino, Quadra calcola la giacenza dai documenti, senza registrazioni doppie.",
+        "DDT e fatture scaricano la merce, le note di credito la ricaricano; la fattura fatta da un DDT non scarica una seconda volta.",
+        "Ordini clienti (anche da un preventivo) con quantità impegnata, consegne parziali e stato aperto/evaso/chiuso; DDT e fattura si creano dalle quantità ancora da consegnare.",
+        "Ordini fornitori (anche dagli articoli sotto scorta), da stampare o mandare per email; bolle dei fornitori che caricano la merce, create anche dall'ordine.",
+        "All'arrivo della fattura XML del fornitore Quadra riconosce la bolla citata, la collega e carica solo quello che non era già in bolla, aggiornando il costo. I codici del fornitore vengono ricordati.",
+        "Carichi, scarichi, rettifiche e trasferimenti a mano; inventario a una data con valore al costo medio; conta fisica anche da file CSV; più magazzini.",
+        "Manuale aggiornato: nuovo capitolo 10 «Magazzino»."
+      ]
+    },
     {
       "versione": "3.5",
       "data": "2026-11-02",
