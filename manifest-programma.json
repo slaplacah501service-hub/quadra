@@ -1,8 +1,28 @@
 {
-  "versione": "4.0",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.0/Quadra-Setup-4.0.exe",
-  "sha256": "3dfb0894623de4cb0e6a8137c82bf22f31aefa093c8432a2e097dde44ed229ce",
+  "versione": "4.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.1/Quadra-Setup-4.1.exe",
+  "sha256": "b606c5bc6fb1f5219a7a230ead510cd635a5e43676e9c1bd3ee69f94fc3279fa",
   "novita": [
+    {
+      "versione": "4.1",
+      "data": "2026-11-03",
+      "titolo": "Controllo della licenza col fornitore",
+      "voci": [
+        "Una volta al giorno Quadra comunica al fornitore che la licenza è in uso: manda solo il numero di licenza, il codice del PC, la versione e quanti utenti sono collegati. Nessun documento, cliente o importo.",
+        "Rinnovi e nuovi moduli arrivano da soli: quando il fornitore rinnova la licenza, Quadra la attiva al collegamento successivo senza dover incollare la chiave.",
+        "Senza Internet Quadra lavora normalmente, come sempre.",
+        "Fornitore: nuova pagina «Licenze in giro» con l'ultimo contatto e la versione di ogni PC, le licenze in scadenza, la sospensione e il rinnovo a distanza."
+      ]
+    },
+    {
+      "versione": "4.0.1",
+      "data": "2026-11-03",
+      "titolo": "Anteprima PDF delle offerte",
+      "voci": [
+        "Foglio dell'offerta: nuovo tasto «Anteprima PDF», che salva e mostra l'offerta dentro Quadra come verrà stampata, con i tasti per salvarla, inviarla per email o esportarla in Excel.",
+        "Elenco «Offerte fatte»: tasto «PDF» per aprire subito l'anteprima di ogni offerta."
+      ]
+    },
     {
       "versione": "4.0",
       "data": "2026-11-03",
@@ -88,32 +108,6 @@
         "Ubicazioni: scaffale e ripiano di ogni articolo, lista di prelievo stampabile in ordine di scaffale, foglio di conta ordinato per ubicazione.",
         "Taglie e colori: dal modello Quadra crea le varianti; nei documenti si inseriscono le quantità a griglia; pagina con le giacenze per taglia e colore.",
         "Manuale aggiornato: nuove sezioni nel capitolo 10."
-      ]
-    },
-    {
-      "versione": "3.6",
-      "data": "2026-11-03",
-      "titolo": "Magazzino: giacenze, ordini e bolle fornitori",
-      "voci": [
-        "Nuovo modulo «Magazzino»: per gli articoli che segni come gestiti a magazzino, Quadra calcola la giacenza dai documenti, senza registrazioni doppie.",
-        "DDT e fatture scaricano la merce, le note di credito la ricaricano; la fattura fatta da un DDT non scarica una seconda volta.",
-        "Ordini clienti (anche da un preventivo) con quantità impegnata, consegne parziali e stato aperto/evaso/chiuso; DDT e fattura si creano dalle quantità ancora da consegnare.",
-        "Ordini fornitori (anche dagli articoli sotto scorta), da stampare o mandare per email; bolle dei fornitori che caricano la merce, create anche dall'ordine.",
-        "All'arrivo della fattura XML del fornitore Quadra riconosce la bolla citata, la collega e carica solo quello che non era già in bolla, aggiornando il costo. I codici del fornitore vengono ricordati.",
-        "Carichi, scarichi, rettifiche e trasferimenti a mano; inventario a una data con valore al costo medio; conta fisica anche da file CSV; più magazzini.",
-        "Manuale aggiornato: nuovo capitolo 10 «Magazzino»."
-      ]
-    },
-    {
-      "versione": "3.5",
-      "data": "2026-11-02",
-      "titolo": "Grafico dell'andamento e fatture ricevute dalla PEC",
-      "voci": [
-        "Nuovo grafico «Andamento» in Home: fatturato, incassato, da incassare e preventivi con linee di colori diversi. Togli la spunta da una voce per nasconderne la linea.",
-        "Periodi pronti (mese in corso, mese scorso, ultimi 6 mesi, anno in corso, anno scorso) oppure date a scelta; valori per giorno o per mese, anche progressivi. Passando sul grafico leggi i valori di ogni punto.",
-        "Le fatture dei fornitori recapitate in PEC si importano in Acquisti anche senza il modulo di invio allo SdI: basta il modulo Acquisti e fornitori (Impostazioni › PEC: fatture ricevute).",
-        "In Acquisti il nuovo pulsante «Controlla la PEC» legge subito la casella.",
-        "Manuale aggiornato: grafico nel capitolo 3, fatture ricevute dalla PEC nel capitolo 9."
       ]
     }
   ]
