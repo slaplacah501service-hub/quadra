@@ -1,8 +1,28 @@
 {
-  "versione": "4.6",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.6/Quadra-Setup-4.6.exe",
-  "sha256": "b560402e6ea6a79a34222be9378a38c00c9e59c036598a1e4d070525d50f35f1",
+  "versione": "4.7",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.7/Quadra-Setup-4.7.exe",
+  "sha256": "220159a1775177e1118bfc6e60c79f78c3edb899d8138376ff88ecc5f6cedfaa",
   "novita": [
+    {
+      "versione": "4.7",
+      "data": "2026-11-04",
+      "titolo": "Un solo tasto «Emetti» e manuale rinnovato",
+      "voci": [
+        "Nei documenti c'è un solo tasto «Emetti…» (sempre F10). Si apre una schermata con le spunte: invio allo SdI con la PEC, PDF al cliente per email, PDF e XML al commercialista, WhatsApp. Partono tutte attive e si tolgono fattura per fattura. Quello che è già stato fatto parte senza spunta.",
+        "XML FatturaPA, Invia allo SdI, Invia per email e WhatsApp a mano restano nel menu «Altro ▾».",
+        "Manuale aggiornato: tutte le schermate nuove con il tema e il logo di Quadra, e la casella «Cerca» in alto per trovare subito una parola (Invio per la successiva).",
+        "Commercialista: «Nella schermata «Emetti…» lascia già spuntato l'invio al commercialista» decide se quella spunta parte attiva."
+      ]
+    },
+    {
+      "versione": "4.6.1",
+      "data": "2026-11-04",
+      "titolo": "Totali del documento in tempo reale",
+      "voci": [
+        "Nei documenti il riepilogo IVA, l'imponibile, l'IVA e il totale si aggiornano mentre scrivi: cambiando prezzo, quantità, sconto, aliquota o esenzione IVA, aggiungendo o togliendo righe, o con lo split payment.",
+        "L'avviso del bollo virtuale compare o sparisce subito, appena le operazioni esenti superano o tornano sotto i 77,47 €."
+      ]
+    },
     {
       "versione": "4.6",
       "data": "2026-11-04",
@@ -89,26 +109,6 @@
         "Avvio con Windows: Quadra parte da solo, nascosto, appena entri in Windows, anche dopo i riavvii per gli aggiornamenti. Si attiva da solo se usi la rete o Internet; si cambia in Utenti e rete › Sempre raggiungibile o dal menu dell'icona.",
         "Il PC non va in sospensione mentre Quadra è raggiungibile dalla rete o da Internet (lo schermo invece si spegne).",
         "Nuovo tasto «Riavvia Quadra» dopo aver cambiato l'accesso dalla rete o da Internet. Se qualcuno è collegato, Quadra chiede conferma prima di uscire."
-      ]
-    },
-    {
-      "versione": "4.1",
-      "data": "2026-11-03",
-      "titolo": "Controllo della licenza col fornitore",
-      "voci": [
-        "Una volta al giorno Quadra comunica al fornitore che la licenza è in uso: manda solo il numero di licenza, il codice del PC, la versione e quanti utenti sono collegati. Nessun documento, cliente o importo.",
-        "Rinnovi e nuovi moduli arrivano da soli: quando il fornitore rinnova la licenza, Quadra la attiva al collegamento successivo senza dover incollare la chiave.",
-        "Senza Internet Quadra lavora normalmente, come sempre.",
-        "Fornitore: nuova pagina «Licenze in giro» con l'ultimo contatto e la versione di ogni PC, le licenze in scadenza, la sospensione e il rinnovo a distanza."
-      ]
-    },
-    {
-      "versione": "4.0.1",
-      "data": "2026-11-03",
-      "titolo": "Anteprima PDF delle offerte",
-      "voci": [
-        "Foglio dell'offerta: nuovo tasto «Anteprima PDF», che salva e mostra l'offerta dentro Quadra come verrà stampata, con i tasti per salvarla, inviarla per email o esportarla in Excel.",
-        "Elenco «Offerte fatte»: tasto «PDF» per aprire subito l'anteprima di ogni offerta."
       ]
     }
   ]
