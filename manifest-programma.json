@@ -1,8 +1,20 @@
 {
-  "versione": "4.8",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.8/Quadra-Setup-4.8.exe",
-  "sha256": "6a2e4811981548d08939e6543477e741aabb1605de2a46cc2ce23cf165a1081a",
+  "versione": "4.9",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.9/Quadra-Setup-4.9.exe",
+  "sha256": "f8d4e5b11e47be6e9682fe21347b7f00d90d166728df4102879de59b3bfbeb37",
   "novita": [
+    {
+      "versione": "4.9",
+      "data": "2026-11-04",
+      "titolo": "Segnala un problema dall'interno di Quadra",
+      "voci": [
+        "In basso a destra il pulsante «? Aiuto» apre un menu: Manuale d'uso, Segnala un problema, Le mie segnalazioni e Cosa c'è di nuovo.",
+        "Segnala un problema: scegli il tipo e l'urgenza, scrivi cosa è successo e premi Invia. La segnalazione arriva direttamente al fornitore di Quadra, senza telefonare.",
+        "Si possono allegare le informazioni tecniche (versione, sistema, licenza, pagina, ultimo errore: niente dati dei clienti) e la schermata della pagina in cui eri, che Quadra fotografa da sola. Puoi anche scegliere o incollare un'altra immagine.",
+        "Le risposte arrivano in Aiuto › Le mie segnalazioni, con un pallino verde sul pulsante «? Aiuto». Puoi rispondere nella stessa segnalazione e chiuderla con «Risolto, grazie».",
+        "Le segnalazioni si possono mandare da tutti gli utenti, anche durante la prova o con la licenza scaduta."
+      ]
+    },
     {
       "versione": "4.8",
       "data": "2026-11-04",
@@ -100,18 +112,6 @@
         "Interventi che si ripetono (ogni mese, 3 mesi, 6 mesi, anno): concluso uno, Quadra crea il prossimo. Avviso per email ai collaboratori con data, ora e link di Google Maps.",
         "Fornitore: il modulo Interventi si vende a scaglioni di tecnici (fino a 5, da 6 a 15, 16 o più), ognuno con il suo prezzo, nelle licenze e nelle offerte. Manuale: capitolo 18.",
         "Nuovo marchio di Quadra: logo, icona del programma e colori definitivi (verde scuro e verde della spunta) in tutto il programma, nella pagina di accesso, nel telefono dei tecnici, in Quadra per PC e Mac e nel manuale. Se avevi scelto un altro colore in Personalizza Quadra resta il tuo."
-      ]
-    },
-    {
-      "versione": "4.2.1",
-      "data": "2026-11-04",
-      "titolo": "Tranche dei preventivi sempre in ordine e controllo delle email",
-      "voci": [
-        "Preventivo fatturato in più tranche: prende subito il numero solo la fattura con la data di oggi. Quelle future restano «programmate», senza numero, e quando le emetti prendono il primo numero libero e la data di quel giorno: numeri e date restano sempre in ordine.",
-        "La Home avvisa quando una tranche arriva alla data prevista. Il saldo completa da solo le righe «A detrarre acconto fattura n. …» quando prende il numero.",
-        "«Invia per email» di una fattura in bozza ora la emette davvero (crea l'XML), invece di segnarla inviata senza XML.",
-        "Dopo «Emetti e invia» Quadra propone l'invio al commercialista anche quando il cliente non ha l'indirizzo email.",
-        "Errori di invio email spiegati in italiano: indirizzo non valido, server che non risponde, utente o password rifiutati, mittente mancante."
       ]
     }
   ]
