@@ -1,8 +1,23 @@
 {
-  "versione": "4.2.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.2.1/Quadra-Setup-4.2.1.exe",
-  "sha256": "944f88a086532b3bf776b2f434b4065c51c75c9f6631b817b62fcb839774721d",
+  "versione": "4.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.3/Quadra-Setup-4.3.exe",
+  "sha256": "19a723f63e50ebb4008caa293f7e9d8560a2d6cdffe6bffa0466676dfec1bcd4",
   "novita": [
+    {
+      "versione": "4.3",
+      "data": "2026-11-04",
+      "titolo": "Interventi dei collaboratori e nuovo marchio",
+      "voci": [
+        "Nuovo modulo Interventi: pianificazione dei lavori presso i clienti con un calendario per giorno, settimana o mese, una riga per ogni collaboratore e una riga «Da assegnare». Si crea con un clic sullo spazio vuoto e si sposta trascinando.",
+        "Nuovo permesso Tecnico in Utenti e rete: il collaboratore entra dal telefono e vede solo i suoi interventi, giorno per giorno, scorrendo col dito. I tecnici non occupano i posti degli utenti in rete.",
+        "Tasto «Naviga»: apre Google Maps con la strada già impostata (l'app sul telefono, il browser sul PC). Per cantieri senza indirizzo si incolla un link di Google Maps o le coordinate.",
+        "Rapportino dal telefono: orari, pausa, km, lavoro svolto, materiale dal listino, foto e firma del cliente col dito. Senza campo resta sul telefono e parte appena torna la connessione.",
+        "Rapportino ricevuto: PDF con la firma del cliente, invio al cliente per email e «Crea la fattura» con ore (tariffa del collaboratore, maggiorazioni), km e materiali ai prezzi del listino.",
+        "Interventi che si ripetono (ogni mese, 3 mesi, 6 mesi, anno): concluso uno, Quadra crea il prossimo. Avviso per email ai collaboratori con data, ora e link di Google Maps.",
+        "Fornitore: il modulo Interventi si vende a scaglioni di tecnici (fino a 5, da 6 a 15, 16 o più), ognuno con il suo prezzo, nelle licenze e nelle offerte. Manuale: capitolo 18.",
+        "Nuovo marchio di Quadra: logo, icona del programma e colori definitivi (verde scuro e verde della spunta) in tutto il programma, nella pagina di accesso, nel telefono dei tecnici, in Quadra per PC e Mac e nel manuale. Se avevi scelto un altro colore in Personalizza Quadra resta il tuo."
+      ]
+    },
     {
       "versione": "4.2.1",
       "data": "2026-11-04",
@@ -95,19 +110,6 @@
         "Dal programma i PDF si aprono con il lettore del computer e i file esportati (Excel, XML, PDF da scaricare) vanno nella cartella Download.",
         "Il programma ricorda gli indirizzi e il nome utente, mai la password. In «Collegati adesso» compare come «Programma Quadra · Windows» o «· Mac».",
         "Impostazioni › Utenti e rete: collegamento per scaricare il programma. Manuale: capitolo 16."
-      ]
-    },
-    {
-      "versione": "3.8",
-      "data": "2026-11-03",
-      "titolo": "Destinazioni, fattura accompagnatoria e solleciti",
-      "voci": [
-        "Destinazioni di clienti e fornitori: cantieri, filiali, punti vendita e magazzini si salvano nella scheda, con referente e note.",
-        "Nella testata di preventivi, ordini, DDT e fatture scegli la destinazione della merce (o scrivi un altro indirizzo); passa da un documento all'altro ed è stampata nel PDF.",
-        "Ordini e bolle dei fornitori: scelta della sede del fornitore, stampata nell'ordine.",
-        "Fattura accompagnatoria: con una spunta la fattura ha i dati del trasporto come un DDT, nel PDF e nell'XML con l'indirizzo di resa.",
-        "Solleciti di pagamento via email: le fatture scadute raggruppate per cliente, una sola email per cliente con elenco, totale e IBAN; il tono sale da promemoria a sollecito a ultimo avviso. Avviso in Home e pulsante sulla fattura scaduta.",
-        "Manuale aggiornato: Destinazioni (capitolo 4), Fattura accompagnatoria e Solleciti di pagamento (capitolo 5)."
       ]
     }
   ]
