@@ -1,8 +1,19 @@
 {
-  "versione": "4.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.3/Quadra-Setup-4.3.exe",
-  "sha256": "19a723f63e50ebb4008caa293f7e9d8560a2d6cdffe6bffa0466676dfec1bcd4",
+  "versione": "4.3.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.3.1/Quadra-Setup-4.3.1.exe",
+  "sha256": "021871fa9a1bbcd14955b74aa9804c28c714d6b0ae4ee6c4ea0372fcb564eb53",
   "novita": [
+    {
+      "versione": "4.3.1",
+      "data": "2026-11-04",
+      "titolo": "Nuova icona sui collegamenti e accesso dei tecnici più chiaro",
+      "voci": [
+        "Dopo l'aggiornamento i collegamenti sul desktop e nel menu Start mostrano la nuova icona di Quadra: il setup chiede a Windows di rileggere le icone invece di usare quelle vecchie in memoria.",
+        "Se Quadra è aggiunto alla barra delle applicazioni e mostra ancora la vecchia icona, toglilo e aggiungilo di nuovo.",
+        "Accesso da Internet: se la password è giusta ma l'utente non è abilitato a Internet, o non ha ancora configurato il codice dall'app, Quadra lo dice chiaramente e spiega cosa fare, invece del solito «utente o password non corretti».",
+        "Utenti e rete: chi ha sbagliato la password mostra il numero di tentativi sbagliati e il pulsante «Azzera tentativi», che sblocca subito l'utente e il suo dispositivo senza aspettare 15-30 minuti."
+      ]
+    },
     {
       "versione": "4.3",
       "data": "2026-11-04",
@@ -98,18 +109,6 @@
       "voci": [
         "Accesso da Internet: sui PC con Windows 10 il collegamento HTTPS non partiva («il sito non può fornire una connessione protetta»). Ora funziona.",
         "Impostazioni › Accesso da Internet prova da sola il collegamento HTTPS e, se non riesce, ne mostra il motivo."
-      ]
-    },
-    {
-      "versione": "3.9",
-      "data": "2026-11-03",
-      "titolo": "Quadra per PC e Mac",
-      "voci": [
-        "Nuovo programma «Quadra per PC e Mac» per gli altri PC Windows e i Mac: apre Quadra in una finestra sua invece che nel browser e chiede nome utente e password, come dal cellulare.",
-        "Alla prima apertura «Cerca nella rete» trova da solo il PC principale; si può aggiungere anche l'indirizzo da Internet, usato quando si è fuori ufficio (con il codice dall'app).",
-        "Dal programma i PDF si aprono con il lettore del computer e i file esportati (Excel, XML, PDF da scaricare) vanno nella cartella Download.",
-        "Il programma ricorda gli indirizzi e il nome utente, mai la password. In «Collegati adesso» compare come «Programma Quadra · Windows» o «· Mac».",
-        "Impostazioni › Utenti e rete: collegamento per scaricare il programma. Manuale: capitolo 16."
       ]
     }
   ]
