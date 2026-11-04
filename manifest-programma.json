@@ -1,8 +1,22 @@
 {
-  "versione": "4.7",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.7/Quadra-Setup-4.7.exe",
-  "sha256": "220159a1775177e1118bfc6e60c79f78c3edb899d8138376ff88ecc5f6cedfaa",
+  "versione": "4.8",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.8/Quadra-Setup-4.8.exe",
+  "sha256": "6a2e4811981548d08939e6543477e741aabb1605de2a46cc2ce23cf165a1081a",
   "novita": [
+    {
+      "versione": "4.8",
+      "data": "2026-11-04",
+      "titolo": "Importa ed esporta con Excel",
+      "voci": [
+        "Impostazioni › Importa da Excel: porta in Quadra clienti, fornitori, collaboratori, destinazioni, articoli, prezzi di listino, giacenze iniziali, fatture emesse e note di credito, preventivi, DDT e fatture ricevute, da un file Excel (.xlsx) o .csv, anche esportato da un altro programma.",
+        "Quadra riconosce da solo le colonne (Ragione sociale, P.IVA, Codice SDI…), ti fa scegliere quelle che non capisce e se lo ricorda per la volta dopo. Per ogni voce puoi scaricare un modello Excel già pronto, con le istruzioni.",
+        "Prima di importare controlla ogni riga: partita IVA, codice fiscale, CAP, provincia, codice destinatario, PEC e codici IVA sbagliati vengono segnalati, e le righe da correggere si scaricano in Excel. Clienti, articoli e documenti che ci sono già vengono riconosciuti: puoi completarli, aggiornarli o saltarli.",
+        "Le fatture vecchie si importano come archivio già trasmesso allo SdI (non partono di nuovo e non scaricano il magazzino) e il numeratore continua dal numero giusto. I totali vengono ricalcolati e confrontati con quelli del file.",
+        "Prima di ogni importazione Quadra fa un backup, e l'ultima importazione si può annullare con un clic.",
+        "Impostazioni › Esporta in Excel (o Anagrafiche › Esporta in Excel): tutti i dati in un file Excel con un foglio per voce, i totali e i filtri, oppure in .zip o .csv. Le colonne sono le stesse dell'importazione, così il file si può correggere e reimportare.",
+        "Importa ed esporta Excel è compreso in tutte le licenze."
+      ]
+    },
     {
       "versione": "4.7",
       "data": "2026-11-04",
@@ -98,17 +112,6 @@
         "«Invia per email» di una fattura in bozza ora la emette davvero (crea l'XML), invece di segnarla inviata senza XML.",
         "Dopo «Emetti e invia» Quadra propone l'invio al commercialista anche quando il cliente non ha l'indirizzo email.",
         "Errori di invio email spiegati in italiano: indirizzo non valido, server che non risponde, utente o password rifiutati, mittente mancante."
-      ]
-    },
-    {
-      "versione": "4.2",
-      "data": "2026-11-04",
-      "titolo": "Quadra sempre raggiungibile dagli altri PC",
-      "voci": [
-        "Chiudendo la finestra, Quadra resta attivo vicino all'orologio: gli altri PC, il web e i cellulari continuano a entrare. Un clic sull'icona lo riapre; per spegnerlo del tutto: clic destro › Esci da Quadra.",
-        "Avvio con Windows: Quadra parte da solo, nascosto, appena entri in Windows, anche dopo i riavvii per gli aggiornamenti. Si attiva da solo se usi la rete o Internet; si cambia in Utenti e rete › Sempre raggiungibile o dal menu dell'icona.",
-        "Il PC non va in sospensione mentre Quadra è raggiungibile dalla rete o da Internet (lo schermo invece si spegne).",
-        "Nuovo tasto «Riavvia Quadra» dopo aver cambiato l'accesso dalla rete o da Internet. Se qualcuno è collegato, Quadra chiede conferma prima di uscire."
       ]
     }
   ]
