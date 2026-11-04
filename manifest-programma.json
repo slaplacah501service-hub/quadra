@@ -1,8 +1,47 @@
 {
-  "versione": "4.3.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.3.1/Quadra-Setup-4.3.1.exe",
-  "sha256": "021871fa9a1bbcd14955b74aa9804c28c714d6b0ae4ee6c4ea0372fcb564eb53",
+  "versione": "4.6",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.6/Quadra-Setup-4.6.exe",
+  "sha256": "b560402e6ea6a79a34222be9378a38c00c9e59c036598a1e4d070525d50f35f1",
   "novita": [
+    {
+      "versione": "4.6",
+      "data": "2026-11-04",
+      "titolo": "Importo di riga in tempo reale e archivio più veloce",
+      "voci": [
+        "Nei documenti (fatture, preventivi, DDT, ordini e bolle) l'importo di ogni riga si aggiorna mentre scrivi quantità, prezzo o sconto, senza dover salvare.",
+        "Archivio più veloce quando lavorano più persone insieme: chi apre una pagina non deve più aspettare che un collega finisca di salvare, e viceversa.",
+        "Il backup resta un file unico e completo, come prima."
+      ]
+    },
+    {
+      "versione": "4.5.1",
+      "data": "2026-11-04",
+      "titolo": "Correzioni all'Azienda di Test",
+      "voci": [
+        "Nell'Azienda di Test le email si possono provare anche partendo con dati d'esempio o vuota: si usa la posta configurata nei dati veri e il messaggio arriva solo all'indirizzo email della tua azienda, con «[PROVA]» nell'oggetto.",
+        "Se l'Azienda di Test è in uso da un altro utente mentre premi «Ricomincia da capo», Quadra lo dice chiaramente invece di dare un errore.",
+        "Chi stava provando mentre un altro utente ricreava la prova torna ai dati veri senza errori."
+      ]
+    },
+    {
+      "versione": "4.5",
+      "data": "2026-11-04",
+      "titolo": "Azienda di Test",
+      "voci": [
+        "Nuova Azienda di Test (Impostazioni › Azienda di Test, o «🧪 Prova» in alto per chi non è amministratore): un archivio a parte per provare tutto con i moduli della propria licenza. Si parte con dati d'esempio, vuota o con una copia dei propri dati.",
+        "Vale solo per chi ci entra: gli altri utenti e i tecnici restano sui dati veri. Una fascia arancione ricorda che si sta provando, e «Torna ai dati veri» riporta ai propri dati.",
+        "Nella prova lo SdI e la PEC sono simulati, le email partono solo verso l'indirizzo dell'azienda, i PDF portano la scritta PROVA e non si fanno backup. Licenza, utenti, rete e backup restano quelli veri.",
+        "«Ricomincia da capo» svuota la prova e la ricrea."
+      ]
+    },
+    {
+      "versione": "4.4",
+      "data": "2026-11-04",
+      "titolo": "Accesso dei tecnici più semplice",
+      "voci": [
+        "Tecnici da Internet: il codice dall'app viene chiesto solo la prima volta, poi il telefono resta ricordato senza scadenza (non più 30 giorni). Se il tecnico perde il telefono: Utenti e rete › Azzera codice."
+      ]
+    },
     {
       "versione": "4.3.1",
       "data": "2026-11-04",
@@ -70,45 +109,6 @@
       "voci": [
         "Foglio dell'offerta: nuovo tasto «Anteprima PDF», che salva e mostra l'offerta dentro Quadra come verrà stampata, con i tasti per salvarla, inviarla per email o esportarla in Excel.",
         "Elenco «Offerte fatte»: tasto «PDF» per aprire subito l'anteprima di ogni offerta."
-      ]
-    },
-    {
-      "versione": "4.0",
-      "data": "2026-11-03",
-      "titolo": "Offerte per i clienti dalle licenze",
-      "voci": [
-        "Licenze clienti (fornitore): nuovo tasto «Genera offerta». Prende i moduli spuntati e gli utenti e apre il foglio dell'offerta; il codice postazione non serve.",
-        "Il foglio dell'offerta funziona come Excel: celle da modificare, frecce, Tab e Invio, righe da aggiungere o togliere (es. installazione e corso), totale calcolato da solo.",
-        "Prezzo riservato facoltativo (anche come sconto, es. -10%): nel PDF il totale di listino esce barrato e il prezzo riservato evidenziato, con il risparmio.",
-        "Intestatario scelto anche tra i clienti, note per il cliente, numerazione 2026/001; l'offerta si apre in PDF, si invia per email e si esporta in Excel.",
-        "Elenco «Offerte fatte» con «Crea la licenza»: il modulo della licenza si compila con intestatario, moduli e utenti dell'offerta e registra il prezzo concordato."
-      ]
-    },
-    {
-      "versione": "3.9.3",
-      "data": "2026-11-03",
-      "titolo": "Ricorda questo dispositivo",
-      "voci": [
-        "Da Internet, dopo il codice dall'app, puoi spuntare «Ricorda questo dispositivo»: per 30 giorni su quel telefono, PC o Mac basta la password.",
-        "Se cambi la password, azzeri il codice dall'app, disattivi o elimini l'utente, tutti i suoi dispositivi richiedono di nuovo il codice."
-      ]
-    },
-    {
-      "versione": "3.9.2",
-      "data": "2026-11-03",
-      "titolo": "Diagnosi dell'accesso da Internet",
-      "voci": [
-        "Accesso da Internet: se Windows non accetta la chiave del certificato, Quadra prova da sola a caricarla in un altro modo e usa quello che funziona.",
-        "La pagina Accesso da Internet mostra il motivo preciso, con il codice di Windows, se il collegamento HTTPS non riesce."
-      ]
-    },
-    {
-      "versione": "3.9.1",
-      "data": "2026-11-03",
-      "titolo": "Correzione dell'accesso da Internet",
-      "voci": [
-        "Accesso da Internet: sui PC con Windows 10 il collegamento HTTPS non partiva («il sito non può fornire una connessione protetta»). Ora funziona.",
-        "Impostazioni › Accesso da Internet prova da sola il collegamento HTTPS e, se non riesce, ne mostra il motivo."
       ]
     }
   ]
