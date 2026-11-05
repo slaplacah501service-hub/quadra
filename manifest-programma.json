@@ -1,8 +1,20 @@
 {
-  "versione": "5.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.1/Quadra-Setup-5.1.exe",
-  "sha256": "e7511389528530f3c025b1bc98e07167ef946736688d7a291f90c97b7458dc79",
+  "versione": "5.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.2/Quadra-Setup-5.2.exe",
+  "sha256": "67083f11b18da38aacf55d421b08f49c3248f863adf4781ed0eb90d541227fa2",
   "novita": [
+    {
+      "versione": "5.2",
+      "data": "2026-11-05",
+      "titolo": "Notifiche sul telefono dei tecnici",
+      "voci": [
+        "I tecnici ricevono una notifica sul telefono, anche a schermo bloccato, quando gli assegni un intervento, quando lo sposti, lo togli o lo annulli, e per le urgenze. Toccandola si apre l'intervento.",
+        "Promemoria del mattino: ogni tecnico riceve la lista dei suoi interventi del giorno all'ora che sceglie (di solito 7:30).",
+        "Il tecnico le attiva dalla sua agenda con «Attiva» e le regola in «Io › Notifiche sul telefono»: cosa ricevere, ora del promemoria, prova, disattiva.",
+        "In Interventi › Impostazioni scegli quali avvisi mandare e vedi chi le ha attivate e su quale telefono. Nella scheda dell'intervento ci sono le spunte «Avvisa con una notifica» e «Urgente».",
+        "Serve l'accesso da Internet (Cloudflare o diretto). Su iPhone serve iOS 16.4 o più recente e Quadra aggiunto alla schermata Home."
+      ]
+    },
     {
       "versione": "5.1",
       "data": "2026-11-05",
@@ -104,14 +116,6 @@
         "Vale solo per chi ci entra: gli altri utenti e i tecnici restano sui dati veri. Una fascia arancione ricorda che si sta provando, e «Torna ai dati veri» riporta ai propri dati.",
         "Nella prova lo SdI e la PEC sono simulati, le email partono solo verso l'indirizzo dell'azienda, i PDF portano la scritta PROVA e non si fanno backup. Licenza, utenti, rete e backup restano quelli veri.",
         "«Ricomincia da capo» svuota la prova e la ricrea."
-      ]
-    },
-    {
-      "versione": "4.4",
-      "data": "2026-11-04",
-      "titolo": "Accesso dei tecnici più semplice",
-      "voci": [
-        "Tecnici da Internet: il codice dall'app viene chiesto solo la prima volta, poi il telefono resta ricordato senza scadenza (non più 30 giorni). Se il tecnico perde il telefono: Utenti e rete › Azzera codice."
       ]
     }
   ]
