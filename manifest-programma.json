@@ -1,8 +1,34 @@
 {
-  "versione": "4.9",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v4.9/Quadra-Setup-4.9.exe",
-  "sha256": "f8d4e5b11e47be6e9682fe21347b7f00d90d166728df4102879de59b3bfbeb37",
+  "versione": "5.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.1/Quadra-Setup-5.1.exe",
+  "sha256": "e7511389528530f3c025b1bc98e07167ef946736688d7a291f90c97b7458dc79",
   "novita": [
+    {
+      "versione": "5.1",
+      "data": "2026-11-05",
+      "titolo": "Accesso da Internet con Cloudflare",
+      "voci": [
+        "Impostazioni › Accesso da Internet: nuovo «Collegamento Cloudflare», in alternativa al collegamento diretto di sempre. Incolli il codice di collegamento che ti dà il fornitore, premi Collega e basta: niente porte da aprire sul router, niente DuckDNS, niente certificato.",
+        "Quadra scarica da solo il programma ufficiale di Cloudflare e lo accende e spegne insieme a sé. La pagina mostra se il collegamento è attivo, l'indirizzo da usare con il suo QR code e il tasto «Prova il collegamento».",
+        "Si può usare il collegamento Cloudflare, quello diretto o tutti e due insieme. Utenti, password e codice dall'app sono gli stessi, e da Cloudflare servono sempre tutti e tre.",
+        "Accesso da Internet: un vecchio errore di DuckDNS non resta più a schermo quando DuckDNS è tornato a funzionare."
+      ]
+    },
+    {
+      "versione": "5.0",
+      "data": "2026-11-05",
+      "titolo": "Contratti di manutenzione e mezzi dell'azienda",
+      "voci": [
+        "Interventi › Contratti: i contratti di manutenzione dei clienti, con durata, rinnovo automatico o a scadenza, disdetta, canone e cosa comprende (manodopera, km, chiamate per guasto, ricambi) o gli sconti su quello che non comprende. Li trovi anche nella scheda del cliente.",
+        "Per ogni impianto del contratto scegli ogni quanto va visitato: Quadra prepara da solo gli interventi «Da programmare» qualche giorno prima. In Interventi › Da programmare scegli giorno, ora e tecnico, una per una o tutte insieme.",
+        "Nella fattura di un intervento del contratto quello che è compreso va a zero e gli sconti si applicano da soli. Le fatture del canone sono pronte in Fatture › Programmate, una per periodo.",
+        "La Home avvisa delle visite da programmare, della disdetta e della scadenza dei contratti. «Rinnova adesso» crea il nuovo contratto con l'aumento che scegli; «Stampa il contratto» fa il PDF da firmare.",
+        "Interventi › Mezzi: furgoni, auto e attrezzature con le scadenze (assicurazione, bollo, revisione, tagliando, a data o a km), le spese, i documenti e il costo all'anno e al km. Un mezzo fermo o con l'assicurazione o la revisione scaduta non si sceglie negli interventi.",
+        "Nell'intervento scegli il mezzo: Quadra propone quello del tecnico e avvisa se è già su un altro intervento alla stessa ora. Dal telefono il tecnico scrive i km alla partenza e al rientro (i km del mezzo si aggiornano da soli) e i rifornimenti con la foto dello scontrino.",
+        "Sul telefono la firma del cliente si attiva con il tasto «Inserisci firma»: scorrendo la pagina non si sporca più.",
+        "Sul telefono e sul tablet i campi con l'elenco (clienti, articoli e gli altri) mostrano le scelte mentre scrivi, come sul PC."
+      ]
+    },
     {
       "versione": "4.9",
       "data": "2026-11-04",
@@ -86,32 +112,6 @@
       "titolo": "Accesso dei tecnici più semplice",
       "voci": [
         "Tecnici da Internet: il codice dall'app viene chiesto solo la prima volta, poi il telefono resta ricordato senza scadenza (non più 30 giorni). Se il tecnico perde il telefono: Utenti e rete › Azzera codice."
-      ]
-    },
-    {
-      "versione": "4.3.1",
-      "data": "2026-11-04",
-      "titolo": "Nuova icona sui collegamenti e accesso dei tecnici più chiaro",
-      "voci": [
-        "Dopo l'aggiornamento i collegamenti sul desktop e nel menu Start mostrano la nuova icona di Quadra: il setup chiede a Windows di rileggere le icone invece di usare quelle vecchie in memoria.",
-        "Se Quadra è aggiunto alla barra delle applicazioni e mostra ancora la vecchia icona, toglilo e aggiungilo di nuovo.",
-        "Accesso da Internet: se la password è giusta ma l'utente non è abilitato a Internet, o non ha ancora configurato il codice dall'app, Quadra lo dice chiaramente e spiega cosa fare, invece del solito «utente o password non corretti».",
-        "Utenti e rete: chi ha sbagliato la password mostra il numero di tentativi sbagliati e il pulsante «Azzera tentativi», che sblocca subito l'utente e il suo dispositivo senza aspettare 15-30 minuti."
-      ]
-    },
-    {
-      "versione": "4.3",
-      "data": "2026-11-04",
-      "titolo": "Interventi dei collaboratori e nuovo marchio",
-      "voci": [
-        "Nuovo modulo Interventi: pianificazione dei lavori presso i clienti con un calendario per giorno, settimana o mese, una riga per ogni collaboratore e una riga «Da assegnare». Si crea con un clic sullo spazio vuoto e si sposta trascinando.",
-        "Nuovo permesso Tecnico in Utenti e rete: il collaboratore entra dal telefono e vede solo i suoi interventi, giorno per giorno, scorrendo col dito. I tecnici non occupano i posti degli utenti in rete.",
-        "Tasto «Naviga»: apre Google Maps con la strada già impostata (l'app sul telefono, il browser sul PC). Per cantieri senza indirizzo si incolla un link di Google Maps o le coordinate.",
-        "Rapportino dal telefono: orari, pausa, km, lavoro svolto, materiale dal listino, foto e firma del cliente col dito. Senza campo resta sul telefono e parte appena torna la connessione.",
-        "Rapportino ricevuto: PDF con la firma del cliente, invio al cliente per email e «Crea la fattura» con ore (tariffa del collaboratore, maggiorazioni), km e materiali ai prezzi del listino.",
-        "Interventi che si ripetono (ogni mese, 3 mesi, 6 mesi, anno): concluso uno, Quadra crea il prossimo. Avviso per email ai collaboratori con data, ora e link di Google Maps.",
-        "Fornitore: il modulo Interventi si vende a scaglioni di tecnici (fino a 5, da 6 a 15, 16 o più), ognuno con il suo prezzo, nelle licenze e nelle offerte. Manuale: capitolo 18.",
-        "Nuovo marchio di Quadra: logo, icona del programma e colori definitivi (verde scuro e verde della spunta) in tutto il programma, nella pagina di accesso, nel telefono dei tecnici, in Quadra per PC e Mac e nel manuale. Se avevi scelto un altro colore in Personalizza Quadra resta il tuo."
       ]
     }
   ]
