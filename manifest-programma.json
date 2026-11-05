@@ -1,8 +1,17 @@
 {
-  "versione": "5.4",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.4/Quadra-Setup-5.4.exe",
-  "sha256": "59754da9fa7a942ab1a93dcd78d333fadeef381f2eda47efad0db0279207656a",
+  "versione": "5.4.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.4.1/Quadra-Setup-5.4.1.exe",
+  "sha256": "54e83ea9d5b436dc137f1284af81d651537ebc1bfabc6fd45e59c00a4fef60ac",
   "novita": [
+    {
+      "versione": "5.4.1",
+      "data": "2026-11-05",
+      "titolo": "Licenza attiva subito",
+      "voci": [
+        "Quando attivi una nuova chiave di licenza, Quadra lo comunica subito al servizio licenze del fornitore, senza aspettare il riavvio o il giorno dopo.",
+        "Collegamento Cloudflare: il programma di Cloudflare si scarica anche con una connessione lenta e la pagina mostra a che punto è il download."
+      ]
+    },
     {
       "versione": "5.4",
       "data": "2026-11-05",
@@ -12,7 +21,8 @@
         "Le fatture e le note di credito emesse da Quadra vengono registrate da sole nella prima nota di Mexal (causale FE o NE), con il castelletto IVA, il bollo e il protocollo del registro vendite.",
         "Clienti, fornitori e articoli con i prezzi arrivano da Mexal; i clienti nuovi di Quadra vengono creati in Mexal, dopo averli cercati per partita IVA e codice fiscale.",
         "Quando in Mexal la fattura risulta pagata, in Quadra diventa incassata.",
-        "Scegli cosa allineare e in che verso, ogni quanti minuti, i conti e i codici IVA di Mexal. «Da controllare» mostra quello che Mexal non accetta, con il motivo."
+        "Scegli cosa allineare e in che verso, ogni quanti minuti, i conti e i codici IVA di Mexal. «Da controllare» mostra quello che Mexal non accetta, con il motivo.",
+        "Collegamento Cloudflare: il programma di Cloudflare si scarica anche con una connessione lenta (prima si fermava dopo un minuto) e la pagina mostra a che punto è il download."
       ]
     },
     {
@@ -110,16 +120,6 @@
       "voci": [
         "Nei documenti il riepilogo IVA, l'imponibile, l'IVA e il totale si aggiornano mentre scrivi: cambiando prezzo, quantità, sconto, aliquota o esenzione IVA, aggiungendo o togliendo righe, o con lo split payment.",
         "L'avviso del bollo virtuale compare o sparisce subito, appena le operazioni esenti superano o tornano sotto i 77,47 €."
-      ]
-    },
-    {
-      "versione": "4.6",
-      "data": "2026-11-04",
-      "titolo": "Importo di riga in tempo reale e archivio più veloce",
-      "voci": [
-        "Nei documenti (fatture, preventivi, DDT, ordini e bolle) l'importo di ogni riga si aggiorna mentre scrivi quantità, prezzo o sconto, senza dover salvare.",
-        "Archivio più veloce quando lavorano più persone insieme: chi apre una pagina non deve più aspettare che un collega finisca di salvare, e viceversa.",
-        "Il backup resta un file unico e completo, come prima."
       ]
     }
   ]
