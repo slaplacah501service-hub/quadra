@@ -1,8 +1,33 @@
 {
-  "versione": "5.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.2/Quadra-Setup-5.2.exe",
-  "sha256": "67083f11b18da38aacf55d421b08f49c3248f863adf4781ed0eb90d541227fa2",
+  "versione": "5.4",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.4/Quadra-Setup-5.4.exe",
+  "sha256": "59754da9fa7a942ab1a93dcd78d333fadeef381f2eda47efad0db0279207656a",
   "novita": [
+    {
+      "versione": "5.4",
+      "data": "2026-11-05",
+      "titolo": "Collegamento con Mexal",
+      "voci": [
+        "Nuovo modulo Collegamento Mexal (Impostazioni › Collegamento Mexal): Quadra lavora insieme a Mexal di Passepartout attraverso le WebAPI, sia con Mexal in ufficio sia con Mexal Live.",
+        "Le fatture e le note di credito emesse da Quadra vengono registrate da sole nella prima nota di Mexal (causale FE o NE), con il castelletto IVA, il bollo e il protocollo del registro vendite.",
+        "Clienti, fornitori e articoli con i prezzi arrivano da Mexal; i clienti nuovi di Quadra vengono creati in Mexal, dopo averli cercati per partita IVA e codice fiscale.",
+        "Quando in Mexal la fattura risulta pagata, in Quadra diventa incassata.",
+        "Scegli cosa allineare e in che verso, ogni quanti minuti, i conti e i codici IVA di Mexal. «Da controllare» mostra quello che Mexal non accetta, con il motivo."
+      ]
+    },
+    {
+      "versione": "5.3",
+      "data": "2026-11-05",
+      "titolo": "API e collegamenti con altri programmi",
+      "voci": [
+        "Nuovo modulo API e collegamenti (Impostazioni › API e collegamenti): il negozio online, il commercialista, Excel o Power BI, un'app possono leggere e scrivere in Quadra.",
+        "Ogni programma ha la sua chiave con i permessi che scegli tu, per ogni gruppo di dati: niente, legge, legge e scrive. Emettere fatture, inviarle allo SdI ed eliminare sono permessi a parte.",
+        "Una chiave si può fermare in qualsiasi momento, avere una scadenza e valere solo da certi indirizzi. Ogni chiamata resta nel registro.",
+        "Il negozio online può creare clienti e fatture: se la chiave non può emettere, le fatture arrivano senza numero e le emetti tu con il solito tasto.",
+        "Avvisa altri programmi: quando emetti o incassi una fattura, arriva un cliente nuovo, un articolo va sotto scorta o si firma un rapportino, Quadra lo comunica da solo all'indirizzo che scegli.",
+        "Documentazione per i programmatori dentro Quadra, da scaricare in HTML o come file OpenAPI. Nel manuale il nuovo capitolo «API e collegamenti»."
+      ]
+    },
     {
       "versione": "5.2",
       "data": "2026-11-05",
@@ -95,27 +120,6 @@
         "Nei documenti (fatture, preventivi, DDT, ordini e bolle) l'importo di ogni riga si aggiorna mentre scrivi quantità, prezzo o sconto, senza dover salvare.",
         "Archivio più veloce quando lavorano più persone insieme: chi apre una pagina non deve più aspettare che un collega finisca di salvare, e viceversa.",
         "Il backup resta un file unico e completo, come prima."
-      ]
-    },
-    {
-      "versione": "4.5.1",
-      "data": "2026-11-04",
-      "titolo": "Correzioni all'Azienda di Test",
-      "voci": [
-        "Nell'Azienda di Test le email si possono provare anche partendo con dati d'esempio o vuota: si usa la posta configurata nei dati veri e il messaggio arriva solo all'indirizzo email della tua azienda, con «[PROVA]» nell'oggetto.",
-        "Se l'Azienda di Test è in uso da un altro utente mentre premi «Ricomincia da capo», Quadra lo dice chiaramente invece di dare un errore.",
-        "Chi stava provando mentre un altro utente ricreava la prova torna ai dati veri senza errori."
-      ]
-    },
-    {
-      "versione": "4.5",
-      "data": "2026-11-04",
-      "titolo": "Azienda di Test",
-      "voci": [
-        "Nuova Azienda di Test (Impostazioni › Azienda di Test, o «🧪 Prova» in alto per chi non è amministratore): un archivio a parte per provare tutto con i moduli della propria licenza. Si parte con dati d'esempio, vuota o con una copia dei propri dati.",
-        "Vale solo per chi ci entra: gli altri utenti e i tecnici restano sui dati veri. Una fascia arancione ricorda che si sta provando, e «Torna ai dati veri» riporta ai propri dati.",
-        "Nella prova lo SdI e la PEC sono simulati, le email partono solo verso l'indirizzo dell'azienda, i PDF portano la scritta PROVA e non si fanno backup. Licenza, utenti, rete e backup restano quelli veri.",
-        "«Ricomincia da capo» svuota la prova e la ricrea."
       ]
     }
   ]
