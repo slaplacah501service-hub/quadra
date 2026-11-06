@@ -1,8 +1,21 @@
 {
-  "versione": "5.4.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.4.1/Quadra-Setup-5.4.1.exe",
-  "sha256": "54e83ea9d5b436dc137f1284af81d651537ebc1bfabc6fd45e59c00a4fef60ac",
+  "versione": "5.5",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.5/Quadra-Setup-5.5.exe",
+  "sha256": "81642c1cbdf1e49653d11c79d2dc92486d73bdbfc9ee702ea55fe2942169b8c9",
   "novita": [
+    {
+      "versione": "5.5",
+      "data": "2026-11-06",
+      "titolo": "Modelli di rapportino e subappalti tra due Quadra",
+      "voci": [
+        "Modelli di rapportino (Interventi › Modelli rapportino): carichi il modulo cartaceo di un cliente o di un committente (PDF o scansione), metti i dati al loro posto trascinandoli e Quadra lo compila da solo con quello che scrive il tecnico, lasciando il foglio identico. Caselle con la ✕, numeri cerchiati, tabella del materiale, orari per giorno, firma.",
+        "Domande in più per ogni modello (es. numero del buono, tipo di intervento, schede): le compila il tecnico sul telefono o l'ufficio sull'intervento, anche obbligatorie o solo dopo un'altra risposta.",
+        "Alla firma del cliente i documenti partono da soli per email: il rapportino al cliente, il modulo al committente con copia all'ufficio. Il tecnico vede a chi vanno e può aggiungere un'altra email. Nella scheda dell'intervento il riquadro Documenti mostra cosa è partito.",
+        "Intervento «Per conto di» un committente, che riceve la fattura, e cliente finale scritto a mano anche se non è in anagrafica, con l'email per il rapportino; si registra poi con un tasto.",
+        "Il tecnico può creare un rapportino dal telefono per un lavoro non in agenda (+ Nuovo rapportino): in ufficio compare con il bollino «creato dal tecnico».",
+        "Subappalti tra due Quadra: chi ti passa i lavori li manda dal suo Quadra al tuo calendario. Li accetti in Interventi › In arrivo scegliendo giorno, tecnici e mezzo; lui vede lo stato e riceve rapportino e moduli firmati."
+      ]
+    },
     {
       "versione": "5.4.1",
       "data": "2026-11-05",
@@ -111,15 +124,6 @@
         "XML FatturaPA, Invia allo SdI, Invia per email e WhatsApp a mano restano nel menu «Altro ▾».",
         "Manuale aggiornato: tutte le schermate nuove con il tema e il logo di Quadra, e la casella «Cerca» in alto per trovare subito una parola (Invio per la successiva).",
         "Commercialista: «Nella schermata «Emetti…» lascia già spuntato l'invio al commercialista» decide se quella spunta parte attiva."
-      ]
-    },
-    {
-      "versione": "4.6.1",
-      "data": "2026-11-04",
-      "titolo": "Totali del documento in tempo reale",
-      "voci": [
-        "Nei documenti il riepilogo IVA, l'imponibile, l'IVA e il totale si aggiornano mentre scrivi: cambiando prezzo, quantità, sconto, aliquota o esenzione IVA, aggiungendo o togliendo righe, o con lo split payment.",
-        "L'avviso del bollo virtuale compare o sparisce subito, appena le operazioni esenti superano o tornano sotto i 77,47 €."
       ]
     }
   ]
