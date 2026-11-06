@@ -1,8 +1,24 @@
 {
-  "versione": "5.7",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.7/Quadra-Setup-5.7.exe",
-  "sha256": "0962215a8fb3b31f741a44ffa7f99272808c91e13366839bf54c941f966a7412",
+  "versione": "5.7.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.7.1/Quadra-Setup-5.7.1.exe",
+  "sha256": "d7428db74047e28703306fa1fe5d574b7171435dc2e2ead44b7b1a482dc8a82e",
   "novita": [
+    {
+      "versione": "5.7.1",
+      "data": "2026-11-06",
+      "titolo": "Subappalto: dal nuovo intervento e modificabile finché non è accettato",
+      "riassunto": [
+        "«Dai in subappalto» già quando crei l'intervento",
+        "Intervento: senza un cliente valido Quadra ti ferma e ti indica cosa fare",
+        "Subappalto: cambi l'intervento finché l'altro non lo accetta, e lui vede che arriva da te"
+      ],
+      "voci": [
+        "Nuovo intervento: con la spunta «Dai in subappalto» scegli il subappaltatore e, al salvataggio, il lavoro parte subito per il suo Quadra, senza salvare e rientrare. Il pulsante «＋ Nuova scheda» in alto ora si chiama «＋ Scheda», per lasciare spazio al menu.",
+        "Intervento con il cliente «Dall'anagrafica»: se il nome scritto non è in anagrafica (o manca), Quadra non salva e ti indica di sceglierlo dall'elenco oppure di usare il tasto «Non in anagrafica».",
+        "Intervento dato in subappalto: finché il subappaltatore non l'ha accettato puoi ancora cambiarlo, e al salvataggio le modifiche arrivano subito nel suo «In arrivo» (con il segno «cambiato dal committente»). Una volta accettato l'intervento non si modifica più: per cambiare qualcosa lo chiami o annulli il subappalto.",
+        "Per chi riceve il lavoro: nella scheda dell'intervento c'è un riquadro «Lavoro mandato dal committente …» con il suo riferimento, e sul calendario l'intervento ha il bordo tratteggiato con 🤝 e il nome del committente."
+      ]
+    },
     {
       "versione": "5.7",
       "data": "2026-11-06",
@@ -114,18 +130,6 @@
         "Nell'intervento scegli il mezzo: Quadra propone quello del tecnico e avvisa se è già su un altro intervento alla stessa ora. Dal telefono il tecnico scrive i km alla partenza e al rientro (i km del mezzo si aggiornano da soli) e i rifornimenti con la foto dello scontrino.",
         "Sul telefono la firma del cliente si attiva con il tasto «Inserisci firma»: scorrendo la pagina non si sporca più.",
         "Sul telefono e sul tablet i campi con l'elenco (clienti, articoli e gli altri) mostrano le scelte mentre scrivi, come sul PC."
-      ]
-    },
-    {
-      "versione": "4.9",
-      "data": "2026-11-04",
-      "titolo": "Segnala un problema dall'interno di Quadra",
-      "voci": [
-        "In basso a destra il pulsante «? Aiuto» apre un menu: Manuale d'uso, Segnala un problema, Le mie segnalazioni e Cosa c'è di nuovo.",
-        "Segnala un problema: scegli il tipo e l'urgenza, scrivi cosa è successo e premi Invia. La segnalazione arriva direttamente al fornitore di Quadra, senza telefonare.",
-        "Si possono allegare le informazioni tecniche (versione, sistema, licenza, pagina, ultimo errore: niente dati dei clienti) e la schermata della pagina in cui eri, che Quadra fotografa da sola. Puoi anche scegliere o incollare un'altra immagine.",
-        "Le risposte arrivano in Aiuto › Le mie segnalazioni, con un pallino verde sul pulsante «? Aiuto». Puoi rispondere nella stessa segnalazione e chiuderla con «Risolto, grazie».",
-        "Le segnalazioni si possono mandare da tutti gli utenti, anche durante la prova o con la licenza scaduta."
       ]
     }
   ]
