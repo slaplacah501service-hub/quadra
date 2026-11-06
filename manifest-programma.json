@@ -1,8 +1,35 @@
 {
-  "versione": "5.5",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.5/Quadra-Setup-5.5.exe",
-  "sha256": "81642c1cbdf1e49653d11c79d2dc92486d73bdbfc9ee702ea55fe2942169b8c9",
+  "versione": "5.7",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.7/Quadra-Setup-5.7.exe",
+  "sha256": "0962215a8fb3b31f741a44ffa7f99272808c91e13366839bf54c941f966a7412",
   "novita": [
+    {
+      "versione": "5.7",
+      "data": "2026-11-06",
+      "titolo": "Le schede: più lavori aperti insieme",
+      "riassunto": [
+        "Schede: più pagine di Quadra aperte insieme, con il tasto Nuova scheda",
+        "Nuovo cliente da un documento: si apre in una scheda e torna già inserito"
+      ],
+      "voci": [
+        "Schede: con «＋ Nuova scheda» in alto (o Ctrl+T) apri un'altra pagina di Quadra senza lasciare quella in cui sei; le schede stanno sotto la barra in alto, si cambiano con un clic o con Ctrl+Tab e si chiudono con la ✕ o Ctrl+W. Un pallino giallo segnala le modifiche non salvate e Quadra chiede conferma prima di chiudere. Clic con la rotellina (o Ctrl+clic) su un collegamento lo apre in una nuova scheda.",
+        "Nuovo cliente mentre fai un preventivo, una fattura, un DDT o un ordine: «+ Nuovo cliente» apre la scheda cliente completa in una nuova scheda; premi «Salva e inserisci» e torni al documento con il cliente già scelto e le righe che avevi scritto. Il cliente nuovo compare subito anche negli elenchi delle altre schede aperte.",
+        "Le frecce ← → in alto tornano indietro e avanti dentro la scheda in cui sei. Sul cellulare Quadra resta com'era, senza schede."
+      ]
+    },
+    {
+      "versione": "5.6",
+      "data": "2026-11-06",
+      "titolo": "Nuova finestra di aggiornamento e partita IVA facoltativa",
+      "riassunto": [
+        "Nuova finestra di aggiornamento di Quadra, con l'avanzamento",
+        "Partita IVA dell'azienda facoltativa: senza, fatture solo in PDF"
+      ],
+      "voci": [
+        "Aggiornamenti più semplici: al posto della procedura di installazione si apre la finestra di Quadra con le novità, premi Avanti e vedi l'avanzamento; alla fine Quadra si riapre da solo. Windows chiede il permesso una volta sola. La prima installazione resta come prima.",
+        "Partita IVA della tua azienda facoltativa: se non la scrivi Quadra ti avvisa che le fatture si potranno emettere solo in PDF, senza la fattura elettronica XML e senza invio allo SdI. Puoi aggiungerla quando vuoi in Impostazioni › La mia azienda e da lì in poi torna tutto come prima."
+      ]
+    },
     {
       "versione": "5.5",
       "data": "2026-11-06",
@@ -99,31 +126,6 @@
         "Si possono allegare le informazioni tecniche (versione, sistema, licenza, pagina, ultimo errore: niente dati dei clienti) e la schermata della pagina in cui eri, che Quadra fotografa da sola. Puoi anche scegliere o incollare un'altra immagine.",
         "Le risposte arrivano in Aiuto › Le mie segnalazioni, con un pallino verde sul pulsante «? Aiuto». Puoi rispondere nella stessa segnalazione e chiuderla con «Risolto, grazie».",
         "Le segnalazioni si possono mandare da tutti gli utenti, anche durante la prova o con la licenza scaduta."
-      ]
-    },
-    {
-      "versione": "4.8",
-      "data": "2026-11-04",
-      "titolo": "Importa ed esporta con Excel",
-      "voci": [
-        "Impostazioni › Importa da Excel: porta in Quadra clienti, fornitori, collaboratori, destinazioni, articoli, prezzi di listino, giacenze iniziali, fatture emesse e note di credito, preventivi, DDT e fatture ricevute, da un file Excel (.xlsx) o .csv, anche esportato da un altro programma.",
-        "Quadra riconosce da solo le colonne (Ragione sociale, P.IVA, Codice SDI…), ti fa scegliere quelle che non capisce e se lo ricorda per la volta dopo. Per ogni voce puoi scaricare un modello Excel già pronto, con le istruzioni.",
-        "Prima di importare controlla ogni riga: partita IVA, codice fiscale, CAP, provincia, codice destinatario, PEC e codici IVA sbagliati vengono segnalati, e le righe da correggere si scaricano in Excel. Clienti, articoli e documenti che ci sono già vengono riconosciuti: puoi completarli, aggiornarli o saltarli.",
-        "Le fatture vecchie si importano come archivio già trasmesso allo SdI (non partono di nuovo e non scaricano il magazzino) e il numeratore continua dal numero giusto. I totali vengono ricalcolati e confrontati con quelli del file.",
-        "Prima di ogni importazione Quadra fa un backup, e l'ultima importazione si può annullare con un clic.",
-        "Impostazioni › Esporta in Excel (o Anagrafiche › Esporta in Excel): tutti i dati in un file Excel con un foglio per voce, i totali e i filtri, oppure in .zip o .csv. Le colonne sono le stesse dell'importazione, così il file si può correggere e reimportare.",
-        "Importa ed esporta Excel è compreso in tutte le licenze."
-      ]
-    },
-    {
-      "versione": "4.7",
-      "data": "2026-11-04",
-      "titolo": "Un solo tasto «Emetti» e manuale rinnovato",
-      "voci": [
-        "Nei documenti c'è un solo tasto «Emetti…» (sempre F10). Si apre una schermata con le spunte: invio allo SdI con la PEC, PDF al cliente per email, PDF e XML al commercialista, WhatsApp. Partono tutte attive e si tolgono fattura per fattura. Quello che è già stato fatto parte senza spunta.",
-        "XML FatturaPA, Invia allo SdI, Invia per email e WhatsApp a mano restano nel menu «Altro ▾».",
-        "Manuale aggiornato: tutte le schermate nuove con il tema e il logo di Quadra, e la casella «Cerca» in alto per trovare subito una parola (Invio per la successiva).",
-        "Commercialista: «Nella schermata «Emetti…» lascia già spuntato l'invio al commercialista» decide se quella spunta parte attiva."
       ]
     }
   ]
