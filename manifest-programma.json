@@ -1,8 +1,21 @@
 {
-  "versione": "5.7.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.7.1/Quadra-Setup-5.7.1.exe",
-  "sha256": "d7428db74047e28703306fa1fe5d574b7171435dc2e2ead44b7b1a482dc8a82e",
+  "versione": "5.7.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.7.2/Quadra-Setup-5.7.2.exe",
+  "sha256": "95f9eea52290bcbcc12b80bea980eb96f0e1999cf3b994658567545f64d97a60",
   "novita": [
+    {
+      "versione": "5.7.2",
+      "data": "2026-11-06",
+      "titolo": "Rapportino: PDF con il layout del modello, e dal telefono senza rifare l'accesso",
+      "riassunto": [
+        "Il PDF del rapportino si apre anche con il layout del modello assegnato, in sede e dal telefono",
+        "Dal telefono (Android) il PDF si apre senza rifare l'accesso"
+      ],
+      "voci": [
+        "Dall'app Quadra installata sul telefono Android, «PDF del rapportino» su un intervento chiuso apriva il browser e chiedeva di nuovo nome utente e password. Ora il PDF si apre direttamente. Vale anche per gli altri PDF aperti dal telefono collegato da Internet.",
+        "Intervento con un modello di rapportino assegnato (es. il buono di un committente): in sede, in «E adesso?», e sul telefono del tecnico c'è il tasto «PDF: <nome del modello>», oltre al rapportino di Quadra. Sul telefono i PDF restano disponibili anche dopo che l'ufficio ha chiuso l'intervento."
+      ]
+    },
     {
       "versione": "5.7.1",
       "data": "2026-11-06",
@@ -115,21 +128,6 @@
         "Quadra scarica da solo il programma ufficiale di Cloudflare e lo accende e spegne insieme a sé. La pagina mostra se il collegamento è attivo, l'indirizzo da usare con il suo QR code e il tasto «Prova il collegamento».",
         "Si può usare il collegamento Cloudflare, quello diretto o tutti e due insieme. Utenti, password e codice dall'app sono gli stessi, e da Cloudflare servono sempre tutti e tre.",
         "Accesso da Internet: un vecchio errore di DuckDNS non resta più a schermo quando DuckDNS è tornato a funzionare."
-      ]
-    },
-    {
-      "versione": "5.0",
-      "data": "2026-11-05",
-      "titolo": "Contratti di manutenzione e mezzi dell'azienda",
-      "voci": [
-        "Interventi › Contratti: i contratti di manutenzione dei clienti, con durata, rinnovo automatico o a scadenza, disdetta, canone e cosa comprende (manodopera, km, chiamate per guasto, ricambi) o gli sconti su quello che non comprende. Li trovi anche nella scheda del cliente.",
-        "Per ogni impianto del contratto scegli ogni quanto va visitato: Quadra prepara da solo gli interventi «Da programmare» qualche giorno prima. In Interventi › Da programmare scegli giorno, ora e tecnico, una per una o tutte insieme.",
-        "Nella fattura di un intervento del contratto quello che è compreso va a zero e gli sconti si applicano da soli. Le fatture del canone sono pronte in Fatture › Programmate, una per periodo.",
-        "La Home avvisa delle visite da programmare, della disdetta e della scadenza dei contratti. «Rinnova adesso» crea il nuovo contratto con l'aumento che scegli; «Stampa il contratto» fa il PDF da firmare.",
-        "Interventi › Mezzi: furgoni, auto e attrezzature con le scadenze (assicurazione, bollo, revisione, tagliando, a data o a km), le spese, i documenti e il costo all'anno e al km. Un mezzo fermo o con l'assicurazione o la revisione scaduta non si sceglie negli interventi.",
-        "Nell'intervento scegli il mezzo: Quadra propone quello del tecnico e avvisa se è già su un altro intervento alla stessa ora. Dal telefono il tecnico scrive i km alla partenza e al rientro (i km del mezzo si aggiornano da soli) e i rifornimenti con la foto dello scontrino.",
-        "Sul telefono la firma del cliente si attiva con il tasto «Inserisci firma»: scorrendo la pagina non si sporca più.",
-        "Sul telefono e sul tablet i campi con l'elenco (clienti, articoli e gli altri) mostrano le scelte mentre scrivi, come sul PC."
       ]
     }
   ]
