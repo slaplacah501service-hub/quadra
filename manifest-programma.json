@@ -1,8 +1,21 @@
 {
-  "versione": "5.7.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.7.2/Quadra-Setup-5.7.2.exe",
-  "sha256": "95f9eea52290bcbcc12b80bea980eb96f0e1999cf3b994658567545f64d97a60",
+  "versione": "5.7.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.7.3/Quadra-Setup-5.7.3.exe",
+  "sha256": "09602956800db27862ecf425613277f5c1bd66259793a561d53e3319d07f4f05",
   "novita": [
+    {
+      "versione": "5.7.3",
+      "data": "2026-11-07",
+      "titolo": "Telefono: più utenti ricordati, niente codice a ogni cambio",
+      "riassunto": [
+        "Sullo stesso telefono entri con più utenti (es. titolare e tecnico) senza ridare il codice dell'authenticator",
+        "Amministratore: al codice scegli «Ricorda per 30 giorni», «Ricorda per sempre» o «Dimentica»"
+      ],
+      "voci": [
+        "Da Internet il telefono ricordava un solo utente: se il titolare entrava come amministratore e poi come tecnico, al cambio successivo Quadra chiedeva di nuovo il codice dell'authenticator. Ora il telefono ricorda ogni utente che ha dato il codice: la password resta, il codice no. Il tecnico resta ricordato per sempre, gli altri utenti per 30 giorni (con la spunta «Ricorda questo dispositivo»).",
+        "Quando l'amministratore dà il codice dell'authenticator da Internet sceglie per quel dispositivo: «Ricorda per 30 giorni», «Ricorda per sempre» (solo sul proprio telefono) oppure «Dimentica» (il codice viene chiesto ogni volta). Per far dimenticare un dispositivo ricordato: Impostazioni › Utenti e rete › Azzera codice."
+      ]
+    },
     {
       "versione": "5.7.2",
       "data": "2026-11-06",
@@ -117,17 +130,6 @@
         "Il tecnico le attiva dalla sua agenda con «Attiva» e le regola in «Io › Notifiche sul telefono»: cosa ricevere, ora del promemoria, prova, disattiva.",
         "In Interventi › Impostazioni scegli quali avvisi mandare e vedi chi le ha attivate e su quale telefono. Nella scheda dell'intervento ci sono le spunte «Avvisa con una notifica» e «Urgente».",
         "Serve l'accesso da Internet (Cloudflare o diretto). Su iPhone serve iOS 16.4 o più recente e Quadra aggiunto alla schermata Home."
-      ]
-    },
-    {
-      "versione": "5.1",
-      "data": "2026-11-05",
-      "titolo": "Accesso da Internet con Cloudflare",
-      "voci": [
-        "Impostazioni › Accesso da Internet: nuovo «Collegamento Cloudflare», in alternativa al collegamento diretto di sempre. Incolli il codice di collegamento che ti dà il fornitore, premi Collega e basta: niente porte da aprire sul router, niente DuckDNS, niente certificato.",
-        "Quadra scarica da solo il programma ufficiale di Cloudflare e lo accende e spegne insieme a sé. La pagina mostra se il collegamento è attivo, l'indirizzo da usare con il suo QR code e il tasto «Prova il collegamento».",
-        "Si può usare il collegamento Cloudflare, quello diretto o tutti e due insieme. Utenti, password e codice dall'app sono gli stessi, e da Cloudflare servono sempre tutti e tre.",
-        "Accesso da Internet: un vecchio errore di DuckDNS non resta più a schermo quando DuckDNS è tornato a funzionare."
       ]
     }
   ]
