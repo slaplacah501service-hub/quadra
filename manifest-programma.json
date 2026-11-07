@@ -1,8 +1,22 @@
 {
-  "versione": "5.7.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.7.3/Quadra-Setup-5.7.3.exe",
-  "sha256": "09602956800db27862ecf425613277f5c1bd66259793a561d53e3319d07f4f05",
+  "versione": "5.8",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.8/Quadra-Setup-5.8.exe",
+  "sha256": "1c066c78494f05646f42f05dbef077d3a9872b8ae2f37175681e23db92fc9eec",
   "novita": [
+    {
+      "versione": "5.8",
+      "data": "2026-11-07",
+      "titolo": "Il titolare è anche tecnico: sul telefono sceglie come entrare e passa dall'uno all'altro",
+      "riassunto": [
+        "Amministratore anche tecnico: dal telefono entri come amministratore o come tecnico",
+        "Passi da una modalità all'altra dall'app, senza rifare l'accesso"
+      ],
+      "voci": [
+        "In Impostazioni › Utenti e rete, nell'utente amministratore, scegli in «Lavora anche come tecnico» il suo collaboratore.",
+        "Dal telefono, dopo l'accesso, Quadra chiede «Come vuoi entrare?»: Amministratore o Tecnico. Con «Su questo telefono ricorda la scelta» non lo chiede più e riparte dall'ultima modalità usata.",
+        "Da tecnico in basso c'è il tasto «🏢 Ufficio»; da amministratore, in cima al menu, «🔧 Passa a tecnico». Il passaggio non chiede né password né codice."
+      ]
+    },
     {
       "versione": "5.7.3",
       "data": "2026-11-07",
@@ -118,18 +132,6 @@
         "Il negozio online può creare clienti e fatture: se la chiave non può emettere, le fatture arrivano senza numero e le emetti tu con il solito tasto.",
         "Avvisa altri programmi: quando emetti o incassi una fattura, arriva un cliente nuovo, un articolo va sotto scorta o si firma un rapportino, Quadra lo comunica da solo all'indirizzo che scegli.",
         "Documentazione per i programmatori dentro Quadra, da scaricare in HTML o come file OpenAPI. Nel manuale il nuovo capitolo «API e collegamenti»."
-      ]
-    },
-    {
-      "versione": "5.2",
-      "data": "2026-11-05",
-      "titolo": "Notifiche sul telefono dei tecnici",
-      "voci": [
-        "I tecnici ricevono una notifica sul telefono, anche a schermo bloccato, quando gli assegni un intervento, quando lo sposti, lo togli o lo annulli, e per le urgenze. Toccandola si apre l'intervento.",
-        "Promemoria del mattino: ogni tecnico riceve la lista dei suoi interventi del giorno all'ora che sceglie (di solito 7:30).",
-        "Il tecnico le attiva dalla sua agenda con «Attiva» e le regola in «Io › Notifiche sul telefono»: cosa ricevere, ora del promemoria, prova, disattiva.",
-        "In Interventi › Impostazioni scegli quali avvisi mandare e vedi chi le ha attivate e su quale telefono. Nella scheda dell'intervento ci sono le spunte «Avvisa con una notifica» e «Urgente».",
-        "Serve l'accesso da Internet (Cloudflare o diretto). Su iPhone serve iOS 16.4 o più recente e Quadra aggiunto alla schermata Home."
       ]
     }
   ]
