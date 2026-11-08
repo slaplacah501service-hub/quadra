@@ -1,8 +1,19 @@
 {
-  "versione": "6.0",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.0/Quadra-Setup-6.0.exe",
-  "sha256": "125744d05b97e09486b1b65ffa49487919b566f6a18d19e1f07943b38e24f43d",
+  "versione": "6.0.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.0.1/Quadra-Setup-6.0.1.exe",
+  "sha256": "53906b7e627791128688a6db9456b4ca902266a830ef228f0f285d6c40c8b0ef",
   "novita": [
+    {
+      "versione": "6.0.1",
+      "data": "2026-11-08",
+      "titolo": "WhatsApp da Android: partono anche gli allegati",
+      "riassunto": [
+        "Da telefono Android «Invia con WhatsApp» manda di nuovo il rapportino e le foto, non solo la scritta"
+      ],
+      "voci": [
+        "Telefono Android: con «📲 Invia con WhatsApp» arrivava solo la scritta «Rapportino dell'intervento n. …» senza allegati, perché WhatsApp su Android, se riceve anche un testo, scarta i file. Ora da Android partono solo i file (PDF e foto); il nome del PDF dice già di che intervento è. Su iPhone non cambia niente."
+      ]
+    },
     {
       "versione": "6.0",
       "data": "2026-11-08",
@@ -133,19 +144,6 @@
       "voci": [
         "Aggiornamenti più semplici: al posto della procedura di installazione si apre la finestra di Quadra con le novità, premi Avanti e vedi l'avanzamento; alla fine Quadra si riapre da solo. Windows chiede il permesso una volta sola. La prima installazione resta come prima.",
         "Partita IVA della tua azienda facoltativa: se non la scrivi Quadra ti avvisa che le fatture si potranno emettere solo in PDF, senza la fattura elettronica XML e senza invio allo SdI. Puoi aggiungerla quando vuoi in Impostazioni › La mia azienda e da lì in poi torna tutto come prima."
-      ]
-    },
-    {
-      "versione": "5.5",
-      "data": "2026-11-06",
-      "titolo": "Modelli di rapportino e subappalti tra due Quadra",
-      "voci": [
-        "Modelli di rapportino (Interventi › Modelli rapportino): carichi il modulo cartaceo di un cliente o di un committente (PDF o scansione), metti i dati al loro posto trascinandoli e Quadra lo compila da solo con quello che scrive il tecnico, lasciando il foglio identico. Caselle con la ✕, numeri cerchiati, tabella del materiale, orari per giorno, firma.",
-        "Domande in più per ogni modello (es. numero del buono, tipo di intervento, schede): le compila il tecnico sul telefono o l'ufficio sull'intervento, anche obbligatorie o solo dopo un'altra risposta.",
-        "Alla firma del cliente i documenti partono da soli per email: il rapportino al cliente, il modulo al committente con copia all'ufficio. Il tecnico vede a chi vanno e può aggiungere un'altra email. Nella scheda dell'intervento il riquadro Documenti mostra cosa è partito.",
-        "Intervento «Per conto di» un committente, che riceve la fattura, e cliente finale scritto a mano anche se non è in anagrafica, con l'email per il rapportino; si registra poi con un tasto.",
-        "Il tecnico può creare un rapportino dal telefono per un lavoro non in agenda (+ Nuovo rapportino): in ufficio compare con il bollino «creato dal tecnico».",
-        "Subappalti tra due Quadra: chi ti passa i lavori li manda dal suo Quadra al tuo calendario. Li accetti in Interventi › In arrivo scegliendo giorno, tecnici e mezzo; lui vede lo stato e riceve rapportino e moduli firmati."
       ]
     }
   ]
