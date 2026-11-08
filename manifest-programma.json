@@ -1,8 +1,24 @@
 {
-  "versione": "5.9",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.9/Quadra-Setup-5.9.exe",
-  "sha256": "1920bdc9aa723af63e1c162145f33b1b87dd4a473288082ab8a0d974bb5f9138",
+  "versione": "6.0",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.0/Quadra-Setup-6.0.exe",
+  "sha256": "125744d05b97e09486b1b65ffa49487919b566f6a18d19e1f07943b38e24f43d",
   "novita": [
+    {
+      "versione": "6.0",
+      "data": "2026-11-08",
+      "titolo": "Telefono: numero di tecnici, foto su WhatsApp; notifiche spiegate",
+      "riassunto": [
+        "Dal telefono il tecnico cambia il numero di tecnici dell'intervento",
+        "Con WhatsApp dal telefono partono anche le foto del rapportino",
+        "Se un tecnico non riceve la notifica di un nuovo intervento, Quadra ti dice perché"
+      ],
+      "voci": [
+        "Telefono del tecnico: accanto a «👷 2 tecnici» ci sono i tasti − e + per cambiare quanti tecnici ci sono sull'intervento, finché l'ufficio non l'ha chiuso. In ufficio lo vedi subito nella scheda e nel calendario.",
+        "«📲 Invia con WhatsApp» sul telefono: oltre ai PDF puoi spuntare «📷 Le foto del rapportino»; partono insieme, nello stesso messaggio.",
+        "Nuovo intervento con «Avvisa i collaboratori con una notifica»: se a qualcuno la notifica non parte, Quadra lo scrive dopo il salvataggio con il motivo (per esempio «non ha attivato le notifiche sul telefono») e come sistemarlo.",
+        "Sul telefono le etichette di Arrivo e Partenza tornano come prima: nella 5.9 compariva per errore del testo strano accanto."
+      ]
+    },
     {
       "versione": "5.9",
       "data": "2026-11-08",
@@ -130,15 +146,6 @@
         "Intervento «Per conto di» un committente, che riceve la fattura, e cliente finale scritto a mano anche se non è in anagrafica, con l'email per il rapportino; si registra poi con un tasto.",
         "Il tecnico può creare un rapportino dal telefono per un lavoro non in agenda (+ Nuovo rapportino): in ufficio compare con il bollino «creato dal tecnico».",
         "Subappalti tra due Quadra: chi ti passa i lavori li manda dal suo Quadra al tuo calendario. Li accetti in Interventi › In arrivo scegliendo giorno, tecnici e mezzo; lui vede lo stato e riceve rapportino e moduli firmati."
-      ]
-    },
-    {
-      "versione": "5.4.1",
-      "data": "2026-11-05",
-      "titolo": "Licenza attiva subito",
-      "voci": [
-        "Quando attivi una nuova chiave di licenza, Quadra lo comunica subito al servizio licenze del fornitore, senza aspettare il riavvio o il giorno dopo.",
-        "Collegamento Cloudflare: il programma di Cloudflare si scarica anche con una connessione lenta e la pagina mostra a che punto è il download."
       ]
     }
   ]
