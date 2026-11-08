@@ -1,8 +1,19 @@
 {
-  "versione": "6.0.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.0.1/Quadra-Setup-6.0.1.exe",
-  "sha256": "53906b7e627791128688a6db9456b4ca902266a830ef228f0f285d6c40c8b0ef",
+  "versione": "6.0.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.0.2/Quadra-Setup-6.0.2.exe",
+  "sha256": "4ecd373b46134071130d312aa7137fb197fb2b4440c3db342e82fb6e0da65faa",
   "novita": [
+    {
+      "versione": "6.0.2",
+      "data": "2026-11-08",
+      "titolo": "WhatsApp da Android: tutto in un unico PDF",
+      "riassunto": [
+        "Da telefono Android «Invia con WhatsApp» unisce rapportini e foto scelti in un unico PDF e lo manda con un solo tocco"
+      ],
+      "voci": [
+        "Telefono Android: con più di un allegato WhatsApp rispondeva «non puoi inviare un messaggio vuoto», perché su Android accetta un solo file per volta da una pagina web. Ora spunti una volta sola quello che vuoi mandare e Quadra unisce tutto in un unico PDF (i rapportini uno dopo l'altro, poi una pagina per ogni foto): parte con un solo tocco. Se un solo file è spuntato parte quello. Su iPhone non cambia niente: partono i file distinti."
+      ]
+    },
     {
       "versione": "6.0.1",
       "data": "2026-11-08",
@@ -131,19 +142,6 @@
         "Schede: con «＋ Nuova scheda» in alto (o Ctrl+T) apri un'altra pagina di Quadra senza lasciare quella in cui sei; le schede stanno sotto la barra in alto, si cambiano con un clic o con Ctrl+Tab e si chiudono con la ✕ o Ctrl+W. Un pallino giallo segnala le modifiche non salvate e Quadra chiede conferma prima di chiudere. Clic con la rotellina (o Ctrl+clic) su un collegamento lo apre in una nuova scheda.",
         "Nuovo cliente mentre fai un preventivo, una fattura, un DDT o un ordine: «+ Nuovo cliente» apre la scheda cliente completa in una nuova scheda; premi «Salva e inserisci» e torni al documento con il cliente già scelto e le righe che avevi scritto. Il cliente nuovo compare subito anche negli elenchi delle altre schede aperte.",
         "Le frecce ← → in alto tornano indietro e avanti dentro la scheda in cui sei. Sul cellulare Quadra resta com'era, senza schede."
-      ]
-    },
-    {
-      "versione": "5.6",
-      "data": "2026-11-06",
-      "titolo": "Nuova finestra di aggiornamento e partita IVA facoltativa",
-      "riassunto": [
-        "Nuova finestra di aggiornamento di Quadra, con l'avanzamento",
-        "Partita IVA dell'azienda facoltativa: senza, fatture solo in PDF"
-      ],
-      "voci": [
-        "Aggiornamenti più semplici: al posto della procedura di installazione si apre la finestra di Quadra con le novità, premi Avanti e vedi l'avanzamento; alla fine Quadra si riapre da solo. Windows chiede il permesso una volta sola. La prima installazione resta come prima.",
-        "Partita IVA della tua azienda facoltativa: se non la scrivi Quadra ti avvisa che le fatture si potranno emettere solo in PDF, senza la fattura elettronica XML e senza invio allo SdI. Puoi aggiungerla quando vuoi in Impostazioni › La mia azienda e da lì in poi torna tutto come prima."
       ]
     }
   ]
