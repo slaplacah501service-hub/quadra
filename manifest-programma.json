@@ -1,20 +1,23 @@
 {
-  "versione": "5.8.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.8.2/Quadra-Setup-5.8.2.exe",
-  "sha256": "d2be79549e3c3899e198931ac0c8f86a8f92d8de3392dc0e782af764f6fe6175",
+  "versione": "5.9",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.9/Quadra-Setup-5.9.exe",
+  "sha256": "1920bdc9aa723af63e1c162145f33b1b87dd4a473288082ab8a0d974bb5f9138",
   "novita": [
     {
-      "versione": "5.8.2",
+      "versione": "5.9",
       "data": "2026-11-08",
-      "titolo": "Niente più interventi o email doppie, PDF del rapportino per tutti i tecnici",
+      "titolo": "Niente doppioni, rapportino con WhatsApp dal telefono, orari facoltativi",
       "riassunto": [
-        "Un intervento nuovo si salva una volta sola, anche premendo Salva due volte",
-        "L'email della fattura parte una volta sola, anche premendo Invia due volte",
-        "Sul telefono i tasti PDF del rapportino si vedono sempre, anche su Android e anche per gli altri tecnici dell'intervento"
+        "Niente più interventi o email doppie premendo Salva o Invia due volte",
+        "Dal telefono il tecnico manda il rapportino con WhatsApp, e vede sempre i tasti PDF (anche prima di inviare)",
+        "Su ogni intervento scegli se ora di arrivo e di fine sono obbligatorie; sul calendario vedi quanti tecnici ci sono"
       ],
       "voci": [
         "Se premevi «Salva» o «Invia» due volte (doppio clic, oppure un secondo clic perché Quadra o la posta erano lenti a rispondere) Quadra eseguiva tutto due volte: due interventi uguali (con più collaboratori sul calendario li vedevi doppi) e l'email della fattura arrivava due volte al cliente. Ora ogni modulo vale una volta sola: il secondo clic aspetta il primo e ti porta allo stesso risultato, senza rifare niente. Vale in tutto Quadra.",
-        "Telefono del tecnico: i tasti «PDF del rapportino» e «PDF: <modello>» comparivano solo a chi aveva inviato il rapportino; con più tecnici sullo stesso intervento gli altri non li vedevano. Ora li vede ogni tecnico dell'intervento appena un rapportino è inviato. In più la barra in basso (Agenda, Oggi, Io, Esci) non copre più l'ultima parte della pagina, come succedeva su alcuni Android."
+        "Telefono del tecnico: i tasti «PDF del rapportino» e «PDF: <modello>» (es. il buono del committente) ci sono sempre, per ogni tecnico dell'intervento. Prima dell'invio sono un'anteprima: il telefono salva quello che hai scritto (senza inviarlo) e apre il PDF, così il cliente lo controlla prima di firmare. Prima comparivano solo dopo l'invio e solo a chi l'aveva inviato. In più la barra in basso non copre più l'ultima parte della pagina.",
+        "Telefono del tecnico: «📲 Invia con WhatsApp» apre il pannello Condividi del telefono con i PDF che spunti: il rapportino personalizzato (es. il buono del committente), quello di Quadra o tutti e due: scegli WhatsApp e il contatto. Prima dell'invio del rapportino salva quello che è stato scritto. L'invio resta in Impostazioni › Invii. Serve il modulo WhatsApp e Quadra aperto sul telefono con l'indirizzo https (Collegamento Cloudflare o accesso da Internet).",
+        "Nuovo intervento: scegli se «Ora di arrivo e di fine nel rapportino del tecnico» sono Facoltative (già selezionato) o Obbligatorie. Se sono facoltative il tecnico può inviare il rapportino anche senza orari. Gli interventi creati prima restano con gli orari obbligatori; puoi cambiarlo dalla scheda.",
+        "Numero di tecnici: nell'intervento il campo «Numero di tecnici» si compila da solo con i collaboratori spuntati e lo puoi cambiare a mano se sul lavoro ne vanno di più o di meno. Calendario, scheda e telefono mostrano quanti sono (es. «👷 3 tecnici»)."
       ]
     },
     {
