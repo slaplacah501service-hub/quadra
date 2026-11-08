@@ -1,8 +1,24 @@
 {
-  "versione": "5.8",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.8/Quadra-Setup-5.8.exe",
-  "sha256": "1c066c78494f05646f42f05dbef077d3a9872b8ae2f37175681e23db92fc9eec",
+  "versione": "5.8.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.8.1/Quadra-Setup-5.8.1.exe",
+  "sha256": "01e37cf949e5033ef8327f8ac3127462fbb1f9f29ea699c45bcf20951f80fcfa",
   "novita": [
+    {
+      "versione": "5.8.1",
+      "data": "2026-11-08",
+      "titolo": "Aggiornamenti anche con una connessione lenta e subappalti: decidi tu cosa vede il committente",
+      "riassunto": [
+        "L'aggiornamento si scarica a pezzi, in sottofondo, e riprende da dove si era fermato",
+        "Con le schede, intestazione e barra delle schede restano in alto mentre scorri",
+        "Subappalti: chi prende il lavoro decide cosa vede il committente e quando gli arriva il rapportino"
+      ],
+      "voci": [
+        "Prima l'aggiornamento doveva arrivare tutto entro un minuto: con una connessione lenta finiva sempre in «timeout». Ora Quadra lo scarica in sottofondo appena trova una versione nuova, a pezzi, con la barra di avanzamento e il tempo che manca. Se la linea cade riprende da dove si era fermato, anche dopo aver chiuso Quadra. Quando premi «Installa aggiornamento» di solito è già pronto.",
+        "Con le schede, scorrendo la pagina restano ferme in alto sia l'intestazione con il menu sia la barra delle schede.",
+        "Subappalti, per chi prende il lavoro: in Interventi › Subappalti, per ogni committente scegli cosa vede dei lavori che fai per lui: giorno e ora programmati, nomi dei tecnici, orari di inizio e fine, stato del lavoro. Per il rapportino e i moduli firmati scegli se partono da soli alla chiusura, se li mandi tu con il tasto «Manda il rapportino al committente» nella scheda dell'intervento, oppure se non partono. Quando accetti un lavoro in «In arrivo» puoi cambiare queste scelte solo per quel lavoro, e anche dopo dalla scheda dell'intervento.",
+        "Senza orari o senza nomi, anche il rapportino che arriva al committente non li riporta. Prima l'ora di arrivo del tecnico arrivava sempre al committente: ora arriva solo se hai scelto di mostrargli gli orari."
+      ]
+    },
     {
       "versione": "5.8",
       "data": "2026-11-07",
@@ -119,19 +135,6 @@
         "Quando in Mexal la fattura risulta pagata, in Quadra diventa incassata.",
         "Scegli cosa allineare e in che verso, ogni quanti minuti, i conti e i codici IVA di Mexal. «Da controllare» mostra quello che Mexal non accetta, con il motivo.",
         "Collegamento Cloudflare: il programma di Cloudflare si scarica anche con una connessione lenta (prima si fermava dopo un minuto) e la pagina mostra a che punto è il download."
-      ]
-    },
-    {
-      "versione": "5.3",
-      "data": "2026-11-05",
-      "titolo": "API e collegamenti con altri programmi",
-      "voci": [
-        "Nuovo modulo API e collegamenti (Impostazioni › API e collegamenti): il negozio online, il commercialista, Excel o Power BI, un'app possono leggere e scrivere in Quadra.",
-        "Ogni programma ha la sua chiave con i permessi che scegli tu, per ogni gruppo di dati: niente, legge, legge e scrive. Emettere fatture, inviarle allo SdI ed eliminare sono permessi a parte.",
-        "Una chiave si può fermare in qualsiasi momento, avere una scadenza e valere solo da certi indirizzi. Ogni chiamata resta nel registro.",
-        "Il negozio online può creare clienti e fatture: se la chiave non può emettere, le fatture arrivano senza numero e le emetti tu con il solito tasto.",
-        "Avvisa altri programmi: quando emetti o incassi una fattura, arriva un cliente nuovo, un articolo va sotto scorta o si firma un rapportino, Quadra lo comunica da solo all'indirizzo che scegli.",
-        "Documentazione per i programmatori dentro Quadra, da scaricare in HTML o come file OpenAPI. Nel manuale il nuovo capitolo «API e collegamenti»."
       ]
     }
   ]
