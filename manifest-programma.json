@@ -1,8 +1,22 @@
 {
-  "versione": "5.8.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.8.1/Quadra-Setup-5.8.1.exe",
-  "sha256": "01e37cf949e5033ef8327f8ac3127462fbb1f9f29ea699c45bcf20951f80fcfa",
+  "versione": "5.8.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v5.8.2/Quadra-Setup-5.8.2.exe",
+  "sha256": "d2be79549e3c3899e198931ac0c8f86a8f92d8de3392dc0e782af764f6fe6175",
   "novita": [
+    {
+      "versione": "5.8.2",
+      "data": "2026-11-08",
+      "titolo": "Niente più interventi o email doppie, PDF del rapportino per tutti i tecnici",
+      "riassunto": [
+        "Un intervento nuovo si salva una volta sola, anche premendo Salva due volte",
+        "L'email della fattura parte una volta sola, anche premendo Invia due volte",
+        "Sul telefono i tasti PDF del rapportino si vedono sempre, anche su Android e anche per gli altri tecnici dell'intervento"
+      ],
+      "voci": [
+        "Se premevi «Salva» o «Invia» due volte (doppio clic, oppure un secondo clic perché Quadra o la posta erano lenti a rispondere) Quadra eseguiva tutto due volte: due interventi uguali (con più collaboratori sul calendario li vedevi doppi) e l'email della fattura arrivava due volte al cliente. Ora ogni modulo vale una volta sola: il secondo clic aspetta il primo e ti porta allo stesso risultato, senza rifare niente. Vale in tutto Quadra.",
+        "Telefono del tecnico: i tasti «PDF del rapportino» e «PDF: <modello>» comparivano solo a chi aveva inviato il rapportino; con più tecnici sullo stesso intervento gli altri non li vedevano. Ora li vede ogni tecnico dell'intervento appena un rapportino è inviato. In più la barra in basso (Agenda, Oggi, Io, Esci) non copre più l'ultima parte della pagina, come succedeva su alcuni Android."
+      ]
+    },
     {
       "versione": "5.8.1",
       "data": "2026-11-08",
@@ -122,19 +136,6 @@
       "voci": [
         "Quando attivi una nuova chiave di licenza, Quadra lo comunica subito al servizio licenze del fornitore, senza aspettare il riavvio o il giorno dopo.",
         "Collegamento Cloudflare: il programma di Cloudflare si scarica anche con una connessione lenta e la pagina mostra a che punto è il download."
-      ]
-    },
-    {
-      "versione": "5.4",
-      "data": "2026-11-05",
-      "titolo": "Collegamento con Mexal",
-      "voci": [
-        "Nuovo modulo Collegamento Mexal (Impostazioni › Collegamento Mexal): Quadra lavora insieme a Mexal di Passepartout attraverso le WebAPI, sia con Mexal in ufficio sia con Mexal Live.",
-        "Le fatture e le note di credito emesse da Quadra vengono registrate da sole nella prima nota di Mexal (causale FE o NE), con il castelletto IVA, il bollo e il protocollo del registro vendite.",
-        "Clienti, fornitori e articoli con i prezzi arrivano da Mexal; i clienti nuovi di Quadra vengono creati in Mexal, dopo averli cercati per partita IVA e codice fiscale.",
-        "Quando in Mexal la fattura risulta pagata, in Quadra diventa incassata.",
-        "Scegli cosa allineare e in che verso, ogni quanti minuti, i conti e i codici IVA di Mexal. «Da controllare» mostra quello che Mexal non accetta, con il motivo.",
-        "Collegamento Cloudflare: il programma di Cloudflare si scarica anche con una connessione lenta (prima si fermava dopo un minuto) e la pagina mostra a che punto è il download."
       ]
     }
   ]
