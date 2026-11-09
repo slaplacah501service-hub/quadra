@@ -1,8 +1,22 @@
 {
-  "versione": "6.0.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.0.2/Quadra-Setup-6.0.2.exe",
-  "sha256": "4ecd373b46134071130d312aa7137fb197fb2b4440c3db342e82fb6e0da65faa",
+  "versione": "6.0.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.0.3/Quadra-Setup-6.0.3.exe",
+  "sha256": "937661b051f3ba4cf398e24d42230eea204d2a0098b5da02d1cab88b5f7a07d5",
   "novita": [
+    {
+      "versione": "6.0.3",
+      "data": "2026-11-09",
+      "titolo": "Licenze: la nuova sostituisce la vecchia",
+      "riassunto": [
+        "Licenze clienti: una licenza nuova per lo stesso PC prende il posto della vecchia nell'elenco e arriva al cliente da sola"
+      ],
+      "voci": [
+        "Licenze clienti: quando crei una licenza nuova per un PC che ne ha già una, la nuova prende il posto della vecchia nell'elenco «Licenze emesse». Le licenze sostituite restano nello «Storico di questo PC» nella scheda della licenza.",
+        "Se il servizio licenze è impostato, la licenza nuova viene mandata al PC del cliente, che la attiva da solo.",
+        "Licenze in giro: una licenza modificata non appare più «In consegna» se il PC del cliente lavora ancora con la precedente: ne vedi lo stato vero con la nota «lavora ancora con la licenza precedente».",
+        "Quadra controlla la licenza ogni ora invece che una volta al giorno: una licenza nuova arriva entro un'ora con il PC acceso."
+      ]
+    },
     {
       "versione": "6.0.2",
       "data": "2026-11-08",
@@ -128,20 +142,6 @@
         "Intervento con il cliente «Dall'anagrafica»: se il nome scritto non è in anagrafica (o manca), Quadra non salva e ti indica di sceglierlo dall'elenco oppure di usare il tasto «Non in anagrafica».",
         "Intervento dato in subappalto: finché il subappaltatore non l'ha accettato puoi ancora cambiarlo, e al salvataggio le modifiche arrivano subito nel suo «In arrivo» (con il segno «cambiato dal committente»). Una volta accettato l'intervento non si modifica più: per cambiare qualcosa lo chiami o annulli il subappalto.",
         "Per chi riceve il lavoro: nella scheda dell'intervento c'è un riquadro «Lavoro mandato dal committente …» con il suo riferimento, e sul calendario l'intervento ha il bordo tratteggiato con 🤝 e il nome del committente."
-      ]
-    },
-    {
-      "versione": "5.7",
-      "data": "2026-11-06",
-      "titolo": "Le schede: più lavori aperti insieme",
-      "riassunto": [
-        "Schede: più pagine di Quadra aperte insieme, con il tasto Nuova scheda",
-        "Nuovo cliente da un documento: si apre in una scheda e torna già inserito"
-      ],
-      "voci": [
-        "Schede: con «＋ Nuova scheda» in alto (o Ctrl+T) apri un'altra pagina di Quadra senza lasciare quella in cui sei; le schede stanno sotto la barra in alto, si cambiano con un clic o con Ctrl+Tab e si chiudono con la ✕ o Ctrl+W. Un pallino giallo segnala le modifiche non salvate e Quadra chiede conferma prima di chiudere. Clic con la rotellina (o Ctrl+clic) su un collegamento lo apre in una nuova scheda.",
-        "Nuovo cliente mentre fai un preventivo, una fattura, un DDT o un ordine: «+ Nuovo cliente» apre la scheda cliente completa in una nuova scheda; premi «Salva e inserisci» e torni al documento con il cliente già scelto e le righe che avevi scritto. Il cliente nuovo compare subito anche negli elenchi delle altre schede aperte.",
-        "Le frecce ← → in alto tornano indietro e avanti dentro la scheda in cui sei. Sul cellulare Quadra resta com'era, senza schede."
       ]
     }
   ]
