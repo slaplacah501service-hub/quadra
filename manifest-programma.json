@@ -1,8 +1,20 @@
 {
-  "versione": "6.0.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.0.3/Quadra-Setup-6.0.3.exe",
-  "sha256": "937661b051f3ba4cf398e24d42230eea204d2a0098b5da02d1cab88b5f7a07d5",
+  "versione": "6.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.1/Quadra-Setup-6.1.exe",
+  "sha256": "9ba8a02a27646c960d4a21670060f85adf1c021cabe407f0318d859564d435f4",
   "novita": [
+    {
+      "versione": "6.1",
+      "data": "2026-11-09",
+      "titolo": "Scarica Quadra per PC e Mac da Utenti e rete",
+      "riassunto": [
+        "In Utenti e rete ci sono i pulsanti «Scarica per Windows» e «Scarica per Mac» per installare Quadra sugli altri PC"
+      ],
+      "voci": [
+        "Impostazioni › Utenti e rete ha una nuova sezione «Quadra per PC e Mac» con i pulsanti «Scarica per Windows» e «Scarica per Mac»: scaricano subito il programma, da installare sugli altri PC dell'ufficio.",
+        "La sezione è sempre visibile, anche con l'accesso dalla rete spento: puoi scaricare il file sul PC principale e copiarlo sugli altri con una chiavetta."
+      ]
+    },
     {
       "versione": "6.0.3",
       "data": "2026-11-09",
@@ -126,22 +138,6 @@
       "voci": [
         "Dall'app Quadra installata sul telefono Android, «PDF del rapportino» su un intervento chiuso apriva il browser e chiedeva di nuovo nome utente e password. Ora il PDF si apre direttamente. Vale anche per gli altri PDF aperti dal telefono collegato da Internet.",
         "Intervento con un modello di rapportino assegnato (es. il buono di un committente): in sede, in «E adesso?», e sul telefono del tecnico c'è il tasto «PDF: <nome del modello>», oltre al rapportino di Quadra. Sul telefono i PDF restano disponibili anche dopo che l'ufficio ha chiuso l'intervento."
-      ]
-    },
-    {
-      "versione": "5.7.1",
-      "data": "2026-11-06",
-      "titolo": "Subappalto: dal nuovo intervento e modificabile finché non è accettato",
-      "riassunto": [
-        "«Dai in subappalto» già quando crei l'intervento",
-        "Intervento: senza un cliente valido Quadra ti ferma e ti indica cosa fare",
-        "Subappalto: cambi l'intervento finché l'altro non lo accetta, e lui vede che arriva da te"
-      ],
-      "voci": [
-        "Nuovo intervento: con la spunta «Dai in subappalto» scegli il subappaltatore e, al salvataggio, il lavoro parte subito per il suo Quadra, senza salvare e rientrare. Il pulsante «＋ Nuova scheda» in alto ora si chiama «＋ Scheda», per lasciare spazio al menu.",
-        "Intervento con il cliente «Dall'anagrafica»: se il nome scritto non è in anagrafica (o manca), Quadra non salva e ti indica di sceglierlo dall'elenco oppure di usare il tasto «Non in anagrafica».",
-        "Intervento dato in subappalto: finché il subappaltatore non l'ha accettato puoi ancora cambiarlo, e al salvataggio le modifiche arrivano subito nel suo «In arrivo» (con il segno «cambiato dal committente»). Una volta accettato l'intervento non si modifica più: per cambiare qualcosa lo chiami o annulli il subappalto.",
-        "Per chi riceve il lavoro: nella scheda dell'intervento c'è un riquadro «Lavoro mandato dal committente …» con il suo riferimento, e sul calendario l'intervento ha il bordo tratteggiato con 🤝 e il nome del committente."
       ]
     }
   ]
