@@ -1,8 +1,21 @@
 {
-  "versione": "6.1.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.1.1/Quadra-Setup-6.1.1.exe",
-  "sha256": "0dd104fd46f45d449dfb40abb202e436e57315cf9977ba4e579299bb9ea81b44",
+  "versione": "6.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.2/Quadra-Setup-6.2.exe",
+  "sha256": "aa9d869070612b5a92c1e8b61927fa61b5f42361257f874142dea6be79b72568",
   "novita": [
+    {
+      "versione": "6.2",
+      "data": "2026-11-10",
+      "titolo": "Quota interventi: le quotazioni del mese, in PDF e con WhatsApp",
+      "riassunto": [
+        "Nuovo tasto «Quota interventi» negli Interventi: gli interventi del mese con la quotazione da scrivere, il totale, il PDF e l'invio con WhatsApp"
+      ],
+      "voci": [
+        "Interventi › 💶 Quota interventi: scegli il mese (con ‹ › o dall'elenco) e, se vuoi, il committente («per conto di»), il cliente e quali interventi vedere (con rapportino inviato, solo da quotare, tutti). Per ogni intervento vedi data, cliente, indirizzo e cosa è stato fatto (dal rapportino del tecnico).",
+        "Nell'ultima colonna scrivi la quotazione: si salva da sola uscendo dal campo e resta sull'intervento; c'è anche «Salva le quotazioni». Le righe senza quotazione sono evidenziate «da quotare»; in fondo il totale del mese.",
+        "«📄 PDF» prepara il prospetto del mese con i filtri scelti (importi IVA esclusa). «📲 Invia con WhatsApp» apre il pannello Condividi di Windows con il PDF (o «Copia e apri WhatsApp»); dal telefono apre la condivisione del telefono. Serve il modulo WhatsApp."
+      ]
+    },
     {
       "versione": "6.1.1",
       "data": "2026-11-10",
@@ -126,19 +139,6 @@
         "In Impostazioni › Utenti e rete, nell'utente amministratore, scegli in «Lavora anche come tecnico» il suo collaboratore.",
         "Dal telefono, dopo l'accesso, Quadra chiede «Come vuoi entrare?»: Amministratore o Tecnico. Con «Su questo telefono ricorda la scelta» non lo chiede più e riparte dall'ultima modalità usata.",
         "Da tecnico in basso c'è il tasto «🏢 Ufficio»; da amministratore, in cima al menu, «🔧 Passa a tecnico». Il passaggio non chiede né password né codice."
-      ]
-    },
-    {
-      "versione": "5.7.3",
-      "data": "2026-11-07",
-      "titolo": "Telefono: più utenti ricordati, niente codice a ogni cambio",
-      "riassunto": [
-        "Sullo stesso telefono entri con più utenti (es. titolare e tecnico) senza ridare il codice dell'authenticator",
-        "Amministratore: al codice scegli «Ricorda per 30 giorni», «Ricorda per sempre» o «Dimentica»"
-      ],
-      "voci": [
-        "Da Internet il telefono ricordava un solo utente: se il titolare entrava come amministratore e poi come tecnico, al cambio successivo Quadra chiedeva di nuovo il codice dell'authenticator. Ora il telefono ricorda ogni utente che ha dato il codice: la password resta, il codice no. Il tecnico resta ricordato per sempre, gli altri utenti per 30 giorni (con la spunta «Ricorda questo dispositivo»).",
-        "Quando l'amministratore dà il codice dell'authenticator da Internet sceglie per quel dispositivo: «Ricorda per 30 giorni», «Ricorda per sempre» (solo sul proprio telefono) oppure «Dimentica» (il codice viene chiesto ogni volta). Per far dimenticare un dispositivo ricordato: Impostazioni › Utenti e rete › Azzera codice."
       ]
     }
   ]
