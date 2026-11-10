@@ -1,8 +1,33 @@
 {
-  "versione": "6.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.2/Quadra-Setup-6.2.exe",
-  "sha256": "aa9d869070612b5a92c1e8b61927fa61b5f42361257f874142dea6be79b72568",
+  "versione": "6.2.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.2.2/Quadra-Setup-6.2.2.exe",
+  "sha256": "78708273b8bb511cc8aa2e7d0a3981eccca00702f53a242391e1b0e90fba26a2",
   "novita": [
+    {
+      "versione": "6.2.2",
+      "data": "2026-11-10",
+      "titolo": "Tasto «Chiudi intervento» sul telefono e in ufficio",
+      "riassunto": [
+        "Sul telefono e nella scheda dell'intervento c'è «✅ Chiudi intervento»: scegli se mandare il rapportino per email al cliente e/o al committente",
+        "L'amministratore può sempre riaprire un intervento chiuso, anche se è già in fattura"
+      ],
+      "voci": [
+        "Telefono del tecnico, in fondo al rapportino sotto «Invia con WhatsApp»: «✅ Chiudi intervento». Nella finestra di conferma spunti se mandare il rapportino per email al cliente e/o al committente (senza spunte non parte nessuna email). Poi invia il rapportino all'ufficio (se non è ancora partito), chiude l'intervento e torna all'agenda. In ufficio risulta concluso; se l'intervento si ripete il prossimo è già in calendario.",
+        "Scheda dell'intervento in ufficio, riquadro «E adesso?»: «✅ Chiudi intervento» al posto di «Segna come visto», con la stessa scelta delle email. Si può chiudere anche un intervento senza rapportino. L'esito delle email è nel riquadro «Documenti».",
+        "«Riapri»: l'amministratore può riaprire sempre un intervento chiuso, anche se è già in fattura (la fattura resta com'è)."
+      ]
+    },
+    {
+      "versione": "6.2.1",
+      "data": "2026-11-10",
+      "titolo": "Quota interventi: il PDF si apre nel lettore PDF",
+      "riassunto": [
+        "Quota interventi: «PDF» apre il prospetto nel lettore PDF del PC e Quadra resta sulla pagina"
+      ],
+      "voci": [
+        "Quota interventi, tasto «📄 PDF»: nella finestra di Quadra il prospetto si apriva dentro Quadra, senza modo di tornare indietro (chiudendo con la X si chiudeva il programma). Ora si apre nel lettore PDF del PC, come il PDF del rapportino, e Quadra resta sulla pagina Quota interventi."
+      ]
+    },
     {
       "versione": "6.2",
       "data": "2026-11-10",
@@ -109,36 +134,6 @@
         "Telefono del tecnico: «📲 Invia con WhatsApp» apre il pannello Condividi del telefono con i PDF che spunti: il rapportino personalizzato (es. il buono del committente), quello di Quadra o tutti e due: scegli WhatsApp e il contatto. Prima dell'invio del rapportino salva quello che è stato scritto. L'invio resta in Impostazioni › Invii. Serve il modulo WhatsApp e Quadra aperto sul telefono con l'indirizzo https (Collegamento Cloudflare o accesso da Internet).",
         "Nuovo intervento: scegli se «Ora di arrivo e di fine nel rapportino del tecnico» sono Facoltative (già selezionato) o Obbligatorie. Se sono facoltative il tecnico può inviare il rapportino anche senza orari. Gli interventi creati prima restano con gli orari obbligatori; puoi cambiarlo dalla scheda.",
         "Numero di tecnici: nell'intervento il campo «Numero di tecnici» si compila da solo con i collaboratori spuntati e lo puoi cambiare a mano se sul lavoro ne vanno di più o di meno. Calendario, scheda e telefono mostrano quanti sono (es. «👷 3 tecnici»)."
-      ]
-    },
-    {
-      "versione": "5.8.1",
-      "data": "2026-11-08",
-      "titolo": "Aggiornamenti anche con una connessione lenta e subappalti: decidi tu cosa vede il committente",
-      "riassunto": [
-        "L'aggiornamento si scarica a pezzi, in sottofondo, e riprende da dove si era fermato",
-        "Con le schede, intestazione e barra delle schede restano in alto mentre scorri",
-        "Subappalti: chi prende il lavoro decide cosa vede il committente e quando gli arriva il rapportino"
-      ],
-      "voci": [
-        "Prima l'aggiornamento doveva arrivare tutto entro un minuto: con una connessione lenta finiva sempre in «timeout». Ora Quadra lo scarica in sottofondo appena trova una versione nuova, a pezzi, con la barra di avanzamento e il tempo che manca. Se la linea cade riprende da dove si era fermato, anche dopo aver chiuso Quadra. Quando premi «Installa aggiornamento» di solito è già pronto.",
-        "Con le schede, scorrendo la pagina restano ferme in alto sia l'intestazione con il menu sia la barra delle schede.",
-        "Subappalti, per chi prende il lavoro: in Interventi › Subappalti, per ogni committente scegli cosa vede dei lavori che fai per lui: giorno e ora programmati, nomi dei tecnici, orari di inizio e fine, stato del lavoro. Per il rapportino e i moduli firmati scegli se partono da soli alla chiusura, se li mandi tu con il tasto «Manda il rapportino al committente» nella scheda dell'intervento, oppure se non partono. Quando accetti un lavoro in «In arrivo» puoi cambiare queste scelte solo per quel lavoro, e anche dopo dalla scheda dell'intervento.",
-        "Senza orari o senza nomi, anche il rapportino che arriva al committente non li riporta. Prima l'ora di arrivo del tecnico arrivava sempre al committente: ora arriva solo se hai scelto di mostrargli gli orari."
-      ]
-    },
-    {
-      "versione": "5.8",
-      "data": "2026-11-07",
-      "titolo": "Il titolare è anche tecnico: sul telefono sceglie come entrare e passa dall'uno all'altro",
-      "riassunto": [
-        "Amministratore anche tecnico: dal telefono entri come amministratore o come tecnico",
-        "Passi da una modalità all'altra dall'app, senza rifare l'accesso"
-      ],
-      "voci": [
-        "In Impostazioni › Utenti e rete, nell'utente amministratore, scegli in «Lavora anche come tecnico» il suo collaboratore.",
-        "Dal telefono, dopo l'accesso, Quadra chiede «Come vuoi entrare?»: Amministratore o Tecnico. Con «Su questo telefono ricorda la scelta» non lo chiede più e riparte dall'ultima modalità usata.",
-        "Da tecnico in basso c'è il tasto «🏢 Ufficio»; da amministratore, in cima al menu, «🔧 Passa a tecnico». Il passaggio non chiede né password né codice."
       ]
     }
   ]
