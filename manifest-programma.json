@@ -1,8 +1,22 @@
 {
-  "versione": "6.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.1/Quadra-Setup-6.1.exe",
-  "sha256": "9ba8a02a27646c960d4a21670060f85adf1c021cabe407f0318d859564d435f4",
+  "versione": "6.1.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.1.1/Quadra-Setup-6.1.1.exe",
+  "sha256": "0dd104fd46f45d449dfb40abb202e436e57315cf9977ba4e579299bb9ea81b44",
   "novita": [
+    {
+      "versione": "6.1.1",
+      "data": "2026-11-10",
+      "titolo": "Rapportino: scegli tu se mandarlo al cliente e/o al committente; orari facoltativi",
+      "riassunto": [
+        "Nella scheda dell'intervento spunti a chi mandare ogni rapportino: cliente, committente («per conto di») o tutti e due",
+        "Ora di arrivo e di fine del rapportino: facoltative di serie, le rendi obbligatorie in Interventi › Impostazioni"
+      ],
+      "voci": [
+        "Interventi per conto di un committente: il rapportino di Quadra non partiva mai verso il committente. Ora nel riquadro «Documenti» della scheda dell'intervento, accanto a ogni documento (rapportino di Quadra e modelli), spunti «Cliente» e/o «Committente» e premi Invia.",
+        "In Interventi › Modelli rapportino ci sono due spunte, «Alla firma mandalo da solo al cliente» e «… al committente». Sulle installazioni nuove sono spente: decide l'operatore. Chi aveva già attivo l'invio automatico al cliente lo ritrova com'era. Anche nei modelli nuovi gli invii automatici partono spenti.",
+        "Interventi › Impostazioni ha la nuova scelta «Ora di arrivo e di fine nel rapportino»: Facoltative (di serie) oppure Obbligatorie. Vale per gli interventi nuovi, anche quelli creati dal tecnico sul telefono, e per quelli ancora da fare quando salvi. Sul singolo intervento la cambi sempre dalla sua scheda. Con questo aggiornamento gli interventi ancora da fare diventano con orari facoltativi."
+      ]
+    },
     {
       "versione": "6.1",
       "data": "2026-11-09",
@@ -125,19 +139,6 @@
       "voci": [
         "Da Internet il telefono ricordava un solo utente: se il titolare entrava come amministratore e poi come tecnico, al cambio successivo Quadra chiedeva di nuovo il codice dell'authenticator. Ora il telefono ricorda ogni utente che ha dato il codice: la password resta, il codice no. Il tecnico resta ricordato per sempre, gli altri utenti per 30 giorni (con la spunta «Ricorda questo dispositivo»).",
         "Quando l'amministratore dà il codice dell'authenticator da Internet sceglie per quel dispositivo: «Ricorda per 30 giorni», «Ricorda per sempre» (solo sul proprio telefono) oppure «Dimentica» (il codice viene chiesto ogni volta). Per far dimenticare un dispositivo ricordato: Impostazioni › Utenti e rete › Azzera codice."
-      ]
-    },
-    {
-      "versione": "5.7.2",
-      "data": "2026-11-06",
-      "titolo": "Rapportino: PDF con il layout del modello, e dal telefono senza rifare l'accesso",
-      "riassunto": [
-        "Il PDF del rapportino si apre anche con il layout del modello assegnato, in sede e dal telefono",
-        "Dal telefono (Android) il PDF si apre senza rifare l'accesso"
-      ],
-      "voci": [
-        "Dall'app Quadra installata sul telefono Android, «PDF del rapportino» su un intervento chiuso apriva il browser e chiedeva di nuovo nome utente e password. Ora il PDF si apre direttamente. Vale anche per gli altri PDF aperti dal telefono collegato da Internet.",
-        "Intervento con un modello di rapportino assegnato (es. il buono di un committente): in sede, in «E adesso?», e sul telefono del tecnico c'è il tasto «PDF: <nome del modello>», oltre al rapportino di Quadra. Sul telefono i PDF restano disponibili anche dopo che l'ufficio ha chiuso l'intervento."
       ]
     }
   ]
