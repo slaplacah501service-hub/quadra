@@ -1,14 +1,15 @@
 {
-  "versione": "6.4.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.4.1/Quadra-Setup-6.4.1.exe",
-  "sha256": "754e59d7710b4acded8937f719c6a289117a23df4662c6af16d726ed5f6348a5",
+  "versione": "6.5",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.5/Quadra-Setup-6.5.exe",
+  "sha256": "aaad39d9f049b969999301f3ef4015b65d3ab836adb06955ac39e533424214c0",
   "novita": [
     {
-      "versione": "6.4.1",
+      "versione": "6.5",
       "data": "2026-11-11",
       "titolo": "Rapportini: email al committente dal telefono, numero di tecnici nei modelli, giorno passato e committente di default",
       "riassunto": [
         "Rapportino al committente («per conto di») per email, dal telefono e dalla scheda in ufficio; colonna Committente nell'elenco interventi",
+        "Materiale dal telefono: dopo l'articolo si scrive subito la quantità, senza il valore 1 di serie",
         "Nei modelli di rapportino il numero di operatori segue quello scritto con − / +, e a scelta le ore si moltiplicano per i tecnici",
         "Nuovo rapportino dal telefono: si sceglie il giorno del lavoro, anche passato",
         "Committente di default: il «Per conto di» è già compilato sui lavori nuovi"
@@ -17,6 +18,7 @@
         "Telefono, maschera del rapportino: sotto la firma c'è «Con «Invia il rapportino» mandalo anche per email a» con Cliente e, per i lavori per conto di, Committente (già spuntato se ha l'email). Partono il rapportino di Quadra e i modelli dell'intervento; l'esito resta in «Documenti».",
         "Scheda dell'intervento in ufficio: per i lavori per conto di, accanto a «Invia il rapportino al cliente» c'è «Invia il rapportino al committente» (rapportino di Quadra e modelli dell'intervento).",
         "Interventi › Elenco: nuova colonna «Committente», filtro «Per conto di …» / «Solo clienti diretti» e ricerca anche per committente.",
+        "Telefono, materiale usato: la quantità non è più 1 di serie. Scelto l'articolo (dal listino o scritto a mano con «+ Aggiungi»), il cursore va sulla quantità e si apre la tastiera dei numeri. Senza quantità il rapportino non parte e Quadra dice quale manca.",
         "Modelli di rapportino: «Numero operatori» e «Numero operatori del giorno» ignoravano il numero di tecnici cambiato con − / + o nella scheda dell'intervento. Ora lo usano.",
         "Interventi › Impostazioni › «Ore nei modelli di rapportino»: «Solo le ore dei rapportini fatti» (di serie) oppure «Ore × numero di tecnici», per quando sul lavoro ci sono più tecnici ma il rapportino l'ha fatto uno solo.",
         "Telefono, «＋ Nuovo rapportino»: nuovo campo «Giorno del lavoro». Parte dal giorno che stai guardando nell'agenda e si può mettere un giorno passato (prima prendeva sempre oggi). Per un giorno passato l'ora di arrivo la scrivi tu.",
