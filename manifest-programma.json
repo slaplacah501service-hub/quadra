@@ -1,8 +1,46 @@
 {
-  "versione": "6.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.3/Quadra-Setup-6.3.exe",
-  "sha256": "f5473fbc1b3d185ffc05bdf0991711aa55a07437b0db03736ea7385c65c65cff",
+  "versione": "6.4",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.4/Quadra-Setup-6.4.exe",
+  "sha256": "a7cdda4720fe4d28d416ceaff7ceb8d51498f4fbd9532414e70c0bf1a7490156",
   "novita": [
+    {
+      "versione": "6.4",
+      "data": "2026-11-11",
+      "titolo": "Gli interventi nel calendario di Google e iCloud",
+      "riassunto": [
+        "Gli interventi compaiono nel calendario del telefono (Google, iPhone, Mac) e si aggiornano da soli",
+        "Ogni tecnico li aggiunge dalla pagina «Io» con un tasto; in ufficio c'è il calendario di tutta l'agenda",
+        "Link segreti: «Cambia link» blocca subito quello vecchio"
+      ],
+      "voci": [
+        "Interventi › Impostazioni › «Calendario su Google e iCloud»: un calendario in abbonamento per ogni collaboratore e uno per tutta l'agenda",
+        "Sul telefono del tecnico, in «Io»: «Aggiungi a iPhone / iCloud», «Aggiungi a Google Calendar», «Copia il link»",
+        "In ufficio: Copia, Email e WhatsApp per mandare il link con le istruzioni; la colonna «Usato» dice da quale calendario è stato aggiunto",
+        "Si sceglie cosa mostrare (cliente, indirizzo, telefono, descrizione, link per il rapportino), solo «Occupato» per tutta l'agenda, gli interventi conclusi e il periodo",
+        "Con Quadra Immobiliare nel calendario dell'agente ci sono anche le sue visite",
+        "A senso unico: quello che si cambia nel calendario del telefono non torna in Quadra. Serve l'accesso da Internet (Cloudflare o diretto)",
+        "Manuale: nuovo paragrafo «Calendario su Google e iCloud»."
+      ]
+    },
+    {
+      "versione": "6.3.1",
+      "data": "2026-11-11",
+      "titolo": "Backup e ripristino: passare a un nuovo PC senza sorprese",
+      "riassunto": [
+        "«Ripristina da un file»: il backup lo prendi da dove vuoi (chiavetta, NAS, PC vecchio)",
+        "I backup copiati da un altro PC non vengono più cancellati; dentro ci sono anche XML, ricevute SdI e logo",
+        "Nella procedura guidata c'è «Ripristina un backup» per chi passa a un nuovo PC"
+      ],
+      "voci": [
+        "Backup: «Ripristina da un file» prende il backup da qualunque posto (chiavetta, NAS, cartella del PC vecchio) e non modifica il file scelto",
+        "Backup: Quadra cancella solo i backup fatti da lui su questo PC; quelli copiati da un altro PC hanno l'etichetta «copiato» e restano",
+        "Backup: dentro ci sono anche gli XML delle fatture emesse e le ricevute dello SdI; al ripristino tornano anche il logo e questi file",
+        "Ripristino: prima di toccare l'archivio Quadra controlla che il file sia davvero un suo backup e non sia danneggiato",
+        "Nuovo PC: nella procedura guidata c'è «Ripristina un backup», e dopo il ripristino Quadra dice cosa fare per la licenza e se la cartella dei backup del PC vecchio non c'è",
+        "Backup: avviso se la cartella dei backup è sullo stesso disco del programma",
+        "Manuale: paragrafo «Backup» aggiornato e nuovo paragrafo «Passare a un nuovo PC»."
+      ]
+    },
     {
       "versione": "6.3",
       "data": "2026-11-11",
@@ -11,7 +49,8 @@
         "Nuovo modulo «Agenzia immobiliare»: immobili con foto, catasto e classe energetica, incarichi con scadenza, richieste dei clienti con abbinamento automatico",
         "Le visite le vede l'agente sul telefono: segna com'è andata e fa firmare il foglio visita col dito",
         "Trattative e provvigioni divise tra gli agenti, con la fattura della provvigione già scritta",
-        "Modulo «Antiriciclaggio»: adeguata verifica dei clienti nella trattativa, con la dichiarazione firmata sul telefono dell'agente e il fascicolo PDF"
+        "Modulo «Antiriciclaggio»: adeguata verifica dei clienti nella trattativa, con la dichiarazione firmata sul telefono dell'agente e il fascicolo PDF",
+        "Backup più sicuri: ripristino da un file scelto (chiavetta, NAS, PC vecchio) e i backup copiati da un altro PC non vengono più cancellati"
       ],
       "voci": [
         "Immobili: scheda con dati, dotazioni, classe energetica, dati catastali, proprietario (anche cliente nuovo al volo), agente e incarico (numero, esclusiva, scadenza, provvigione). Foto anche tante insieme (Quadra le riduce), planimetria, ★ per la foto principale, scheda vetrina in PDF.",
@@ -110,33 +149,6 @@
       ],
       "voci": [
         "Telefono Android: con più di un allegato WhatsApp rispondeva «non puoi inviare un messaggio vuoto», perché su Android accetta un solo file per volta da una pagina web. Ora spunti una volta sola quello che vuoi mandare e Quadra unisce tutto in un unico PDF (i rapportini uno dopo l'altro, poi una pagina per ogni foto): parte con un solo tocco. Se un solo file è spuntato parte quello. Su iPhone non cambia niente: partono i file distinti."
-      ]
-    },
-    {
-      "versione": "6.0.1",
-      "data": "2026-11-08",
-      "titolo": "WhatsApp da Android: partono anche gli allegati",
-      "riassunto": [
-        "Da telefono Android «Invia con WhatsApp» manda di nuovo il rapportino e le foto, non solo la scritta"
-      ],
-      "voci": [
-        "Telefono Android: con «📲 Invia con WhatsApp» arrivava solo la scritta «Rapportino dell'intervento n. …» senza allegati, perché WhatsApp su Android, se riceve anche un testo, scarta i file. Ora da Android partono solo i file (PDF e foto); il nome del PDF dice già di che intervento è. Su iPhone non cambia niente."
-      ]
-    },
-    {
-      "versione": "6.0",
-      "data": "2026-11-08",
-      "titolo": "Telefono: numero di tecnici, foto su WhatsApp; notifiche spiegate",
-      "riassunto": [
-        "Dal telefono il tecnico cambia il numero di tecnici dell'intervento",
-        "Con WhatsApp dal telefono partono anche le foto del rapportino",
-        "Se un tecnico non riceve la notifica di un nuovo intervento, Quadra ti dice perché"
-      ],
-      "voci": [
-        "Telefono del tecnico: accanto a «👷 2 tecnici» ci sono i tasti − e + per cambiare quanti tecnici ci sono sull'intervento, finché l'ufficio non l'ha chiuso. In ufficio lo vedi subito nella scheda e nel calendario.",
-        "«📲 Invia con WhatsApp» sul telefono: oltre ai PDF puoi spuntare «📷 Le foto del rapportino»; partono insieme, nello stesso messaggio.",
-        "Nuovo intervento con «Avvisa i collaboratori con una notifica»: se a qualcuno la notifica non parte, Quadra lo scrive dopo il salvataggio con il motivo (per esempio «non ha attivato le notifiche sul telefono») e come sistemarlo.",
-        "Sul telefono le etichette di Arrivo e Partenza tornano come prima: nella 5.9 compariva per errore del testo strano accanto."
       ]
     }
   ]
