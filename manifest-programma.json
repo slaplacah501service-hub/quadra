@@ -1,8 +1,28 @@
 {
-  "versione": "6.2.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.2.2/Quadra-Setup-6.2.2.exe",
-  "sha256": "78708273b8bb511cc8aa2e7d0a3981eccca00702f53a242391e1b0e90fba26a2",
+  "versione": "6.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.3/Quadra-Setup-6.3.exe",
+  "sha256": "ca8569edf3cc539567c95e84b214b9307d48922ccb0c978d573bcff48a8058a0",
   "novita": [
+    {
+      "versione": "6.3",
+      "data": "2026-11-11",
+      "titolo": "Quadra Immobiliare: immobili, richieste, visite, provvigioni e antiriciclaggio per le agenzie",
+      "riassunto": [
+        "Nuovo modulo «Agenzia immobiliare»: immobili con foto, catasto e classe energetica, incarichi con scadenza, richieste dei clienti con abbinamento automatico",
+        "Le visite le vede l'agente sul telefono: segna com'è andata e fa firmare il foglio visita col dito",
+        "Trattative e provvigioni divise tra gli agenti, con la fattura della provvigione già scritta",
+        "Modulo «Antiriciclaggio»: adeguata verifica dei clienti nella trattativa, con la dichiarazione firmata sul telefono dell'agente e il fascicolo PDF"
+      ],
+      "voci": [
+        "Immobili: scheda con dati, dotazioni, classe energetica, dati catastali, proprietario (anche cliente nuovo al volo), agente e incarico (numero, esclusiva, scadenza, provvigione). Foto anche tante insieme (Quadra le riduce), planimetria, ★ per la foto principale, scheda vetrina in PDF.",
+        "Incarichi: elenco dal primo che scade; in Home l'avviso prima della scadenza (giorni a scelta).",
+        "Richieste dei clienti: cosa cerca (vendita o affitto, tipologia, zone, budget, locali, superficie, cosa non deve mancare). Quadra mostra gli immobili adatti con la percentuale, cosa va bene (✓) e cosa manca (✗). «Proponi» con WhatsApp, email o a voce: resta segnato. Quando entra un immobile adatto lo trovi in Home e nella scheda dell'immobile («Clienti che lo cercano»).",
+        "Visite: fissale dall'immobile o dalla richiesta. L'agente (utente «Tecnico / agente» collegato al suo collaboratore) le vede sul telefono in «Visite»: Naviga, chiama, segna l'esito, fissa la seconda visita e fa firmare il foglio visita; il PDF firmato va al cliente per email e resta nella scheda.",
+        "Provvigioni: la trattativa (venditore, acquirente, prezzo, caparra, rogito) calcola le provvigioni in percentuale o a importo fisso, le divide tra gli agenti e crea la fattura in bozza con indirizzo e dati catastali. Lo stato dell'immobile segue la trattativa (in trattativa, venduto o affittato al rogito). Dopo il rogito la Home ricorda le fatture che mancano.",
+        "Antiriciclaggio (modulo a parte): nella trattativa il riquadro «🛡 Antiriciclaggio» con la verifica del venditore e dell'acquirente. Dati del cliente e foto del documento, operazione (scopo, provenienza dei soldi, pagamento), profilo di rischio proposto da Quadra. L'agente sul telefono fa le domande al cliente e gli fa firmare la dichiarazione col dito. Fascicolo PDF da conservare 10 anni (una verifica firmata non si elimina prima), registro delle verifiche, avviso in Home dai 15 giorni prima del rogito.",
+        "Manuale: nuovo capitolo «Agenzia immobiliare», con l'antiriciclaggio."
+      ]
+    },
     {
       "versione": "6.2.2",
       "data": "2026-11-10",
@@ -117,23 +137,6 @@
         "«📲 Invia con WhatsApp» sul telefono: oltre ai PDF puoi spuntare «📷 Le foto del rapportino»; partono insieme, nello stesso messaggio.",
         "Nuovo intervento con «Avvisa i collaboratori con una notifica»: se a qualcuno la notifica non parte, Quadra lo scrive dopo il salvataggio con il motivo (per esempio «non ha attivato le notifiche sul telefono») e come sistemarlo.",
         "Sul telefono le etichette di Arrivo e Partenza tornano come prima: nella 5.9 compariva per errore del testo strano accanto."
-      ]
-    },
-    {
-      "versione": "5.9",
-      "data": "2026-11-08",
-      "titolo": "Niente doppioni, rapportino con WhatsApp dal telefono, orari facoltativi",
-      "riassunto": [
-        "Niente più interventi o email doppie premendo Salva o Invia due volte",
-        "Dal telefono il tecnico manda il rapportino con WhatsApp, e vede sempre i tasti PDF (anche prima di inviare)",
-        "Su ogni intervento scegli se ora di arrivo e di fine sono obbligatorie; sul calendario vedi quanti tecnici ci sono"
-      ],
-      "voci": [
-        "Se premevi «Salva» o «Invia» due volte (doppio clic, oppure un secondo clic perché Quadra o la posta erano lenti a rispondere) Quadra eseguiva tutto due volte: due interventi uguali (con più collaboratori sul calendario li vedevi doppi) e l'email della fattura arrivava due volte al cliente. Ora ogni modulo vale una volta sola: il secondo clic aspetta il primo e ti porta allo stesso risultato, senza rifare niente. Vale in tutto Quadra.",
-        "Telefono del tecnico: i tasti «PDF del rapportino» e «PDF: <modello>» (es. il buono del committente) ci sono sempre, per ogni tecnico dell'intervento. Prima dell'invio sono un'anteprima: il telefono salva quello che hai scritto (senza inviarlo) e apre il PDF, così il cliente lo controlla prima di firmare. Prima comparivano solo dopo l'invio e solo a chi l'aveva inviato. In più la barra in basso non copre più l'ultima parte della pagina.",
-        "Telefono del tecnico: «📲 Invia con WhatsApp» apre il pannello Condividi del telefono con i PDF che spunti: il rapportino personalizzato (es. il buono del committente), quello di Quadra o tutti e due: scegli WhatsApp e il contatto. Prima dell'invio del rapportino salva quello che è stato scritto. L'invio resta in Impostazioni › Invii. Serve il modulo WhatsApp e Quadra aperto sul telefono con l'indirizzo https (Collegamento Cloudflare o accesso da Internet).",
-        "Nuovo intervento: scegli se «Ora di arrivo e di fine nel rapportino del tecnico» sono Facoltative (già selezionato) o Obbligatorie. Se sono facoltative il tecnico può inviare il rapportino anche senza orari. Gli interventi creati prima restano con gli orari obbligatori; puoi cambiarlo dalla scheda.",
-        "Numero di tecnici: nell'intervento il campo «Numero di tecnici» si compila da solo con i collaboratori spuntati e lo puoi cambiare a mano se sul lavoro ne vanno di più o di meno. Calendario, scheda e telefono mostrano quanti sono (es. «👷 3 tecnici»)."
       ]
     }
   ]
