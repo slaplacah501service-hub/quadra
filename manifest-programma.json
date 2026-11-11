@@ -1,8 +1,29 @@
 {
-  "versione": "6.4",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.4/Quadra-Setup-6.4.exe",
-  "sha256": "a7cdda4720fe4d28d416ceaff7ceb8d51498f4fbd9532414e70c0bf1a7490156",
+  "versione": "6.4.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.4.1/Quadra-Setup-6.4.1.exe",
+  "sha256": "754e59d7710b4acded8937f719c6a289117a23df4662c6af16d726ed5f6348a5",
   "novita": [
+    {
+      "versione": "6.4.1",
+      "data": "2026-11-11",
+      "titolo": "Rapportini: email al committente dal telefono, numero di tecnici nei modelli, giorno passato e committente di default",
+      "riassunto": [
+        "Rapportino al committente («per conto di») per email, dal telefono e dalla scheda in ufficio; colonna Committente nell'elenco interventi",
+        "Nei modelli di rapportino il numero di operatori segue quello scritto con − / +, e a scelta le ore si moltiplicano per i tecnici",
+        "Nuovo rapportino dal telefono: si sceglie il giorno del lavoro, anche passato",
+        "Committente di default: il «Per conto di» è già compilato sui lavori nuovi"
+      ],
+      "voci": [
+        "Telefono, maschera del rapportino: sotto la firma c'è «Con «Invia il rapportino» mandalo anche per email a» con Cliente e, per i lavori per conto di, Committente (già spuntato se ha l'email). Partono il rapportino di Quadra e i modelli dell'intervento; l'esito resta in «Documenti».",
+        "Scheda dell'intervento in ufficio: per i lavori per conto di, accanto a «Invia il rapportino al cliente» c'è «Invia il rapportino al committente» (rapportino di Quadra e modelli dell'intervento).",
+        "Interventi › Elenco: nuova colonna «Committente», filtro «Per conto di …» / «Solo clienti diretti» e ricerca anche per committente.",
+        "Modelli di rapportino: «Numero operatori» e «Numero operatori del giorno» ignoravano il numero di tecnici cambiato con − / + o nella scheda dell'intervento. Ora lo usano.",
+        "Interventi › Impostazioni › «Ore nei modelli di rapportino»: «Solo le ore dei rapportini fatti» (di serie) oppure «Ore × numero di tecnici», per quando sul lavoro ci sono più tecnici ma il rapportino l'ha fatto uno solo.",
+        "Telefono, «＋ Nuovo rapportino»: nuovo campo «Giorno del lavoro». Parte dal giorno che stai guardando nell'agenda e si può mettere un giorno passato (prima prendeva sempre oggi). Per un giorno passato l'ora di arrivo la scrivi tu.",
+        "Interventi › Impostazioni › «Committente di default»: scegli l'azienda per cui lavori di solito e dove proporla (nuovi interventi dell'ufficio, nuovi rapportini dal telefono). Il campo «Per conto di» è già compilato e si toglie con un tocco. Vale solo per i lavori nuovi.",
+        "Manuale: paragrafi «Nuovo rapportino dal telefono» e «Modelli di rapportino» aggiornati."
+      ]
+    },
     {
       "versione": "6.4",
       "data": "2026-11-11",
@@ -138,17 +159,6 @@
         "Se il servizio licenze è impostato, la licenza nuova viene mandata al PC del cliente, che la attiva da solo.",
         "Licenze in giro: una licenza modificata non appare più «In consegna» se il PC del cliente lavora ancora con la precedente: ne vedi lo stato vero con la nota «lavora ancora con la licenza precedente».",
         "Quadra controlla la licenza ogni ora invece che una volta al giorno: una licenza nuova arriva entro un'ora con il PC acceso."
-      ]
-    },
-    {
-      "versione": "6.0.2",
-      "data": "2026-11-08",
-      "titolo": "WhatsApp da Android: tutto in un unico PDF",
-      "riassunto": [
-        "Da telefono Android «Invia con WhatsApp» unisce rapportini e foto scelti in un unico PDF e lo manda con un solo tocco"
-      ],
-      "voci": [
-        "Telefono Android: con più di un allegato WhatsApp rispondeva «non puoi inviare un messaggio vuoto», perché su Android accetta un solo file per volta da una pagina web. Ora spunti una volta sola quello che vuoi mandare e Quadra unisce tutto in un unico PDF (i rapportini uno dopo l'altro, poi una pagina per ogni foto): parte con un solo tocco. Se un solo file è spuntato parte quello. Su iPhone non cambia niente: partono i file distinti."
       ]
     }
   ]
