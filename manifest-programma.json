@@ -1,8 +1,23 @@
 {
-  "versione": "7.0.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.0.1/Quadra-Setup-7.0.1.exe",
-  "sha256": "c4d373f7722b0ec67dba36e636bd717ba68e4f1390b37d520913d864ab2583db",
+  "versione": "7.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.1/Quadra-Setup-7.1.exe",
+  "sha256": "c7cd2f8e0eff8573d98bad5b8dc4f44cfe9bd3e4761f6ac8f0a658dba043a592",
   "novita": [
+    {
+      "versione": "7.1",
+      "data": "2026-11-12",
+      "titolo": "Nuovo logo dappertutto e versione di prova più chiara",
+      "riassunto": [
+        "Il nuovo nome e il logo di QuadraGest compaiono subito dopo l'aggiornamento: la finestra non tiene più il logo vecchio",
+        "Chi usa QuadraGest senza licenza ha una prova di 7 giorni con tutte le funzioni, e un avviso chiaro prima che finisca"
+      ],
+      "voci": [
+        "Dopo l'aggiornamento alla 7.0 alcuni PC mostravano ancora il logo vecchio con il nome Quadra (era rimasto in memoria nella finestra). Ora logo e icone si ricaricano da soli a ogni versione.",
+        "Senza licenza la prova dura 7 giorni con tutti i moduli. L'invio allo SdI si prova nell'Azienda di Test, dove è simulato; i PDF portano la scritta «Copia di prova».",
+        "Negli ultimi 2 giorni l'avviso in alto diventa rosso e dice chi contattare per la licenza. Finita la prova i dati restano tutti consultabili, e con la licenza si riprende da dove eri.",
+        "Con la licenza attiva non cambia niente."
+      ]
+    },
     {
       "versione": "7.0.1",
       "data": "2026-11-12",
@@ -162,25 +177,6 @@
         "Con Quadra Immobiliare nel calendario dell'agente ci sono anche le sue visite",
         "A senso unico: quello che si cambia nel calendario del telefono non torna in Quadra. Serve l'accesso da Internet (Cloudflare o diretto)",
         "Manuale: nuovo paragrafo «Calendario su Google e iCloud»."
-      ]
-    },
-    {
-      "versione": "6.3.1",
-      "data": "2026-11-11",
-      "titolo": "Backup e ripristino: passare a un nuovo PC senza sorprese",
-      "riassunto": [
-        "«Ripristina da un file»: il backup lo prendi da dove vuoi (chiavetta, NAS, PC vecchio)",
-        "I backup copiati da un altro PC non vengono più cancellati; dentro ci sono anche XML, ricevute SdI e logo",
-        "Nella procedura guidata c'è «Ripristina un backup» per chi passa a un nuovo PC"
-      ],
-      "voci": [
-        "Backup: «Ripristina da un file» prende il backup da qualunque posto (chiavetta, NAS, cartella del PC vecchio) e non modifica il file scelto",
-        "Backup: Quadra cancella solo i backup fatti da lui su questo PC; quelli copiati da un altro PC hanno l'etichetta «copiato» e restano",
-        "Backup: dentro ci sono anche gli XML delle fatture emesse e le ricevute dello SdI; al ripristino tornano anche il logo e questi file",
-        "Ripristino: prima di toccare l'archivio Quadra controlla che il file sia davvero un suo backup e non sia danneggiato",
-        "Nuovo PC: nella procedura guidata c'è «Ripristina un backup», e dopo il ripristino Quadra dice cosa fare per la licenza e se la cartella dei backup del PC vecchio non c'è",
-        "Backup: avviso se la cartella dei backup è sullo stesso disco del programma",
-        "Manuale: paragrafo «Backup» aggiornato e nuovo paragrafo «Passare a un nuovo PC»."
       ]
     }
   ],
