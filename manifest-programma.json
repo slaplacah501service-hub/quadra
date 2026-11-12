@@ -1,8 +1,27 @@
 {
-  "versione": "6.7",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.7/Quadra-Setup-6.7.exe",
-  "sha256": "696257f775cf8ca52e1c02292b63018e24234bda017b444bd96539e3aceb03db",
+  "versione": "6.8",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.8/Quadra-Setup-6.8.exe",
+  "sha256": "2eed459feab7e424d8b53e98c93eb1f4821314831c32cebe0eb6b489902c6289",
   "novita": [
+    {
+      "versione": "6.8",
+      "data": "2026-11-12",
+      "titolo": "Modelli di documento dell'agenzia e visite giorno per giorno sul telefono",
+      "riassunto": [
+        "Modelli di documento: incolla da Word proposte, incarichi e ricevute, Quadra li riempie con i dati",
+        "PDF da stampare con le firme di venditore, acquirente e agenzia, oppure firma sul tablet o sul telefono",
+        "Riquadro «📄 Documenti» nella trattativa, nella visita e nella scheda dell'immobile",
+        "Telefono dell'agente: visite giorno per giorno con la settimana, le frecce e lo scorrimento col dito"
+      ],
+      "voci": [
+        "Agenzia › Modelli di documento: testo incollato da Word (grassetti, elenchi, tabelle e allineamenti restano) o scritto nella pagina; «＋ Inserisci dato» mette i dati di venditore, acquirente, cliente, immobile e catasto, incarico, trattativa (prezzo e caparra anche in lettere), agenzia e agente.",
+        "Ogni modello compare nella trattativa (anche solo con certi stati), nella visita o nell'immobile; firme in fondo a scelta, luogo e data, sigle su ogni pagina, riquadro per le clausole vessatorie, logo dell'agenzia o spazio per la carta intestata. «👁 Prova il PDF» con i dati dell'ultima trattativa.",
+        "Riquadro «📄 Documenti»: crea il documento, i dati che mancano sono in giallo e si scrivono a mano, il testo si corregge solo per quel documento, PDF, firme sul tablet o sullo schermo touch, copia firmata su carta allegata, invio per email.",
+        "Telefono dell'agente: nella visita il riquadro «📄 Documenti» per creare e far firmare col dito i documenti delle visite.",
+        "Telefono dell'agente: «Visite» ora va giorno per giorno come l'agenda dei tecnici: settimana con i pallini, frecce, scorrimento col dito, visite passate con l'esito; «＋ Nuova visita» propone il giorno scelto.",
+        "Manuale: nuovo paragrafo «Modelli di documento» nel capitolo dell'agenzia."
+      ]
+    },
     {
       "versione": "6.7",
       "data": "2026-11-12",
@@ -165,20 +184,6 @@
         "Interventi › 💶 Quota interventi: scegli il mese (con ‹ › o dall'elenco) e, se vuoi, il committente («per conto di»), il cliente e quali interventi vedere (con rapportino inviato, solo da quotare, tutti). Per ogni intervento vedi data, cliente, indirizzo e cosa è stato fatto (dal rapportino del tecnico).",
         "Nell'ultima colonna scrivi la quotazione: si salva da sola uscendo dal campo e resta sull'intervento; c'è anche «Salva le quotazioni». Le righe senza quotazione sono evidenziate «da quotare»; in fondo il totale del mese.",
         "«📄 PDF» prepara il prospetto del mese con i filtri scelti (importi IVA esclusa). «📲 Invia con WhatsApp» apre il pannello Condividi di Windows con il PDF (o «Copia e apri WhatsApp»); dal telefono apre la condivisione del telefono. Serve il modulo WhatsApp."
-      ]
-    },
-    {
-      "versione": "6.1.1",
-      "data": "2026-11-10",
-      "titolo": "Rapportino: scegli tu se mandarlo al cliente e/o al committente; orari facoltativi",
-      "riassunto": [
-        "Nella scheda dell'intervento spunti a chi mandare ogni rapportino: cliente, committente («per conto di») o tutti e due",
-        "Ora di arrivo e di fine del rapportino: facoltative di serie, le rendi obbligatorie in Interventi › Impostazioni"
-      ],
-      "voci": [
-        "Interventi per conto di un committente: il rapportino di Quadra non partiva mai verso il committente. Ora nel riquadro «Documenti» della scheda dell'intervento, accanto a ogni documento (rapportino di Quadra e modelli), spunti «Cliente» e/o «Committente» e premi Invia.",
-        "In Interventi › Modelli rapportino ci sono due spunte, «Alla firma mandalo da solo al cliente» e «… al committente». Sulle installazioni nuove sono spente: decide l'operatore. Chi aveva già attivo l'invio automatico al cliente lo ritrova com'era. Anche nei modelli nuovi gli invii automatici partono spenti.",
-        "Interventi › Impostazioni ha la nuova scelta «Ora di arrivo e di fine nel rapportino»: Facoltative (di serie) oppure Obbligatorie. Vale per gli interventi nuovi, anche quelli creati dal tecnico sul telefono, e per quelli ancora da fare quando salvi. Sul singolo intervento la cambi sempre dalla sua scheda. Con questo aggiornamento gli interventi ancora da fare diventano con orari facoltativi."
       ]
     }
   ]
