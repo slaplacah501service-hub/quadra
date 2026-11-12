@@ -1,8 +1,21 @@
 {
-  "versione": "6.9",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.9/Quadra-Setup-6.9.exe",
-  "sha256": "ed480048156f49e7207237e7411197cdc52f2e0426cf456548339ef0e1aceac5",
+  "versione": "6.9.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.9.1/Quadra-Setup-6.9.1.exe",
+  "sha256": "c0c14b4f35e9ecefbd7097f6900d07e515e1a65d403049e5825761f75dcd4e6a",
   "novita": [
+    {
+      "versione": "6.9.1",
+      "data": "2026-11-12",
+      "titolo": "Notifiche sul telefono per chi entra anche come tecnico",
+      "riassunto": [
+        "Le notifiche arrivano anche all'amministratore che lavora come tecnico, e a chi usa un telefono già usato da un collega"
+      ],
+      "voci": [
+        "Un telefono riceve le notifiche di un solo utente: adesso è sempre quello che ha aperto Quadra per ultimo. Prima restavano al primo utente che le aveva attivate, anche se poi entrava un altro (per esempio l'amministratore in modalità tecnico)",
+        "Nella pagina «Io» lo stato «✓ Attive» viene controllato con il PC principale, non solo sul telefono; se il telefono riceveva per un altro utente lo dice",
+        "Anche la pagina delle visite (agenti) tiene il telefono collegato all'utente giusto"
+      ]
+    },
     {
       "versione": "6.9",
       "data": "2026-11-12",
@@ -175,17 +188,6 @@
         "Telefono del tecnico, in fondo al rapportino sotto «Invia con WhatsApp»: «✅ Chiudi intervento». Nella finestra di conferma spunti se mandare il rapportino per email al cliente e/o al committente (senza spunte non parte nessuna email). Poi invia il rapportino all'ufficio (se non è ancora partito), chiude l'intervento e torna all'agenda. In ufficio risulta concluso; se l'intervento si ripete il prossimo è già in calendario.",
         "Scheda dell'intervento in ufficio, riquadro «E adesso?»: «✅ Chiudi intervento» al posto di «Segna come visto», con la stessa scelta delle email. Si può chiudere anche un intervento senza rapportino. L'esito delle email è nel riquadro «Documenti».",
         "«Riapri»: l'amministratore può riaprire sempre un intervento chiuso, anche se è già in fattura (la fattura resta com'è)."
-      ]
-    },
-    {
-      "versione": "6.2.1",
-      "data": "2026-11-10",
-      "titolo": "Quota interventi: il PDF si apre nel lettore PDF",
-      "riassunto": [
-        "Quota interventi: «PDF» apre il prospetto nel lettore PDF del PC e Quadra resta sulla pagina"
-      ],
-      "voci": [
-        "Quota interventi, tasto «📄 PDF»: nella finestra di Quadra il prospetto si apriva dentro Quadra, senza modo di tornare indietro (chiudendo con la X si chiudeva il programma). Ora si apre nel lettore PDF del PC, come il PDF del rapportino, e Quadra resta sulla pagina Quota interventi."
       ]
     }
   ],
