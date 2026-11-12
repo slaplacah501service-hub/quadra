@@ -1,9 +1,23 @@
 {
-  "versione": "6.8",
-  "licenze": "https://quadra-licenze.s-laplacah501service.workers.dev",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.8/Quadra-Setup-6.8.exe",
-  "sha256": "2eed459feab7e424d8b53e98c93eb1f4821314831c32cebe0eb6b489902c6289",
+  "versione": "6.9",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.9/Quadra-Setup-6.9.exe",
+  "sha256": "ed480048156f49e7207237e7411197cdc52f2e0426cf456548339ef0e1aceac5",
   "novita": [
+    {
+      "versione": "6.9",
+      "data": "2026-11-12",
+      "titolo": "App Quadra per Android e Quadra sull'iPhone",
+      "riassunto": [
+        "App Quadra per i telefoni Android: si apre a tutto schermo, resta collegata, riceve le notifiche e si aggiorna da sola",
+        "Utenti e rete › «Quadra per Android e iPhone»: scarica l'app, codice QR per installarla e collegarla, invio del link per email",
+        "iPhone: la stessa pagina spiega come aggiungere Quadra alla schermata Home, con le notifiche"
+      ],
+      "voci": [
+        "L'app Android si scarica da Utenti e rete o dalla pagina che si apre inquadrando il codice QR; «Collega l'app a questo Quadra» la collega senza scrivere l'indirizzo. Si può anche scrivere l'indirizzo a mano alla prima apertura.",
+        "L'app usa Chrome del telefono: le notifiche dei tecnici e degli agenti, l'accesso ricordato e i PDF funzionano come prima. Senza barra degli indirizzi con l'accesso da Internet (https); con l'indirizzo dell'ufficio funziona solo sul Wi-Fi dell'ufficio.",
+        "Quando esce una versione nuova dell'app, all'apertura compare «Aggiornamento disponibile»: si tocca Aggiorna e Android la installa sopra quella vecchia (la prima volta chiede il permesso)."
+      ]
+    },
     {
       "versione": "6.8",
       "data": "2026-11-12",
@@ -173,19 +187,7 @@
       "voci": [
         "Quota interventi, tasto «📄 PDF»: nella finestra di Quadra il prospetto si apriva dentro Quadra, senza modo di tornare indietro (chiudendo con la X si chiudeva il programma). Ora si apre nel lettore PDF del PC, come il PDF del rapportino, e Quadra resta sulla pagina Quota interventi."
       ]
-    },
-    {
-      "versione": "6.2",
-      "data": "2026-11-10",
-      "titolo": "Quota interventi: le quotazioni del mese, in PDF e con WhatsApp",
-      "riassunto": [
-        "Nuovo tasto «Quota interventi» negli Interventi: gli interventi del mese con la quotazione da scrivere, il totale, il PDF e l'invio con WhatsApp"
-      ],
-      "voci": [
-        "Interventi › 💶 Quota interventi: scegli il mese (con ‹ › o dall'elenco) e, se vuoi, il committente («per conto di»), il cliente e quali interventi vedere (con rapportino inviato, solo da quotare, tutti). Per ogni intervento vedi data, cliente, indirizzo e cosa è stato fatto (dal rapportino del tecnico).",
-        "Nell'ultima colonna scrivi la quotazione: si salva da sola uscendo dal campo e resta sull'intervento; c'è anche «Salva le quotazioni». Le righe senza quotazione sono evidenziate «da quotare»; in fondo il totale del mese.",
-        "«📄 PDF» prepara il prospetto del mese con i filtri scelti (importi IVA esclusa). «📲 Invia con WhatsApp» apre il pannello Condividi di Windows con il PDF (o «Copia e apri WhatsApp»); dal telefono apre la condivisione del telefono. Serve il modulo WhatsApp."
-      ]
     }
-  ]
+  ],
+  "licenze": "https://quadra-licenze.s-laplacah501service.workers.dev"
 }
