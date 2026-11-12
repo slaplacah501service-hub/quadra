@@ -1,8 +1,28 @@
 {
-  "versione": "6.5",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.5/Quadra-Setup-6.5.exe",
-  "sha256": "aaad39d9f049b969999301f3ef4015b65d3ab836adb06955ac39e533424214c0",
+  "versione": "6.6",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.6/Quadra-Setup-6.6.exe",
+  "sha256": "b9af5dc32ffb4303f2378ea8c7d16de418789c83d9ee74293e6b7be91a4e311f",
   "novita": [
+    {
+      "versione": "6.6",
+      "data": "2026-11-12",
+      "titolo": "Fatturare con le spunte: interventi quotati e preventivi, anche in acconti e saldo; l'ufficio corregge i rapportini",
+      "riassunto": [
+        "Quota interventi: spunti gli interventi quotati e li fatturi, una fattura per committente, a corpo o con il materiale",
+        "Preventivi: spunti quelli da fatturare, una fattura per preventivo o una per cliente",
+        "Da 1 a 6 fatture (acconti e saldo) con la stessa logica dei preventivi",
+        "Gli amministratori correggono il rapportino del tecnico dal PC, con lo storico delle correzioni"
+      ],
+      "voci": [
+        "Interventi › Quota interventi: nuova colonna di spunte e tasto «🧾 Fattura gli interventi spuntati». Una fattura per committente (lavori diretti: per cliente), una riga per intervento al prezzo della quotazione; a scelta si aggiunge il materiale dei rapportini ai prezzi del listino.",
+        "Interventi › Impostazioni › Fatturare la quotazione: scegli se di serie la quotazione è a corpo o con il materiale.",
+        "Scheda dell'intervento quotato: «Crea la fattura» chiede se fatturare con la quotazione o con ore e materiali.",
+        "Preventivi: spunta i preventivi e premi «🧾 Fattura»: una fattura per preventivo o, per lo stesso cliente, una sola con i riferimenti nella causale.",
+        "Acconti e saldo da 1 a 6 fatture anche per interventi e preventivi spuntati; quelle con data futura restano programmate, senza numero.",
+        "Scheda dell'intervento: «✏️ Correggi il rapportino» (solo amministratori, finché l'intervento non è in fattura) per orari, pausa, km, lavoro e materiale, con il motivo; resta «Corretto dall'ufficio da … il …» e il PDF lo segnala.",
+        "Quota interventi: nei lavori diretti la colonna «per conto di» non resta più vuota."
+      ]
+    },
     {
       "versione": "6.5",
       "data": "2026-11-11",
@@ -147,20 +167,6 @@
       "voci": [
         "Impostazioni › Utenti e rete ha una nuova sezione «Quadra per PC e Mac» con i pulsanti «Scarica per Windows» e «Scarica per Mac»: scaricano subito il programma, da installare sugli altri PC dell'ufficio.",
         "La sezione è sempre visibile, anche con l'accesso dalla rete spento: puoi scaricare il file sul PC principale e copiarlo sugli altri con una chiavetta."
-      ]
-    },
-    {
-      "versione": "6.0.3",
-      "data": "2026-11-09",
-      "titolo": "Licenze: la nuova sostituisce la vecchia",
-      "riassunto": [
-        "Licenze clienti: una licenza nuova per lo stesso PC prende il posto della vecchia nell'elenco e arriva al cliente da sola"
-      ],
-      "voci": [
-        "Licenze clienti: quando crei una licenza nuova per un PC che ne ha già una, la nuova prende il posto della vecchia nell'elenco «Licenze emesse». Le licenze sostituite restano nello «Storico di questo PC» nella scheda della licenza.",
-        "Se il servizio licenze è impostato, la licenza nuova viene mandata al PC del cliente, che la attiva da solo.",
-        "Licenze in giro: una licenza modificata non appare più «In consegna» se il PC del cliente lavora ancora con la precedente: ne vedi lo stato vero con la nota «lavora ancora con la licenza precedente».",
-        "Quadra controlla la licenza ogni ora invece che una volta al giorno: una licenza nuova arriva entro un'ora con il PC acceso."
       ]
     }
   ]
