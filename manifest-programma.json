@@ -1,8 +1,32 @@
 {
-  "versione": "6.6",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.6/Quadra-Setup-6.6.exe",
-  "sha256": "b9af5dc32ffb4303f2378ea8c7d16de418789c83d9ee74293e6b7be91a4e311f",
+  "versione": "6.7",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.7/Quadra-Setup-6.7.exe",
+  "sha256": "696257f775cf8ca52e1c02292b63018e24234bda017b444bd96539e3aceb03db",
   "novita": [
+    {
+      "versione": "6.7",
+      "data": "2026-11-12",
+      "titolo": "Tecnici e agenti, calendario e notifiche delle visite, appuntamenti per email in ogni calendario",
+      "riassunto": [
+        "Nel collaboratore «Lavora come»: tecnico, agente immobiliare o tutti e due; sul telefono ognuno vede solo il suo",
+        "Visite: calendario per agente (giorno, settimana, mese) con il trascinamento, come gli interventi",
+        "Notifiche delle visite sul telefono degli agenti: nuova, spostata, annullata, promemoria",
+        "Appuntamenti per email ai collaboratori e, a scelta, ai clienti: vanno in Gmail, iCloud, Outlook, Aruba…"
+      ],
+      "voci": [
+        "Anagrafiche › Collaboratori: nuovo campo «Lavora come» (Tecnico, Agente immobiliare, Tecnico e agente). Ai collaboratori che c'erano già lo mette Quadra guardando cosa hanno fatto.",
+        "Telefono: il tecnico vede Agenda e Oggi, l'agente Visite e Immobili, chi fa tutte e due le cose vede tutto.",
+        "In ufficio negli interventi si scelgono solo i tecnici, nelle visite solo gli agenti.",
+        "Visite: la pagina è un calendario con una riga per agente e «Da assegnare»; trascina per cambiare giorno o agente, clic su uno spazio vuoto per fissare una visita. L'elenco di prima è in «Elenco».",
+        "Visite › Impostazioni: notifiche agli agenti (nuova visita, spostata o annullata, promemoria del mattino, a scelta un'ora prima) e telefoni collegati con «Manda una prova».",
+        "Appuntamenti per email: in Interventi › Impostazioni e Visite › Impostazioni si accendono per i collaboratori spuntati. Partono l'invito, gli aggiornamenti e l'annullamento, con l'allegato che ogni calendario riconosce.",
+        "Sull'intervento e sulla visita: «📅 Manda l'appuntamento per email al cliente».",
+        "Trattativa: il campo «Prezzo offerto dal cliente» parte dal prezzo richiesto; scrivi l'offerta e provvigioni, IVA, totale e quote degli agenti si ricalcolano subito, anche nella trattativa nuova aperta da «Proposta d'acquisto».",
+        "Agenzia: la voce del menu «Provvigioni» ora si chiama «Trattative» (la pagina è «Trattative e provvigioni»).",
+        "Desktop: «Foglio visita PDF» e «Scheda vetrina PDF» aprono solo il PDF, senza una seconda finestra di Quadra.",
+        "Manuale: paragrafi «Collaboratori», «Visite» e il nuovo «Appuntamenti per email»."
+      ]
+    },
     {
       "versione": "6.6",
       "data": "2026-11-12",
@@ -155,18 +179,6 @@
         "Interventi per conto di un committente: il rapportino di Quadra non partiva mai verso il committente. Ora nel riquadro «Documenti» della scheda dell'intervento, accanto a ogni documento (rapportino di Quadra e modelli), spunti «Cliente» e/o «Committente» e premi Invia.",
         "In Interventi › Modelli rapportino ci sono due spunte, «Alla firma mandalo da solo al cliente» e «… al committente». Sulle installazioni nuove sono spente: decide l'operatore. Chi aveva già attivo l'invio automatico al cliente lo ritrova com'era. Anche nei modelli nuovi gli invii automatici partono spenti.",
         "Interventi › Impostazioni ha la nuova scelta «Ora di arrivo e di fine nel rapportino»: Facoltative (di serie) oppure Obbligatorie. Vale per gli interventi nuovi, anche quelli creati dal tecnico sul telefono, e per quelli ancora da fare quando salvi. Sul singolo intervento la cambi sempre dalla sua scheda. Con questo aggiornamento gli interventi ancora da fare diventano con orari facoltativi."
-      ]
-    },
-    {
-      "versione": "6.1",
-      "data": "2026-11-09",
-      "titolo": "Scarica Quadra per PC e Mac da Utenti e rete",
-      "riassunto": [
-        "In Utenti e rete ci sono i pulsanti «Scarica per Windows» e «Scarica per Mac» per installare Quadra sugli altri PC"
-      ],
-      "voci": [
-        "Impostazioni › Utenti e rete ha una nuova sezione «Quadra per PC e Mac» con i pulsanti «Scarica per Windows» e «Scarica per Mac»: scaricano subito il programma, da installare sugli altri PC dell'ufficio.",
-        "La sezione è sempre visibile, anche con l'accesso dalla rete spento: puoi scaricare il file sul PC principale e copiarlo sugli altri con una chiavetta."
       ]
     }
   ]
