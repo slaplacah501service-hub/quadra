@@ -1,8 +1,23 @@
 {
-  "versione": "6.9.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v6.9.1/Quadra-Setup-6.9.1.exe",
-  "sha256": "c0c14b4f35e9ecefbd7097f6900d07e515e1a65d403049e5825761f75dcd4e6a",
+  "versione": "7.0",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.0/Quadra-Setup-7.0.exe",
+  "sha256": "a5816e0587451bc1497fc1fa51bb29e2adae0bb823d0cb43b9f4d8005bbe4a0c",
   "novita": [
+    {
+      "versione": "7.0",
+      "data": "2026-11-12",
+      "titolo": "Quadra diventa QuadraGest: nuovo nome, nuovo logo e nuovi colori",
+      "riassunto": [
+        "Il programma si chiama QuadraGest, con il nuovo logo (la Q con il quadratino oro) e i colori bordeaux e oro",
+        "Dati, licenza, utenti, backup e collegamenti restano tutti dove sono: non devi fare niente"
+      ],
+      "voci": [
+        "Nuovo logo in alto, nella pagina di accesso, sul telefono, nelle icone di Windows (desktop e menu Start) e nel manuale. L'icona «Quadra» sul desktop diventa «QuadraGest».",
+        "Colori bordeaux e oro. Se in Impostazioni › Personalizza avevi scelto un altro colore, resta il tuo.",
+        "Archivio, licenza, backup, cartelle dei PDF, accesso dai telefoni, Collegamento Cloudflare e API funzionano come prima: cambia solo il nome che si vede.",
+        "Manuale: ora si chiama «Manuale di QuadraGest»."
+      ]
+    },
     {
       "versione": "6.9.1",
       "data": "2026-11-12",
@@ -174,20 +189,6 @@
         "Provvigioni: la trattativa (venditore, acquirente, prezzo, caparra, rogito) calcola le provvigioni in percentuale o a importo fisso, le divide tra gli agenti e crea la fattura in bozza con indirizzo e dati catastali. Lo stato dell'immobile segue la trattativa (in trattativa, venduto o affittato al rogito). Dopo il rogito la Home ricorda le fatture che mancano.",
         "Antiriciclaggio (modulo a parte): nella trattativa il riquadro «🛡 Antiriciclaggio» con la verifica del venditore e dell'acquirente. Dati del cliente e foto del documento, operazione (scopo, provenienza dei soldi, pagamento), profilo di rischio proposto da Quadra. L'agente sul telefono fa le domande al cliente e gli fa firmare la dichiarazione col dito. Fascicolo PDF da conservare 10 anni (una verifica firmata non si elimina prima), registro delle verifiche, avviso in Home dai 15 giorni prima del rogito.",
         "Manuale: nuovo capitolo «Agenzia immobiliare», con l'antiriciclaggio."
-      ]
-    },
-    {
-      "versione": "6.2.2",
-      "data": "2026-11-10",
-      "titolo": "Tasto «Chiudi intervento» sul telefono e in ufficio",
-      "riassunto": [
-        "Sul telefono e nella scheda dell'intervento c'è «✅ Chiudi intervento»: scegli se mandare il rapportino per email al cliente e/o al committente",
-        "L'amministratore può sempre riaprire un intervento chiuso, anche se è già in fattura"
-      ],
-      "voci": [
-        "Telefono del tecnico, in fondo al rapportino sotto «Invia con WhatsApp»: «✅ Chiudi intervento». Nella finestra di conferma spunti se mandare il rapportino per email al cliente e/o al committente (senza spunte non parte nessuna email). Poi invia il rapportino all'ufficio (se non è ancora partito), chiude l'intervento e torna all'agenda. In ufficio risulta concluso; se l'intervento si ripete il prossimo è già in calendario.",
-        "Scheda dell'intervento in ufficio, riquadro «E adesso?»: «✅ Chiudi intervento» al posto di «Segna come visto», con la stessa scelta delle email. Si può chiudere anche un intervento senza rapportino. L'esito delle email è nel riquadro «Documenti».",
-        "«Riapri»: l'amministratore può riaprire sempre un intervento chiuso, anche se è già in fattura (la fattura resta com'è)."
       ]
     }
   ],
