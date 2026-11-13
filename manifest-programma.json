@@ -1,8 +1,21 @@
 {
-  "versione": "7.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.3/Quadra-Setup-7.3.exe",
-  "sha256": "6d4056ff90b8dbcb45e2c07db038adc566be617bf37bde72afe81c301bc16b45",
+  "versione": "7.3.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.3.1/Quadra-Setup-7.3.1.exe",
+  "sha256": "baf94d6adbf4fc27355a5be9173ab110e71190d6f5adbfcf44d25094610f3019",
   "novita": [
+    {
+      "versione": "7.3.1",
+      "data": "2026-11-13",
+      "titolo": "Presenze: pausa spuntata all'uscita",
+      "riassunto": [
+        "All'uscita la pausa di 1 ora è già spuntata: si cambiano i minuti o si toglie la spunta"
+      ],
+      "voci": [
+        "Telefono: sopra «Uscita» compare «Ho fatto la pausa di 60 minuti», già spuntato; i minuti si tolgono dalle ore del giorno. Non compare se il dipendente ha già usato Inizio e Fine pausa. Anche nell'uscita dimenticata del giorno prima.",
+        "Ufficio: nel giorno di un dipendente ogni orario ha i minuti di pausa, e l'orario aggiunto a mano ha la pausa già spuntata.",
+        "Impostazioni presenze: «Pausa proposta all'uscita» (di serie 60 minuti, 0 per non proporla)."
+      ]
+    },
     {
       "versione": "7.3",
       "data": "2026-11-13",
@@ -152,26 +165,6 @@
         "Agenzia: la voce del menu «Provvigioni» ora si chiama «Trattative» (la pagina è «Trattative e provvigioni»).",
         "Desktop: «Foglio visita PDF» e «Scheda vetrina PDF» aprono solo il PDF, senza una seconda finestra di Quadra.",
         "Manuale: paragrafi «Collaboratori», «Visite» e il nuovo «Appuntamenti per email»."
-      ]
-    },
-    {
-      "versione": "6.6",
-      "data": "2026-11-12",
-      "titolo": "Fatturare con le spunte: interventi quotati e preventivi, anche in acconti e saldo; l'ufficio corregge i rapportini",
-      "riassunto": [
-        "Quota interventi: spunti gli interventi quotati e li fatturi, una fattura per committente, a corpo o con il materiale",
-        "Preventivi: spunti quelli da fatturare, una fattura per preventivo o una per cliente",
-        "Da 1 a 6 fatture (acconti e saldo) con la stessa logica dei preventivi",
-        "Gli amministratori correggono il rapportino del tecnico dal PC, con lo storico delle correzioni"
-      ],
-      "voci": [
-        "Interventi › Quota interventi: nuova colonna di spunte e tasto «🧾 Fattura gli interventi spuntati». Una fattura per committente (lavori diretti: per cliente), una riga per intervento al prezzo della quotazione; a scelta si aggiunge il materiale dei rapportini ai prezzi del listino.",
-        "Interventi › Impostazioni › Fatturare la quotazione: scegli se di serie la quotazione è a corpo o con il materiale.",
-        "Scheda dell'intervento quotato: «Crea la fattura» chiede se fatturare con la quotazione o con ore e materiali.",
-        "Preventivi: spunta i preventivi e premi «🧾 Fattura»: una fattura per preventivo o, per lo stesso cliente, una sola con i riferimenti nella causale.",
-        "Acconti e saldo da 1 a 6 fatture anche per interventi e preventivi spuntati; quelle con data futura restano programmate, senza numero.",
-        "Scheda dell'intervento: «✏️ Correggi il rapportino» (solo amministratori, finché l'intervento non è in fattura) per orari, pausa, km, lavoro e materiale, con il motivo; resta «Corretto dall'ufficio da … il …» e il PDF lo segnala.",
-        "Quota interventi: nei lavori diretti la colonna «per conto di» non resta più vuota."
       ]
     }
   ],
