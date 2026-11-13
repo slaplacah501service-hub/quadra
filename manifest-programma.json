@@ -1,8 +1,27 @@
 {
-  "versione": "7.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.2/Quadra-Setup-7.2.exe",
-  "sha256": "c0c82b72a3abfb5d14ddfd0fc8d5e044120d74961b5eccfe65d1899cb803bba3",
+  "versione": "7.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.3/Quadra-Setup-7.3.exe",
+  "sha256": "6d4056ff90b8dbcb45e2c07db038adc566be617bf37bde72afe81c301bc16b45",
   "novita": [
+    {
+      "versione": "7.3",
+      "data": "2026-11-13",
+      "titolo": "Presenze e note spese, menu Interventi a tendina",
+      "riassunto": [
+        "Nuovo modulo Presenze e note spese: entrata, pausa e uscita dal telefono, ferie e permessi approvati in ufficio, foglio del mese per il consulente e note spese con la foto dello scontrino",
+        "Il menu Interventi è a tendina, come Magazzino e Agenzia"
+      ],
+      "voci": [
+        "Sul telefono la scheda «Presenze»: Entrata, Inizio e Fine pausa, Uscita. Se il giorno prima l'uscita è stata dimenticata, la chiede subito. Le ore in cantiere contano già come presenza.",
+        "Ferie, permessi (in ore), malattia e altre assenze si chiedono dal telefono, con i giorni e le ore che restano nell'anno; l'ufficio approva o rifiuta da «Da approvare» e l'avviso compare in Home.",
+        "Foglio presenze del mese: ore ordinarie e straordinari, ferie, permessi e malattia per ogni dipendente, giorni da sistemare, correzione di ogni giorno, Excel per il consulente del lavoro, stampa e chiusura del mese.",
+        "Note spese dal telefono con la foto dello scontrino (vitto, carburante, km con l'auto propria, pedaggi e altro); approvate in ufficio, segnate come rimborsate, e quelle di un cantiere vanno nei costi della commessa.",
+        "Impostazioni presenze: ore della giornata, ferie e permessi all'anno, rimborso al km, sabato lavorativo; per ogni dipendente part-time e ferie avanzate dall'anno prima.",
+        "Il menu Interventi è a tendina: Calendario, Elenco interventi, Da programmare, Contratti di manutenzione, Mezzi e attrezzature, Quota interventi, Modelli di rapportino, Subappalti e Impostazioni interventi.",
+        "Con tutti i moduli l'intestazione resta su una riga da 1200 pixel di larghezza in su.",
+        "Manuale: nuovo capitolo 20 «Presenze e note spese» (i capitoli dopo il 19 sono rinumerati)."
+      ]
+    },
     {
       "versione": "7.2",
       "data": "2026-11-13",
@@ -153,29 +172,6 @@
         "Acconti e saldo da 1 a 6 fatture anche per interventi e preventivi spuntati; quelle con data futura restano programmate, senza numero.",
         "Scheda dell'intervento: «✏️ Correggi il rapportino» (solo amministratori, finché l'intervento non è in fattura) per orari, pausa, km, lavoro e materiale, con il motivo; resta «Corretto dall'ufficio da … il …» e il PDF lo segnala.",
         "Quota interventi: nei lavori diretti la colonna «per conto di» non resta più vuota."
-      ]
-    },
-    {
-      "versione": "6.5",
-      "data": "2026-11-11",
-      "titolo": "Rapportini: email al committente dal telefono, numero di tecnici nei modelli, giorno passato e committente di default",
-      "riassunto": [
-        "Rapportino al committente («per conto di») per email, dal telefono e dalla scheda in ufficio; colonna Committente nell'elenco interventi",
-        "Materiale dal telefono: dopo l'articolo si scrive subito la quantità, senza il valore 1 di serie",
-        "Nei modelli di rapportino il numero di operatori segue quello scritto con − / +, e a scelta le ore si moltiplicano per i tecnici",
-        "Nuovo rapportino dal telefono: si sceglie il giorno del lavoro, anche passato",
-        "Committente di default: il «Per conto di» è già compilato sui lavori nuovi"
-      ],
-      "voci": [
-        "Telefono, maschera del rapportino: sotto la firma c'è «Con «Invia il rapportino» mandalo anche per email a» con Cliente e, per i lavori per conto di, Committente (già spuntato se ha l'email). Partono il rapportino di Quadra e i modelli dell'intervento; l'esito resta in «Documenti».",
-        "Scheda dell'intervento in ufficio: per i lavori per conto di, accanto a «Invia il rapportino al cliente» c'è «Invia il rapportino al committente» (rapportino di Quadra e modelli dell'intervento).",
-        "Interventi › Elenco: nuova colonna «Committente», filtro «Per conto di …» / «Solo clienti diretti» e ricerca anche per committente.",
-        "Telefono, materiale usato: la quantità non è più 1 di serie. Scelto l'articolo (dal listino o scritto a mano con «+ Aggiungi»), il cursore va sulla quantità e si apre la tastiera dei numeri. Senza quantità il rapportino non parte e Quadra dice quale manca.",
-        "Modelli di rapportino: «Numero operatori» e «Numero operatori del giorno» ignoravano il numero di tecnici cambiato con − / + o nella scheda dell'intervento. Ora lo usano.",
-        "Interventi › Impostazioni › «Ore nei modelli di rapportino»: «Solo le ore dei rapportini fatti» (di serie) oppure «Ore × numero di tecnici», per quando sul lavoro ci sono più tecnici ma il rapportino l'ha fatto uno solo.",
-        "Telefono, «＋ Nuovo rapportino»: nuovo campo «Giorno del lavoro». Parte dal giorno che stai guardando nell'agenda e si può mettere un giorno passato (prima prendeva sempre oggi). Per un giorno passato l'ora di arrivo la scrivi tu.",
-        "Interventi › Impostazioni › «Committente di default»: scegli l'azienda per cui lavori di solito e dove proporla (nuovi interventi dell'ufficio, nuovi rapportini dal telefono). Il campo «Per conto di» è già compilato e si toglie con un tocco. Vale solo per i lavori nuovi.",
-        "Manuale: paragrafi «Nuovo rapportino dal telefono» e «Modelli di rapportino» aggiornati."
       ]
     }
   ],
