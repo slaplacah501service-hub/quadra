@@ -1,7 +1,7 @@
 {
-  "versione": "1.0",
-  "codice": 1,
+  "versione": "1.1",
+  "codice": 2,
   "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/client/Quadra.apk",
-  "sha256": "e8c82ad7ebd56ac53d64c6e2ee0a18a6d58ea8ae4c61ff8e755737128f896e4a",
-  "novita": "Prima versione dell'app Quadra per Android."
+  "sha256": "118d9c2a7e510e25abea8ad87c346d1cf7f6b1e43a1020d15ea9be183805538b",
+  "novita": "L'app diventa QuadraGest: nuovo nome, nuovo logo e colori bordeaux e oro."
 }
