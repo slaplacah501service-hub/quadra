@@ -1,8 +1,26 @@
 {
-  "versione": "7.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.1/Quadra-Setup-7.1.exe",
-  "sha256": "c7cd2f8e0eff8573d98bad5b8dc4f44cfe9bd3e4761f6ac8f0a658dba043a592",
+  "versione": "7.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.2/Quadra-Setup-7.2.exe",
+  "sha256": "c0c82b72a3abfb5d14ddfd0fc8d5e044120d74961b5eccfe65d1899cb803bba3",
   "novita": [
+    {
+      "versione": "7.2",
+      "data": "2026-11-13",
+      "titolo": "Magazzino sul furgone e Commesse e cantieri",
+      "riassunto": [
+        "Ogni furgone può avere il suo magazzino: il materiale scritto nel rapportino si scarica dal furgone del tecnico, e in ufficio prepari il reintegro",
+        "Nuovo modulo Commesse e cantieri: previsto e speso, margine, SAL con ritenuta a garanzia e fattura, ore e giornale di cantiere dal telefono"
+      ],
+      "voci": [
+        "Nella scheda del mezzo spunta «Ha un magazzino a bordo»: il furgone diventa un magazzino, legato al tecnico. Assicurazione, bollo e revisione restano nel mezzo e si vedono anche nella pagina del furgone.",
+        "Il materiale del rapportino si scarica dal furgone; la fattura dell'intervento non lo scarica una seconda volta dal magazzino principale.",
+        "Magazzino › Furgoni: dotazione di ogni furgone, cosa manca e il reintegro con un clic (trasferimento dal magazzino) e la lista di prelievo da stampare.",
+        "Sul telefono la scheda «Furgone»: cosa c'è a bordo, la conta con la fotocamera che legge i codici a barre e la richiesta di reintegro all'ufficio.",
+        "Commesse: si creano anche da un preventivo (valore, voci del computo e costi previsti). Ore dai rapportini e dalle entrate/uscite in cantiere, materiale al costo medio, fatture ricevute e altri costi: previsto e speso voce per voce, margine e costo stimato a fine lavori, con l'avviso in Home quando sfora.",
+        "SAL: percentuale di avanzamento per voce, certificato in PDF, fattura in bozza con la ritenuta a garanzia e, a fine lavori, la fattura di svincolo.",
+        "Sul telefono la scheda «Cantieri»: entrata e uscita, giornale di cantiere con foto e avanzamento dei lavori."
+      ]
+    },
     {
       "versione": "7.1",
       "data": "2026-11-12",
@@ -158,25 +176,6 @@
         "Telefono, «＋ Nuovo rapportino»: nuovo campo «Giorno del lavoro». Parte dal giorno che stai guardando nell'agenda e si può mettere un giorno passato (prima prendeva sempre oggi). Per un giorno passato l'ora di arrivo la scrivi tu.",
         "Interventi › Impostazioni › «Committente di default»: scegli l'azienda per cui lavori di solito e dove proporla (nuovi interventi dell'ufficio, nuovi rapportini dal telefono). Il campo «Per conto di» è già compilato e si toglie con un tocco. Vale solo per i lavori nuovi.",
         "Manuale: paragrafi «Nuovo rapportino dal telefono» e «Modelli di rapportino» aggiornati."
-      ]
-    },
-    {
-      "versione": "6.4",
-      "data": "2026-11-11",
-      "titolo": "Gli interventi nel calendario di Google e iCloud",
-      "riassunto": [
-        "Gli interventi compaiono nel calendario del telefono (Google, iPhone, Mac) e si aggiornano da soli",
-        "Ogni tecnico li aggiunge dalla pagina «Io» con un tasto; in ufficio c'è il calendario di tutta l'agenda",
-        "Link segreti: «Cambia link» blocca subito quello vecchio"
-      ],
-      "voci": [
-        "Interventi › Impostazioni › «Calendario su Google e iCloud»: un calendario in abbonamento per ogni collaboratore e uno per tutta l'agenda",
-        "Sul telefono del tecnico, in «Io»: «Aggiungi a iPhone / iCloud», «Aggiungi a Google Calendar», «Copia il link»",
-        "In ufficio: Copia, Email e WhatsApp per mandare il link con le istruzioni; la colonna «Usato» dice da quale calendario è stato aggiunto",
-        "Si sceglie cosa mostrare (cliente, indirizzo, telefono, descrizione, link per il rapportino), solo «Occupato» per tutta l'agenda, gli interventi conclusi e il periodo",
-        "Con Quadra Immobiliare nel calendario dell'agente ci sono anche le sue visite",
-        "A senso unico: quello che si cambia nel calendario del telefono non torna in Quadra. Serve l'accesso da Internet (Cloudflare o diretto)",
-        "Manuale: nuovo paragrafo «Calendario su Google e iCloud»."
       ]
     }
   ],
