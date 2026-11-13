@@ -1,8 +1,21 @@
 {
-  "versione": "7.3.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.3.1/Quadra-Setup-7.3.1.exe",
-  "sha256": "baf94d6adbf4fc27355a5be9173ab110e71190d6f5adbfcf44d25094610f3019",
+  "versione": "7.3.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.3.2/Quadra-Setup-7.3.2.exe",
+  "sha256": "d46ac7c0baa90e4c2492d36d69fde1f36b5561966d06306af951add7d89e4e75",
   "novita": [
+    {
+      "versione": "7.3.2",
+      "data": "2026-11-13",
+      "titolo": "Foto dalla galleria e stato dell'invio del rapportino",
+      "riassunto": [
+        "Sul telefono, iPhone e Android, le foto si scattano o si prendono dalla galleria",
+        "Nell'elenco interventi e sul telefono si vede se il rapportino è partito per email al cliente e al «per conto di»"
+      ],
+      "voci": [
+        "iPhone e Android: nel rapportino, nel giornale di cantiere, nei rifornimenti e nelle note spese accanto a «Scatta» c'è «Galleria», per scegliere foto già fatte (anche più insieme). Le foto del documento dell'antiriciclaggio fanno scegliere tra fotocamera e file.",
+        "Elenco interventi, scheda dell'intervento e telefono (agenda e intervento): per il cliente e per il committente «inviato» con giorno e ora, «non partito» se l'email ha dato errore (il motivo passando col mouse o sotto, sul telefono), «non inviato» o «senza email»."
+      ]
+    },
     {
       "versione": "7.3.1",
       "data": "2026-11-13",
@@ -141,30 +154,6 @@
         "Telefono dell'agente: nella visita il riquadro «📄 Documenti» per creare e far firmare col dito i documenti delle visite.",
         "Telefono dell'agente: «Visite» ora va giorno per giorno come l'agenda dei tecnici: settimana con i pallini, frecce, scorrimento col dito, visite passate con l'esito; «＋ Nuova visita» propone il giorno scelto.",
         "Manuale: nuovo paragrafo «Modelli di documento» nel capitolo dell'agenzia."
-      ]
-    },
-    {
-      "versione": "6.7",
-      "data": "2026-11-12",
-      "titolo": "Tecnici e agenti, calendario e notifiche delle visite, appuntamenti per email in ogni calendario",
-      "riassunto": [
-        "Nel collaboratore «Lavora come»: tecnico, agente immobiliare o tutti e due; sul telefono ognuno vede solo il suo",
-        "Visite: calendario per agente (giorno, settimana, mese) con il trascinamento, come gli interventi",
-        "Notifiche delle visite sul telefono degli agenti: nuova, spostata, annullata, promemoria",
-        "Appuntamenti per email ai collaboratori e, a scelta, ai clienti: vanno in Gmail, iCloud, Outlook, Aruba…"
-      ],
-      "voci": [
-        "Anagrafiche › Collaboratori: nuovo campo «Lavora come» (Tecnico, Agente immobiliare, Tecnico e agente). Ai collaboratori che c'erano già lo mette Quadra guardando cosa hanno fatto.",
-        "Telefono: il tecnico vede Agenda e Oggi, l'agente Visite e Immobili, chi fa tutte e due le cose vede tutto.",
-        "In ufficio negli interventi si scelgono solo i tecnici, nelle visite solo gli agenti.",
-        "Visite: la pagina è un calendario con una riga per agente e «Da assegnare»; trascina per cambiare giorno o agente, clic su uno spazio vuoto per fissare una visita. L'elenco di prima è in «Elenco».",
-        "Visite › Impostazioni: notifiche agli agenti (nuova visita, spostata o annullata, promemoria del mattino, a scelta un'ora prima) e telefoni collegati con «Manda una prova».",
-        "Appuntamenti per email: in Interventi › Impostazioni e Visite › Impostazioni si accendono per i collaboratori spuntati. Partono l'invito, gli aggiornamenti e l'annullamento, con l'allegato che ogni calendario riconosce.",
-        "Sull'intervento e sulla visita: «📅 Manda l'appuntamento per email al cliente».",
-        "Trattativa: il campo «Prezzo offerto dal cliente» parte dal prezzo richiesto; scrivi l'offerta e provvigioni, IVA, totale e quote degli agenti si ricalcolano subito, anche nella trattativa nuova aperta da «Proposta d'acquisto».",
-        "Agenzia: la voce del menu «Provvigioni» ora si chiama «Trattative» (la pagina è «Trattative e provvigioni»).",
-        "Desktop: «Foglio visita PDF» e «Scheda vetrina PDF» aprono solo il PDF, senza una seconda finestra di Quadra.",
-        "Manuale: paragrafi «Collaboratori», «Visite» e il nuovo «Appuntamenti per email»."
       ]
     }
   ],
