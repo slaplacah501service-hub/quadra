@@ -1,8 +1,19 @@
 {
-  "versione": "7.4",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.4/Quadra-Setup-7.4.exe",
-  "sha256": "9f5a6a9d401f5ff89d172b3f50a5ea6cda298774cd7d8046ef6c7c9421684440",
+  "versione": "7.4.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.4.1/Quadra-Setup-7.4.1.exe",
+  "sha256": "efe19bc59ba3b523c6b7a7c6092178ee5dbd48fbd2d47c0b17146652d17f04fc",
   "novita": [
+    {
+      "versione": "7.4.1",
+      "data": "2026-11-14",
+      "titolo": "Officina: la targa ritrova di nuovo veicolo e cliente",
+      "riassunto": [
+        "All'accettazione, scrivendo la targa di un veicolo già passato in officina, ricompare il suggerimento con modello e cliente"
+      ],
+      "voci": [
+        "Officina › Accetta un veicolo: scrivendo la targa (o il telaio, o il nome del cliente) di un mezzo già in archivio non compariva nessun suggerimento, perché la ricerca andava in errore senza dirlo. Ora ricompare «✔ targa modello · cliente» e un clic compila veicolo e cliente; se il mezzo è già in officina avvisa e apre la sua scheda."
+      ]
+    },
     {
       "versione": "7.4",
       "data": "2026-11-14",
@@ -140,21 +151,6 @@
         "Un telefono riceve le notifiche di un solo utente: adesso è sempre quello che ha aperto Quadra per ultimo. Prima restavano al primo utente che le aveva attivate, anche se poi entrava un altro (per esempio l'amministratore in modalità tecnico)",
         "Nella pagina «Io» lo stato «✓ Attive» viene controllato con il PC principale, non solo sul telefono; se il telefono riceveva per un altro utente lo dice",
         "Anche la pagina delle visite (agenti) tiene il telefono collegato all'utente giusto"
-      ]
-    },
-    {
-      "versione": "6.9",
-      "data": "2026-11-12",
-      "titolo": "App Quadra per Android e Quadra sull'iPhone",
-      "riassunto": [
-        "App Quadra per i telefoni Android: si apre a tutto schermo, resta collegata, riceve le notifiche e si aggiorna da sola",
-        "Utenti e rete › «Quadra per Android e iPhone»: scarica l'app, codice QR per installarla e collegarla, invio del link per email",
-        "iPhone: la stessa pagina spiega come aggiungere Quadra alla schermata Home, con le notifiche"
-      ],
-      "voci": [
-        "L'app Android si scarica da Utenti e rete o dalla pagina che si apre inquadrando il codice QR; «Collega l'app a questo Quadra» la collega senza scrivere l'indirizzo. Si può anche scrivere l'indirizzo a mano alla prima apertura.",
-        "L'app usa Chrome del telefono: le notifiche dei tecnici e degli agenti, l'accesso ricordato e i PDF funzionano come prima. Senza barra degli indirizzi con l'accesso da Internet (https); con l'indirizzo dell'ufficio funziona solo sul Wi-Fi dell'ufficio.",
-        "Quando esce una versione nuova dell'app, all'apertura compare «Aggiornamento disponibile»: si tocca Aggiorna e Android la installa sopra quella vecchia (la prima volta chiede il permesso)."
       ]
     }
   ],
