@@ -1,8 +1,28 @@
 {
-  "versione": "7.3.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.3.2/Quadra-Setup-7.3.2.exe",
-  "sha256": "d46ac7c0baa90e4c2492d36d69fde1f36b5561966d06306af951add7d89e4e75",
+  "versione": "7.4",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.4/Quadra-Setup-7.4.exe",
+  "sha256": "9f5a6a9d401f5ff89d172b3f50a5ea6cda298774cd7d8046ef6c7c9421684440",
   "novita": [
+    {
+      "versione": "7.4",
+      "data": "2026-11-14",
+      "titolo": "Nuovo modulo Officina: auto, moto e bici con l'etichetta QR",
+      "riassunto": [
+        "Accettazione al banco con danni sul disegno, foto e firma del cliente, ed etichetta adesiva con il QR",
+        "Il meccanico inquadra il QR con il telefono: lavori da spuntare, cronometro, ricambi, foto",
+        "Il cliente approva i lavori in più dal suo telefono; alla consegna fattura pronta o scontrino",
+        "Scadenze e richiami (tagliando, revisione, gomme) e ore dei meccanici"
+      ],
+      "voci": [
+        "Menu Officina: Officina oggi (tabellone per stato, si trascinano le schede), Accetta un veicolo, Veicoli dei clienti con lo storico, Scadenze e richiami, Ore dei meccanici, Impostazioni officina.",
+        "Accettazione: targa o telaio (trova il mezzo già passato), km, carburante, consegna promessa, meccanico, lavori dall'elenco dei lavori frequenti con ore e ricambi, danni toccando il disegno, foto, firma e «Autorizzo altri lavori fino a €». Ricevuta su WhatsApp.",
+        "Etichetta con il QR per stampanti di etichette (Brother QL, Dymo, Zebra): 62 × 29, 62 × 100 con i lavori, 50 × 30; più copie e quella per le chiavi. Il QR apre la scheda solo a chi entra in QuadraGest.",
+        "Telefono: schede Officina e Scansiona. Cronometro, lavori da spuntare, «Dai il prezzo» per i lavori da verificare, ricambi con il codice a barre, foto, «Chiedi preventivo» e «Segna pronto e avvisa» (WhatsApp o email con il PDF).",
+        "Lavori in più: sotto la cifra autorizzata si fanno subito; sopra il cliente riceve un link e sceglie Sì o Non ora riga per riga. I rimandati diventano lavori consigliati da richiamare.",
+        "Scheda di lavoro in PDF, preventivo dai lavori, alla consegna la fattura in bozza con ore e ricambi oppure lo scontrino del registratore telematico (numero, importo, pagamento; i ricambi escono dal magazzino).",
+        "Scadenze: tagliando e revisione si rinnovano da soli alla consegna; avvisi su WhatsApp o email, anche automatiche ogni lunedì. Ore dei meccanici: presenza, ore sui lavori, resa e ore fatturate."
+      ]
+    },
     {
       "versione": "7.3.2",
       "data": "2026-11-13",
@@ -135,25 +155,6 @@
         "L'app Android si scarica da Utenti e rete o dalla pagina che si apre inquadrando il codice QR; «Collega l'app a questo Quadra» la collega senza scrivere l'indirizzo. Si può anche scrivere l'indirizzo a mano alla prima apertura.",
         "L'app usa Chrome del telefono: le notifiche dei tecnici e degli agenti, l'accesso ricordato e i PDF funzionano come prima. Senza barra degli indirizzi con l'accesso da Internet (https); con l'indirizzo dell'ufficio funziona solo sul Wi-Fi dell'ufficio.",
         "Quando esce una versione nuova dell'app, all'apertura compare «Aggiornamento disponibile»: si tocca Aggiorna e Android la installa sopra quella vecchia (la prima volta chiede il permesso)."
-      ]
-    },
-    {
-      "versione": "6.8",
-      "data": "2026-11-12",
-      "titolo": "Modelli di documento dell'agenzia e visite giorno per giorno sul telefono",
-      "riassunto": [
-        "Modelli di documento: incolla da Word proposte, incarichi e ricevute, Quadra li riempie con i dati",
-        "PDF da stampare con le firme di venditore, acquirente e agenzia, oppure firma sul tablet o sul telefono",
-        "Riquadro «📄 Documenti» nella trattativa, nella visita e nella scheda dell'immobile",
-        "Telefono dell'agente: visite giorno per giorno con la settimana, le frecce e lo scorrimento col dito"
-      ],
-      "voci": [
-        "Agenzia › Modelli di documento: testo incollato da Word (grassetti, elenchi, tabelle e allineamenti restano) o scritto nella pagina; «＋ Inserisci dato» mette i dati di venditore, acquirente, cliente, immobile e catasto, incarico, trattativa (prezzo e caparra anche in lettere), agenzia e agente.",
-        "Ogni modello compare nella trattativa (anche solo con certi stati), nella visita o nell'immobile; firme in fondo a scelta, luogo e data, sigle su ogni pagina, riquadro per le clausole vessatorie, logo dell'agenzia o spazio per la carta intestata. «👁 Prova il PDF» con i dati dell'ultima trattativa.",
-        "Riquadro «📄 Documenti»: crea il documento, i dati che mancano sono in giallo e si scrivono a mano, il testo si corregge solo per quel documento, PDF, firme sul tablet o sullo schermo touch, copia firmata su carta allegata, invio per email.",
-        "Telefono dell'agente: nella visita il riquadro «📄 Documenti» per creare e far firmare col dito i documenti delle visite.",
-        "Telefono dell'agente: «Visite» ora va giorno per giorno come l'agenda dei tecnici: settimana con i pallini, frecce, scorrimento col dito, visite passate con l'esito; «＋ Nuova visita» propone il giorno scelto.",
-        "Manuale: nuovo paragrafo «Modelli di documento» nel capitolo dell'agenzia."
       ]
     }
   ],
