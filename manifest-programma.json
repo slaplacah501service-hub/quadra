@@ -1,8 +1,19 @@
 {
-  "versione": "7.4.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.4.3/Quadra-Setup-7.4.3.exe",
-  "sha256": "110811f370870ed20721957ed7fc79ce95218cfaa30b22dd54f6a2ddbb12b51b",
+  "versione": "7.4.4",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.4.4/Quadra-Setup-7.4.4.exe",
+  "sha256": "5093d8e09459db3701fe74ab628dc3dd187be7be397abd8cc62690bd627c58cc",
   "novita": [
+    {
+      "versione": "7.4.4",
+      "data": "2026-11-17",
+      "titolo": "Officina: il link di approvazione funziona anche nell'Azienda di Test",
+      "riassunto": [
+        "Il link per far approvare i lavori al cliente, mandato dall'Azienda di Test, si apre invece di dire «Link non valido»"
+      ],
+      "voci": [
+        "Officina: il link di approvazione dei lavori in più creato nell'Azienda di Test si apre e le scelte del cliente restano nella prova. La pagina dice in alto «Link dell'Azienda di Test: è solo una prova». I link dei dati veri funzionano come prima."
+      ]
+    },
     {
       "versione": "7.4.3",
       "data": "2026-11-17",
@@ -140,21 +151,6 @@
         "La chiave passepartout salvata sul PC viene riletta da sola, anche se nella 7.0 l'avevi reinserita. Non devi fare niente.",
         "Le licenze dei clienti non erano toccate dal problema.",
         "La regola di Windows Firewall per l'accesso da Internet torna a chiamarsi «Quadra (Internet)», come prima della 7.0."
-      ]
-    },
-    {
-      "versione": "7.0",
-      "data": "2026-11-12",
-      "titolo": "Quadra diventa QuadraGest: nuovo nome, nuovo logo e nuovi colori",
-      "riassunto": [
-        "Il programma si chiama QuadraGest, con il nuovo logo (la Q con il quadratino oro) e i colori bordeaux e oro",
-        "Dati, licenza, utenti, backup e collegamenti restano tutti dove sono: non devi fare niente"
-      ],
-      "voci": [
-        "Nuovo logo in alto, nella pagina di accesso, sul telefono, nelle icone di Windows (desktop e menu Start) e nel manuale. L'icona «Quadra» sul desktop diventa «QuadraGest».",
-        "Colori bordeaux e oro. Se in Impostazioni › Personalizza avevi scelto un altro colore, resta il tuo.",
-        "Archivio, licenza, backup, cartelle dei PDF, accesso dai telefoni, Collegamento Cloudflare e API funzionano come prima: cambia solo il nome che si vede.",
-        "Manuale: ora si chiama «Manuale di QuadraGest»."
       ]
     }
   ],
