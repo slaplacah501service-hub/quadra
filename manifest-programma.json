@@ -1,8 +1,25 @@
 {
-  "versione": "7.4.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.4.2/Quadra-Setup-7.4.2.exe",
-  "sha256": "ff0e310f3a1937e7d50b1fb804bf3aae37ea08a92e56d902cd18dd41d67aa919",
+  "versione": "7.4.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.4.3/Quadra-Setup-7.4.3.exe",
+  "sha256": "110811f370870ed20721957ed7fc79ce95218cfaa30b22dd54f6a2ddbb12b51b",
   "novita": [
+    {
+      "versione": "7.4.3",
+      "data": "2026-11-17",
+      "titolo": "Azienda di Test più sicura e niente clienti doppi nelle visite",
+      "riassunto": [
+        "L'Azienda di Test si aggiorna con le tabelle nuove di ogni versione: Home, Officina, Commesse, Presenze e Nuovo intervento non danno più errore",
+        "Se QuadraGest ti fa uscire dall'Azienda di Test senza che tu lo chieda, si ferma e te lo dice: niente finisce più nei dati veri per sbaglio",
+        "Visite e accettazione in officina riconoscono il cliente già in anagrafica invece di crearne un doppione"
+      ],
+      "voci": [
+        "Azienda di Test: a ogni avvio e quando ci entri prende le tabelle e le colonne della versione installata. Prima un'Azienda di Test creata con una versione vecchia dava «no such table» nelle pagine nuove.",
+        "Azienda di Test: ogni finestra ricorda se è nella prova. Se QuadraGest si riavvia, la sessione scade, la prova viene cancellata o un'altra finestra dello stesso PC preme «Torna ai dati veri», alla prima pagina o al primo salvataggio compare l'avviso «Non sei più nell'Azienda di Test»: quello che stavi salvando non viene scritto da nessuna parte e scegli tu se rientrare nella prova o continuare sui dati veri. Vale anche al contrario.",
+        "Azienda di Test: mentre qualcuno usa «Ricomincia da capo» gli altri aspettano un attimo invece di essere riportati ai dati veri.",
+        "Visite (agenzia): se scrivi nome e cognome di un cliente che è già in anagrafica (anche al contrario o con maiuscole diverse) la visita va a quel cliente e se manca gli aggiunge cellulare ed email. Con un cellulare o un'email diversi è un omonimo e nasce un cliente nuovo, come prima.",
+        "Officina › Accetta un veicolo: lo stesso per il cliente nuovo scritto a mano."
+      ]
+    },
     {
       "versione": "7.4.1",
       "data": "2026-11-14",
@@ -138,19 +155,6 @@
         "Colori bordeaux e oro. Se in Impostazioni › Personalizza avevi scelto un altro colore, resta il tuo.",
         "Archivio, licenza, backup, cartelle dei PDF, accesso dai telefoni, Collegamento Cloudflare e API funzionano come prima: cambia solo il nome che si vede.",
         "Manuale: ora si chiama «Manuale di QuadraGest»."
-      ]
-    },
-    {
-      "versione": "6.9.1",
-      "data": "2026-11-12",
-      "titolo": "Notifiche sul telefono per chi entra anche come tecnico",
-      "riassunto": [
-        "Le notifiche arrivano anche all'amministratore che lavora come tecnico, e a chi usa un telefono già usato da un collega"
-      ],
-      "voci": [
-        "Un telefono riceve le notifiche di un solo utente: adesso è sempre quello che ha aperto Quadra per ultimo. Prima restavano al primo utente che le aveva attivate, anche se poi entrava un altro (per esempio l'amministratore in modalità tecnico)",
-        "Nella pagina «Io» lo stato «✓ Attive» viene controllato con il PC principale, non solo sul telefono; se il telefono riceveva per un altro utente lo dice",
-        "Anche la pagina delle visite (agenti) tiene il telefono collegato all'utente giusto"
       ]
     }
   ],
