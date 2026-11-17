@@ -1,8 +1,41 @@
 {
-  "versione": "7.4.4",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.4.4/Quadra-Setup-7.4.4.exe",
-  "sha256": "5093d8e09459db3701fe74ab628dc3dd187be7be397abd8cc62690bd627c58cc",
+  "versione": "7.5",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.5/Quadra-Setup-7.5.exe",
+  "sha256": "7e6501c8b1e687470ee4d778ecf40c99616d28f1311c02073270d007759445c5",
   "novita": [
+    {
+      "versione": "7.5",
+      "data": "2026-11-17",
+      "titolo": "Avvisi in tempo reale dal telefono e aggiornamenti controllati ogni ora",
+      "riassunto": [
+        "Quando arriva qualcosa dai tecnici, dai meccanici o dagli agenti compare un avviso in basso a destra, raccolto poi nel menu «🔔 Notifiche», e la pagina si aggiorna da sola",
+        "QuadraGest cerca la versione nuova ogni ora; nella barra in basso c'è «⟳ Aggiorna» accanto ad Aiuto"
+      ],
+      "voci": [
+        "Avvisi in basso a destra con il pulsante «Apri»: rapportino inviato, intervento chiuso, nuovo intervento dal telefono, lavoro da far approvare al cliente, veicolo pronto, risposta del cliente al link dell'officina, richiesta di reintegro del furgone, ferie e permessi, note spese, giornale di cantiere, nuova visita fissata. Dopo 1 minuto l'avviso diventa trasparente, dopo 5 minuti sparisce e passa nel menu «🔔 Notifiche» della barra in basso, dove il numero rosso dice quante non hai ancora visto. Aprendo il menu il numero si azzera; «Svuota» lo pulisce.",
+        "La pagina che hai davanti si ricarica da sola e dice «Pagina aggiornata alle…». Se stai scrivendo in un modulo (fattura, scheda, cliente) non si ricarica, così non perdi niente: arriva solo l'avviso.",
+        "Nell'Azienda di Test vedi solo gli avvisi della prova, e sui dati veri solo quelli veri.",
+        "Versione nuova: QuadraGest controlla ogni ora invece che una volta al giorno. Quando c'è, nella barra in basso compare il pulsante arancione «⬆ Nuova versione: installa».",
+        "«⟳ Aggiorna» nella barra in basso, accanto ad Aiuto: ricarica la pagina e controlla subito se c'è una versione nuova."
+      ]
+    },
+    {
+      "versione": "7.4.5",
+      "data": "2026-11-17",
+      "titolo": "Azienda di Test per finestra, +39 nei cellulari e «Copia link» in officina",
+      "riassunto": [
+        "Sul PC principale ogni finestra entra ed esce dall'Azienda di Test per conto suo: se ci entri da una finestra, le altre restano sui dati veri",
+        "Il cellulare scritto senza prefisso prende da solo il +39, così WhatsApp si apre subito sul numero giusto",
+        "Officina: accanto al link di approvazione c'è «📋 Copia link»"
+      ],
+      "voci": [
+        "Azienda di Test sul PC principale: prima la prova valeva per tutte le finestre del PC insieme, ora vale solo per la finestra (o la scheda del browser) da cui ci sei entrato. Le altre restano sui dati veri senza interruzioni. Se riavvii QuadraGest, la finestra che era nella prova ci rimane, con la fascia arancione.",
+        "Cellulare di clienti, fornitori, collaboratori e azienda: se scrivi un cellulare italiano senza prefisso (per esempio 347 1234567) QuadraGest salva +39 347 1234567. 0039 diventa +39. I numeri con un altro prefisso (+41…) e i fissi restano come li scrivi. Vale anche per il cliente scritto al volo nelle visite e all'accettazione in officina.",
+        "WhatsApp: anche i cellulari già salvati senza prefisso aprono la chat con +39, nelle richieste dell'agenzia e nel calendario dei tecnici come già in officina.",
+        "Officina › scheda › Da far approvare: il link mandato al cliente è in un campo con il pulsante «📋 Copia link», per incollarlo dove vuoi.",
+        "Con le schede aperte il pulsante «＋ Scheda» in alto non si vede più in trasparenza sopra le linguette: per aprire una scheda c'è il «+» nella barra delle schede (o Ctrl+T)."
+      ]
+    },
     {
       "versione": "7.4.4",
       "data": "2026-11-17",
@@ -123,34 +156,6 @@
         "Commesse: si creano anche da un preventivo (valore, voci del computo e costi previsti). Ore dai rapportini e dalle entrate/uscite in cantiere, materiale al costo medio, fatture ricevute e altri costi: previsto e speso voce per voce, margine e costo stimato a fine lavori, con l'avviso in Home quando sfora.",
         "SAL: percentuale di avanzamento per voce, certificato in PDF, fattura in bozza con la ritenuta a garanzia e, a fine lavori, la fattura di svincolo.",
         "Sul telefono la scheda «Cantieri»: entrata e uscita, giornale di cantiere con foto e avanzamento dei lavori."
-      ]
-    },
-    {
-      "versione": "7.1",
-      "data": "2026-11-12",
-      "titolo": "Nuovo logo dappertutto e versione di prova più chiara",
-      "riassunto": [
-        "Il nuovo nome e il logo di QuadraGest compaiono subito dopo l'aggiornamento: la finestra non tiene più il logo vecchio",
-        "Chi usa QuadraGest senza licenza ha una prova di 7 giorni con tutte le funzioni, e un avviso chiaro prima che finisca"
-      ],
-      "voci": [
-        "Dopo l'aggiornamento alla 7.0 alcuni PC mostravano ancora il logo vecchio con il nome Quadra (era rimasto in memoria nella finestra). Ora logo e icone si ricaricano da soli a ogni versione.",
-        "Senza licenza la prova dura 7 giorni con tutti i moduli. L'invio allo SdI si prova nell'Azienda di Test, dove è simulato; i PDF portano la scritta «Copia di prova».",
-        "Negli ultimi 2 giorni l'avviso in alto diventa rosso e dice chi contattare per la licenza. Finita la prova i dati restano tutti consultabili, e con la licenza si riprende da dove eri.",
-        "Con la licenza attiva non cambia niente."
-      ]
-    },
-    {
-      "versione": "7.0.1",
-      "data": "2026-11-12",
-      "titolo": "Correzione: la 7.0 chiedeva di nuovo la licenza sui PC con la chiave passepartout",
-      "riassunto": [
-        "Sui PC attivati con la chiave passepartout la 7.0 chiedeva di attivare la licenza: ora la riconosce di nuovo da sola"
-      ],
-      "voci": [
-        "La chiave passepartout salvata sul PC viene riletta da sola, anche se nella 7.0 l'avevi reinserita. Non devi fare niente.",
-        "Le licenze dei clienti non erano toccate dal problema.",
-        "La regola di Windows Firewall per l'accesso da Internet torna a chiamarsi «Quadra (Internet)», come prima della 7.0."
       ]
     }
   ],
