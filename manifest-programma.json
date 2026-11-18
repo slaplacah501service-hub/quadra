@@ -1,22 +1,25 @@
 {
-  "versione": "7.7.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.7.1/Quadra-Setup-7.7.1.exe",
-  "sha256": "40143f54237809b7f22eb547a6b194815834066ff4468dac619609f23998cba3",
+  "versione": "7.7.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.7.2/Quadra-Setup-7.7.2.exe",
+  "sha256": "794af9fd22da01464c8dc6a474688bd197374744e3ca8e2c3a2c8ff3787d00cb",
   "novita": [
     {
-      "versione": "7.7.1",
+      "versione": "7.7.2",
       "data": "2026-11-18",
-      "titolo": "Barre riorganizzate: in alto dove lavori, in basso cosa fai",
+      "titolo": "Barre riorganizzate e lavori senza fattura",
       "riassunto": [
         "La barra in alto ha al massimo otto aree con un'icona (Home, Vendite, Acquisti, Magazzino, Lavori, Persone, Anagrafiche, Report) e non va più a capo anche con tutti i moduli",
-        "In basso: + Nuovo e ⚙ Impostazioni a colonne, ricerca più grande, 🔔, Aiuto e ⟳"
+        "In basso: + Nuovo e ⚙ Impostazioni a colonne, ricerca più grande, 🔔, Aiuto e ⟳",
+        "Interventi, visite e lavori d'officina senza compenso si chiudono come gratuiti, in garanzia o già pagati: non finiscono tra le cose da fatturare"
       ],
       "voci": [
         "Lavori raccoglie in colonne i moduli di settore (Interventi, Commesse, Officina, Studio medico, Agenzia); con un solo settore la voce prende il suo nome.",
         "Vendite (fatture, preventivi, DDT, ordini clienti) e Acquisti (fatture ricevute, ordini e bolle dei fornitori) separati; Persone con presenze, ferie, note spese e collaboratori.",
         "Impostazioni spostate in basso accanto a + Nuovo e divise in colonne: La tua azienda, Documenti e fisco, Moduli, Persone e collegamenti, Dati e programma.",
         "+ Nuovo diviso in Vendite, Lavori, Magazzino e acquisti, Anagrafiche, con le nuove voci per agenzia e commesse.",
-        "Sul telefono il menu ☰ mostra le aree e si apre quella toccata."
+        "Sul telefono il menu ☰ mostra le aree e si apre quella toccata.",
+        "Telefoni senza linea: il PIN può valere anche 30 giorni o senza scadenza (lo sceglie l'ufficio nelle regole).",
+        "Lavori senza fattura regolari: un intervento si può chiudere come gratuito, in garanzia o compreso in un contratto già pagato; la visita medica come gratuita o controllo già pagato; l'officina consegna indicando il motivo. Restano registrati e non compaiono tra le cose da fatturare."
       ]
     },
     {
