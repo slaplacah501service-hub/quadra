@@ -1,8 +1,19 @@
 {
-  "versione": "7.7.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.7.2/Quadra-Setup-7.7.2.exe",
-  "sha256": "794af9fd22da01464c8dc6a474688bd197374744e3ca8e2c3a2c8ff3787d00cb",
+  "versione": "7.7.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.7.3/Quadra-Setup-7.7.3.exe",
+  "sha256": "5089785cebf4d7459f056361cbff09264376ad58bb8ee372baa7a266e3711fa8",
   "novita": [
+    {
+      "versione": "7.7.3",
+      "data": "2026-11-18",
+      "titolo": "Correzione: caricare un nuovo logo",
+      "riassunto": [
+        "Caricare un nuovo logo dopo aver creato un PDF dava l'errore «sezione mappata dall'utente aperta»: ora si salva sempre"
+      ],
+      "voci": [
+        "I PDF leggono il logo senza tenerlo bloccato; se il vecchio file è comunque occupato, il nuovo logo si salva con un altro nome e il vecchio si cancella appena possibile."
+      ]
+    },
     {
       "versione": "7.7.2",
       "data": "2026-11-18",
@@ -152,19 +163,6 @@
         "Lavori in più: sotto la cifra autorizzata si fanno subito; sopra il cliente riceve un link e sceglie Sì o Non ora riga per riga. I rimandati diventano lavori consigliati da richiamare.",
         "Scheda di lavoro in PDF, preventivo dai lavori, alla consegna la fattura in bozza con ore e ricambi oppure lo scontrino del registratore telematico (numero, importo, pagamento; i ricambi escono dal magazzino).",
         "Scadenze: tagliando e revisione si rinnovano da soli alla consegna; avvisi su WhatsApp o email, anche automatiche ogni lunedì. Ore dei meccanici: presenza, ore sui lavori, resa e ore fatturate."
-      ]
-    },
-    {
-      "versione": "7.3.2",
-      "data": "2026-11-13",
-      "titolo": "Foto dalla galleria e stato dell'invio del rapportino",
-      "riassunto": [
-        "Sul telefono, iPhone e Android, le foto si scattano o si prendono dalla galleria",
-        "Nell'elenco interventi e sul telefono si vede se il rapportino è partito per email al cliente e al «per conto di»"
-      ],
-      "voci": [
-        "iPhone e Android: nel rapportino, nel giornale di cantiere, nei rifornimenti e nelle note spese accanto a «Scatta» c'è «Galleria», per scegliere foto già fatte (anche più insieme). Le foto del documento dell'antiriciclaggio fanno scegliere tra fotocamera e file.",
-        "Elenco interventi, scheda dell'intervento e telefono (agenda e intervento): per il cliente e per il committente «inviato» con giorno e ora, «non partito» se l'email ha dato errore (il motivo passando col mouse o sotto, sul telefono), «non inviato» o «senza email»."
       ]
     }
   ],
