@@ -1,8 +1,48 @@
 {
-  "versione": "7.5",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.5/Quadra-Setup-7.5.exe",
-  "sha256": "7e6501c8b1e687470ee4d778ecf40c99616d28f1311c02073270d007759445c5",
+  "versione": "7.7",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.7/Quadra-Setup-7.7.exe",
+  "sha256": "71f7c3b84ed85ae04410636a3a977dabc7d02fbff5a357e5c23bd39646e30f10",
   "novita": [
+    {
+      "versione": "7.7",
+      "data": "2026-11-18",
+      "titolo": "Lavorare anche senza linea dal telefono",
+      "riassunto": [
+        "Il telefono tiene una copia cifrata dei lavori della persona (agenda, interventi, clienti, furgone, presenze, note spese) e la apre col PIN anche senza linea o col PC dell'ufficio spento",
+        "Rapportini, timbrature, note spese, scarichi del furgone e visite fatti senza linea restano in coda sul telefono e partono da soli appena torna la linea, una volta sola e in ordine"
+      ],
+      "voci": [
+        "Io › Lavora anche senza linea: si sceglie un PIN di 6 cifre (e l'impronta dove il telefono la offre). Il telefono scarica i lavori da ieri ai prossimi giorni e li tiene cifrati; si aggiorna da solo a ogni apertura con la linea e ogni 15 minuti.",
+        "Senza linea QuadraGest si apre lo stesso: chiede il PIN e mostra le stesse pagine di sempre con la barra «Senza linea · da …». Dopo 30 minuti fermo si richiude.",
+        "Ciò che si invia senza linea viene salvato cifrato e messo in coda; la pagina «In attesa di partire» mostra cosa deve ancora arrivare all'ufficio. Al ritorno della linea parte tutto in ordine, con l'ora del telefono (anche per le timbrature).",
+        "Se nel frattempo l'ufficio ha chiuso o cambiato l'intervento, il rapportino non va perso: il telefono lo segna come non accettato e l'ufficio ne trova i dati nella scheda dell'intervento («Fatto senza linea: com'è arrivato»).",
+        "Ufficio: Utenti e rete › Telefoni senza linea mostra chi ha la copia, quando si è aggiornata e cosa ha in attesa. Si può cancellare la copia a distanza e si scelgono le regole: giorni di lavori, durata del PIN, foto leggere, timbrature permesse, cancellazione dopo 3 PIN sbagliati.",
+        "Funziona anche per gli agenti immobiliari (visite) e per i medici (visite e referti della giornata). Serve il Collegamento Cloudflare o un dominio in https; sull'iPhone QuadraGest va aggiunto alla schermata Home."
+      ]
+    },
+    {
+      "versione": "7.6",
+      "data": "2026-11-18",
+      "titolo": "Nuovo modulo Studio medico: agenda, pazienti, visite e Sistema TS",
+      "riassunto": [
+        "Nuovo modulo Studio medico per studi e poliambulatori, per il medico che lavora in più studi e per chi fa tutte e due le cose",
+        "Agenda per medico, stanza o settimana con promemoria e conferma dal link, cartella del paziente, visita con referto PDF, fattura sanitaria solo PDF con il bollo, file del Sistema TS e la giornata del medico sul telefono"
+      ],
+      "voci": [
+        "«Come lavori?»: studio medico, medico in più studi o tutti e due. QuadraGest prepara agenda, orari, listino e un modello di informativa privacy.",
+        "Sedi e stanze: i tuoi studi e quelli di altri medici, con l'accordo di ognuno (percentuale, a ore, a giornata, a canone) e i minuti per spostarsi.",
+        "Medici, orari della settimana in più sedi e listino delle prestazioni con il tipo di spesa per il Sistema TS.",
+        "Agenda per medico, per stanza o in settimana, con avviso se lo spazio è occupato o il medico è in un altro studio; sala d'attesa, lista d'attesa e promemoria per domani con WhatsApp o email. Il paziente conferma o disdice dal link e il messaggio non dice mai il motivo della visita.",
+        "Cartella del paziente: allergie e patologie sempre in evidenza, anamnesi con lo storico, visite, referti e allegati, consensi firmati, fatture. La segreteria non vede la cartella; accesso di emergenza con il motivo e registro di tutti gli accessi.",
+        "Visita con parametri (BMI automatico), diagnosi, terapia e note private che non vanno mai nel referto. Referto in PDF con l'intestazione del medico, da mandare per email.",
+        "Fattura dalla visita: per le prestazioni sanitarie a persone senza partita IVA solo PDF (niente SdI) e bollo da 2 € messo da solo sopra 77,47 €.",
+        "Sistema Tessera Sanitaria: spese del mese pronte, con opposizione o da correggere; file XML con i codici fiscali cifrati, uno per medico, da caricare su sistemats.it; scadenza in evidenza.",
+        "Consensi da far firmare con il dito sul tablet o sul telefono, con i dati del paziente e del medico già compilati.",
+        "Sul telefono del medico la scheda «Studio»: «Oggi sei a…» con l'indirizzo, i pazienti della giornata, la visita da scrivere (anche dettando) e la scheda del paziente.",
+        "Compensi per medico e sede secondo gli accordi.",
+        "Manuale: nuovo capitolo 23 «Studio medico»."
+      ]
+    },
     {
       "versione": "7.5",
       "data": "2026-11-17",
@@ -119,43 +159,6 @@
         "Telefono: sopra «Uscita» compare «Ho fatto la pausa di 60 minuti», già spuntato; i minuti si tolgono dalle ore del giorno. Non compare se il dipendente ha già usato Inizio e Fine pausa. Anche nell'uscita dimenticata del giorno prima.",
         "Ufficio: nel giorno di un dipendente ogni orario ha i minuti di pausa, e l'orario aggiunto a mano ha la pausa già spuntata.",
         "Impostazioni presenze: «Pausa proposta all'uscita» (di serie 60 minuti, 0 per non proporla)."
-      ]
-    },
-    {
-      "versione": "7.3",
-      "data": "2026-11-13",
-      "titolo": "Presenze e note spese, menu Interventi a tendina",
-      "riassunto": [
-        "Nuovo modulo Presenze e note spese: entrata, pausa e uscita dal telefono, ferie e permessi approvati in ufficio, foglio del mese per il consulente e note spese con la foto dello scontrino",
-        "Il menu Interventi è a tendina, come Magazzino e Agenzia"
-      ],
-      "voci": [
-        "Sul telefono la scheda «Presenze»: Entrata, Inizio e Fine pausa, Uscita. Se il giorno prima l'uscita è stata dimenticata, la chiede subito. Le ore in cantiere contano già come presenza.",
-        "Ferie, permessi (in ore), malattia e altre assenze si chiedono dal telefono, con i giorni e le ore che restano nell'anno; l'ufficio approva o rifiuta da «Da approvare» e l'avviso compare in Home.",
-        "Foglio presenze del mese: ore ordinarie e straordinari, ferie, permessi e malattia per ogni dipendente, giorni da sistemare, correzione di ogni giorno, Excel per il consulente del lavoro, stampa e chiusura del mese.",
-        "Note spese dal telefono con la foto dello scontrino (vitto, carburante, km con l'auto propria, pedaggi e altro); approvate in ufficio, segnate come rimborsate, e quelle di un cantiere vanno nei costi della commessa.",
-        "Impostazioni presenze: ore della giornata, ferie e permessi all'anno, rimborso al km, sabato lavorativo; per ogni dipendente part-time e ferie avanzate dall'anno prima.",
-        "Il menu Interventi è a tendina: Calendario, Elenco interventi, Da programmare, Contratti di manutenzione, Mezzi e attrezzature, Quota interventi, Modelli di rapportino, Subappalti e Impostazioni interventi.",
-        "Con tutti i moduli l'intestazione resta su una riga da 1200 pixel di larghezza in su.",
-        "Manuale: nuovo capitolo 20 «Presenze e note spese» (i capitoli dopo il 19 sono rinumerati)."
-      ]
-    },
-    {
-      "versione": "7.2",
-      "data": "2026-11-13",
-      "titolo": "Magazzino sul furgone e Commesse e cantieri",
-      "riassunto": [
-        "Ogni furgone può avere il suo magazzino: il materiale scritto nel rapportino si scarica dal furgone del tecnico, e in ufficio prepari il reintegro",
-        "Nuovo modulo Commesse e cantieri: previsto e speso, margine, SAL con ritenuta a garanzia e fattura, ore e giornale di cantiere dal telefono"
-      ],
-      "voci": [
-        "Nella scheda del mezzo spunta «Ha un magazzino a bordo»: il furgone diventa un magazzino, legato al tecnico. Assicurazione, bollo e revisione restano nel mezzo e si vedono anche nella pagina del furgone.",
-        "Il materiale del rapportino si scarica dal furgone; la fattura dell'intervento non lo scarica una seconda volta dal magazzino principale.",
-        "Magazzino › Furgoni: dotazione di ogni furgone, cosa manca e il reintegro con un clic (trasferimento dal magazzino) e la lista di prelievo da stampare.",
-        "Sul telefono la scheda «Furgone»: cosa c'è a bordo, la conta con la fotocamera che legge i codici a barre e la richiesta di reintegro all'ufficio.",
-        "Commesse: si creano anche da un preventivo (valore, voci del computo e costi previsti). Ore dai rapportini e dalle entrate/uscite in cantiere, materiale al costo medio, fatture ricevute e altri costi: previsto e speso voce per voce, margine e costo stimato a fine lavori, con l'avviso in Home quando sfora.",
-        "SAL: percentuale di avanzamento per voce, certificato in PDF, fattura in bozza con la ritenuta a garanzia e, a fine lavori, la fattura di svincolo.",
-        "Sul telefono la scheda «Cantieri»: entrata e uscita, giornale di cantiere con foto e avanzamento dei lavori."
       ]
     }
   ],
