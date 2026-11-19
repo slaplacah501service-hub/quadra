@@ -1,8 +1,19 @@
 {
-  "versione": "7.8",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.8/Quadra-Setup-7.8.exe",
-  "sha256": "4183386720264f4807088ac471ae55b1c27068a53f38ca71b8e4d3039e056506",
+  "versione": "7.8.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.8.1/Quadra-Setup-7.8.1.exe",
+  "sha256": "0a95e9c8bf4f88b758eb9e176880be0fbd278b36afd42501727baee3c88aba18",
   "novita": [
+    {
+      "versione": "7.8.1",
+      "data": "2026-11-19",
+      "titolo": "Contratto di licenza aggiornato",
+      "riassunto": [
+        "Il contratto mostrato durante l'installazione ora parla di QuadraGest, licenza annuale e prova gratuita di 7 giorni"
+      ],
+      "voci": [
+        "Nessun cambiamento nel funzionamento del programma: si aggiorna solo il testo del contratto di licenza che si accetta installando QuadraGest su un PC nuovo."
+      ]
+    },
     {
       "versione": "7.8",
       "data": "2026-11-19",
@@ -155,17 +166,6 @@
         "Azienda di Test: mentre qualcuno usa «Ricomincia da capo» gli altri aspettano un attimo invece di essere riportati ai dati veri.",
         "Visite (agenzia): se scrivi nome e cognome di un cliente che è già in anagrafica (anche al contrario o con maiuscole diverse) la visita va a quel cliente e se manca gli aggiunge cellulare ed email. Con un cellulare o un'email diversi è un omonimo e nasce un cliente nuovo, come prima.",
         "Officina › Accetta un veicolo: lo stesso per il cliente nuovo scritto a mano."
-      ]
-    },
-    {
-      "versione": "7.4.1",
-      "data": "2026-11-14",
-      "titolo": "Officina: la targa ritrova di nuovo veicolo e cliente",
-      "riassunto": [
-        "All'accettazione, scrivendo la targa di un veicolo già passato in officina, ricompare il suggerimento con modello e cliente"
-      ],
-      "voci": [
-        "Officina › Accetta un veicolo: scrivendo la targa (o il telaio, o il nome del cliente) di un mezzo già in archivio non compariva nessun suggerimento, perché la ricerca andava in errore senza dirlo. Ora ricompare «✔ targa modello · cliente» e un clic compila veicolo e cliente; se il mezzo è già in officina avvisa e apre la sua scheda."
       ]
     }
   ],
