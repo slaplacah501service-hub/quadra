@@ -1,8 +1,31 @@
 {
-  "versione": "7.7.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.7.3/Quadra-Setup-7.7.3.exe",
-  "sha256": "5089785cebf4d7459f056361cbff09264376ad58bb8ee372baa7a266e3711fa8",
+  "versione": "7.8",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.8/Quadra-Setup-7.8.exe",
+  "sha256": "4183386720264f4807088ac471ae55b1c27068a53f38ca71b8e4d3039e056506",
   "novita": [
+    {
+      "versione": "7.8",
+      "data": "2026-11-19",
+      "titolo": "Password sul PC principale e dati cifrati",
+      "riassunto": [
+        "Anche il PC principale chiede nome utente e password, si blocca da solo e con il tasto 🔒 (o Ctrl+L, Win+L)",
+        "Archivio e backup cifrati: senza il codice di recupero i file copiati sono illeggibili",
+        "Codice di recupero e foglio di ripristino da stampare; sblocco autorizzato dal fornitore se dimentichi la password"
+      ],
+      "voci": [
+        "Alla prima apertura scegli l'amministratore (uno che c'è già o uno nuovo): da allora chi si siede al PC deve entrare. Gli utenti dell'ufficio entrano con i loro permessi; i tecnici usano il telefono.",
+        "Blocco automatico dopo 15 minuti senza usarlo (si cambia in Utenti e rete › Accesso a questo PC), tasto 🔒 in alto, Ctrl+L e blocco di Windows. Le schede restano aperte; telefoni e altri PC continuano a lavorare.",
+        "Windows Hello: si entra anche con il PIN o l'impronta di Windows.",
+        "5 password sbagliate di fila: 5 minuti di attesa. Entrate, blocchi e cambi di password finiscono nel registro Ultimi accessi.",
+        "La prima apertura cifra l'archivio (AES-256); la chiave è custodita da Windows. Anche i backup sono cifrati.",
+        "Codice di recupero con foglio di ripristino da stampare: serve se dimentichi la password e per aprire i backup su un PC nuovo. Si rifà da Backup › Protezione dei dati.",
+        "Password dimenticata senza foglio: il fornitore autorizza lo sblocco dopo averti richiamato (anche con un codice da incollare se il PC non ha Internet). All'email dell'azienda arriva un avviso.",
+        "Copia sigillata della chiave per il fornitore (spenta di serie, la accendi in Backup › Protezione dei dati): se perdi PC e foglio, può prepararti un codice nuovo per un tuo backup senza vederne i dati.",
+        "Procedura guidata: nuovo passo 5 «Accesso».",
+        "Dalla rete o da Internet, se la procedura guidata non è finita sul PC principale, compare un avviso invece di «troppi reindirizzamenti».",
+        "Studio medico: medici e sedi creati per sbaglio e mai usati si possono eliminare."
+      ]
+    },
     {
       "versione": "7.7.3",
       "data": "2026-11-18",
@@ -143,26 +166,6 @@
       ],
       "voci": [
         "Officina › Accetta un veicolo: scrivendo la targa (o il telaio, o il nome del cliente) di un mezzo già in archivio non compariva nessun suggerimento, perché la ricerca andava in errore senza dirlo. Ora ricompare «✔ targa modello · cliente» e un clic compila veicolo e cliente; se il mezzo è già in officina avvisa e apre la sua scheda."
-      ]
-    },
-    {
-      "versione": "7.4",
-      "data": "2026-11-14",
-      "titolo": "Nuovo modulo Officina: auto, moto e bici con l'etichetta QR",
-      "riassunto": [
-        "Accettazione al banco con danni sul disegno, foto e firma del cliente, ed etichetta adesiva con il QR",
-        "Il meccanico inquadra il QR con il telefono: lavori da spuntare, cronometro, ricambi, foto",
-        "Il cliente approva i lavori in più dal suo telefono; alla consegna fattura pronta o scontrino",
-        "Scadenze e richiami (tagliando, revisione, gomme) e ore dei meccanici"
-      ],
-      "voci": [
-        "Menu Officina: Officina oggi (tabellone per stato, si trascinano le schede), Accetta un veicolo, Veicoli dei clienti con lo storico, Scadenze e richiami, Ore dei meccanici, Impostazioni officina.",
-        "Accettazione: targa o telaio (trova il mezzo già passato), km, carburante, consegna promessa, meccanico, lavori dall'elenco dei lavori frequenti con ore e ricambi, danni toccando il disegno, foto, firma e «Autorizzo altri lavori fino a €». Ricevuta su WhatsApp.",
-        "Etichetta con il QR per stampanti di etichette (Brother QL, Dymo, Zebra): 62 × 29, 62 × 100 con i lavori, 50 × 30; più copie e quella per le chiavi. Il QR apre la scheda solo a chi entra in QuadraGest.",
-        "Telefono: schede Officina e Scansiona. Cronometro, lavori da spuntare, «Dai il prezzo» per i lavori da verificare, ricambi con il codice a barre, foto, «Chiedi preventivo» e «Segna pronto e avvisa» (WhatsApp o email con il PDF).",
-        "Lavori in più: sotto la cifra autorizzata si fanno subito; sopra il cliente riceve un link e sceglie Sì o Non ora riga per riga. I rimandati diventano lavori consigliati da richiamare.",
-        "Scheda di lavoro in PDF, preventivo dai lavori, alla consegna la fattura in bozza con ore e ricambi oppure lo scontrino del registratore telematico (numero, importo, pagamento; i ricambi escono dal magazzino).",
-        "Scadenze: tagliando e revisione si rinnovano da soli alla consegna; avvisi su WhatsApp o email, anche automatiche ogni lunedì. Ore dei meccanici: presenza, ore sui lavori, resa e ore fatturate."
       ]
     }
   ],
