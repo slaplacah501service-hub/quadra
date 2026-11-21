@@ -1,8 +1,21 @@
 {
-  "versione": "7.8.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.8.1/Quadra-Setup-7.8.1.exe",
-  "sha256": "0a95e9c8bf4f88b758eb9e176880be0fbd278b36afd42501727baee3c88aba18",
+  "versione": "7.9",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.9/Quadra-Setup-7.9.exe",
+  "sha256": "305791de450b0747e922042b90a8a58d3ead3847fe3cceac030a6aa6c4a852c2",
   "novita": [
+    {
+      "versione": "7.9",
+      "data": "2026-11-21",
+      "titolo": "Interventi che si ripetono ogni settimana",
+      "riassunto": [
+        "Nell'intervento, «Si ripete» ha anche Ogni settimana e Ogni 2 settimane"
+      ],
+      "voci": [
+        "Quando chiudi l'intervento (dall'ufficio, dal telefono del tecnico o fatturandolo) QuadraGest mette in calendario il prossimo: stesso giorno della settimana, stessa ora, stessi tecnici. Lo vedono anche il telefono e i calendari Google e iPhone.",
+        "Sotto la scelta compare il giorno e la data del prossimo intervento.",
+        "Se chiudi in ritardo un intervento settimanale, il prossimo va alla prima data da oggi in poi e non finisce nel passato."
+      ]
+    },
     {
       "versione": "7.8.1",
       "data": "2026-11-19",
@@ -149,23 +162,6 @@
       ],
       "voci": [
         "Officina: il link di approvazione dei lavori in più creato nell'Azienda di Test si apre e le scelte del cliente restano nella prova. La pagina dice in alto «Link dell'Azienda di Test: è solo una prova». I link dei dati veri funzionano come prima."
-      ]
-    },
-    {
-      "versione": "7.4.3",
-      "data": "2026-11-17",
-      "titolo": "Azienda di Test più sicura e niente clienti doppi nelle visite",
-      "riassunto": [
-        "L'Azienda di Test si aggiorna con le tabelle nuove di ogni versione: Home, Officina, Commesse, Presenze e Nuovo intervento non danno più errore",
-        "Se QuadraGest ti fa uscire dall'Azienda di Test senza che tu lo chieda, si ferma e te lo dice: niente finisce più nei dati veri per sbaglio",
-        "Visite e accettazione in officina riconoscono il cliente già in anagrafica invece di crearne un doppione"
-      ],
-      "voci": [
-        "Azienda di Test: a ogni avvio e quando ci entri prende le tabelle e le colonne della versione installata. Prima un'Azienda di Test creata con una versione vecchia dava «no such table» nelle pagine nuove.",
-        "Azienda di Test: ogni finestra ricorda se è nella prova. Se QuadraGest si riavvia, la sessione scade, la prova viene cancellata o un'altra finestra dello stesso PC preme «Torna ai dati veri», alla prima pagina o al primo salvataggio compare l'avviso «Non sei più nell'Azienda di Test»: quello che stavi salvando non viene scritto da nessuna parte e scegli tu se rientrare nella prova o continuare sui dati veri. Vale anche al contrario.",
-        "Azienda di Test: mentre qualcuno usa «Ricomincia da capo» gli altri aspettano un attimo invece di essere riportati ai dati veri.",
-        "Visite (agenzia): se scrivi nome e cognome di un cliente che è già in anagrafica (anche al contrario o con maiuscole diverse) la visita va a quel cliente e se manca gli aggiunge cellulare ed email. Con un cellulare o un'email diversi è un omonimo e nasce un cliente nuovo, come prima.",
-        "Officina › Accetta un veicolo: lo stesso per il cliente nuovo scritto a mano."
       ]
     }
   ],
