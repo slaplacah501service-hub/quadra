@@ -1,8 +1,26 @@
 {
-  "versione": "7.9",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v7.9/Quadra-Setup-7.9.exe",
-  "sha256": "305791de450b0747e922042b90a8a58d3ead3847fe3cceac030a6aa6c4a852c2",
+  "versione": "8.0",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.0/Quadra-Setup-8.0.exe",
+  "sha256": "4731a1af546474dbbc139249271fac54fdbad967fb8b225d7e98a4a5915f4ffc",
   "novita": [
+    {
+      "versione": "8.0",
+      "data": "2026-11-21",
+      "titolo": "Interventi ripetuti subito in calendario e contratti dei collaboratori",
+      "riassunto": [
+        "Gli interventi che si ripetono possono andare subito in calendario: le prossime N volte o fino a una data",
+        "Contratto di lavoro dei collaboratori: scadenze, proroghe, rinnovi, storico e PDF, con avvisi nella Home",
+        "Contratti a chiamata: promemoria della comunicazione con i dati pronti da copiare"
+      ],
+      "voci": [
+        "Nell'intervento, sotto «Si ripete», la casella «Metti subito in calendario anche i prossimi»: sempre le prossime N volte (si allunga da solo) oppure fino a una data. Li vedono subito il calendario, i tecnici sul telefono e i calendari Google e iPhone; nel calendario hanno il simbolo ↻.",
+        "Modificando un intervento della serie scegli «Solo questo» (es. un giorno spostato per ferie) oppure «Questo e i successivi». Anche Elimina chiede se togliere solo questo o anche i successivi.",
+        "Scheda del collaboratore › Contratto di lavoro (solo amministratore): tipo, date, part-time e ore (usate dalle Presenze), contratto collettivo, causale, PDF firmati, storico. Tasti Proroga, Rinnova o cambia e Termina, con il conteggio dei mesi e delle proroghe del tempo determinato.",
+        "Avvisi nella Home per i contratti in scadenza o scaduti. A contratto scaduto il collaboratore non si può assegnare agli interventi e non entra dal telefono (si può spegnere nella sua scheda).",
+        "Collaboratori a chiamata: sull'intervento i dati da comunicare all'Ispettorato del lavoro e il tasto «Comunicazione fatta»; promemoria nella Home per i prossimi 7 giorni.",
+        "Elenco collaboratori con contratto, scadenza e filtri In scadenza, A chiamata, Scaduti."
+      ]
+    },
     {
       "versione": "7.9",
       "data": "2026-11-21",
@@ -151,17 +169,6 @@
         "WhatsApp: anche i cellulari già salvati senza prefisso aprono la chat con +39, nelle richieste dell'agenzia e nel calendario dei tecnici come già in officina.",
         "Officina › scheda › Da far approvare: il link mandato al cliente è in un campo con il pulsante «📋 Copia link», per incollarlo dove vuoi.",
         "Con le schede aperte il pulsante «＋ Scheda» in alto non si vede più in trasparenza sopra le linguette: per aprire una scheda c'è il «+» nella barra delle schede (o Ctrl+T)."
-      ]
-    },
-    {
-      "versione": "7.4.4",
-      "data": "2026-11-17",
-      "titolo": "Officina: il link di approvazione funziona anche nell'Azienda di Test",
-      "riassunto": [
-        "Il link per far approvare i lavori al cliente, mandato dall'Azienda di Test, si apre invece di dire «Link non valido»"
-      ],
-      "voci": [
-        "Officina: il link di approvazione dei lavori in più creato nell'Azienda di Test si apre e le scelte del cliente restano nella prova. La pagina dice in alto «Link dell'Azienda di Test: è solo una prova». I link dei dati veri funzionano come prima."
       ]
     }
   ],
