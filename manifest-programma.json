@@ -1,8 +1,29 @@
 {
-  "versione": "8.0",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.0/Quadra-Setup-8.0.exe",
-  "sha256": "4731a1af546474dbbc139249271fac54fdbad967fb8b225d7e98a4a5915f4ffc",
+  "versione": "8.1",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.1/Quadra-Setup-8.1.exe",
+  "sha256": "c6e4b4e5de6016428f3e47fcd14e8c53c21fe5316fe2a05b4a84bbd4ee14e1ab",
   "novita": [
+    {
+      "versione": "8.1",
+      "data": "2026-11-22",
+      "titolo": "Centro estetico e collegamento al registratore di cassa",
+      "riassunto": [
+        "Nuovo modulo Centro estetico: agenda per operatrice e cabina, scheda della cliente, cassa, pacchetti, gift card, punti e provvigioni",
+        "Prenotazione online per le clienti con QR code e codice via email, senza password",
+        "Scontrini stampati direttamente sul registratore telematico (Epson e protocollo XON/XOFF), anche dall'Officina"
+      ],
+      "voci": [
+        "Centro estetico › Agenda: giorno per operatrice o per cabina, colori per stato (prenotato, arrivata, in corso, fatto, non venuta), controllo di cabina e macchinario già occupati.",
+        "Scheda della cliente: fototipo, pelle, allergie, controindicazioni, farmaci, gravidanza; schede dei trattamenti con parametri e foto prima e dopo; consensi da firmare sul tablet o sul telefono (due modelli di partenza già pronti, da far controllare al consulente).",
+        "Cassa: trattamenti, prodotti, pacchetti e gift card nello stesso conto; pagamento con contanti, carta, gift card o punti; scontrino sul registratore oppure fattura. Annullando una vendita tornano gift card, punti, sedute dei pacchetti e magazzino.",
+        "Pacchetti a sedute, gift card con codice e stampa, raccolta punti, provvigioni del mese per operatrice, incassi del giorno con gli scontrini da ristampare o correggere.",
+        "Prenotazione online: la cliente apre il link o il QR code del centro, sceglie trattamento, operatrice e orario e conferma con un codice ricevuto via email. Le prenotazioni arrivano «da approvare» oppure confermate da sole; la cliente può disdire entro il tempo che scegli.",
+        "Telefono delle operatrici: scheda «💆 Giornata» con i propri appuntamenti, stato, scheda del trattamento e foto.",
+        "Impostazioni › Registratore di cassa: indirizzo IP e porta, protocollo Epson o XON/XOFF, reparti IVA e tipi di pagamento, apertura del cassetto, chiusura giornaliera, lettura e stato. C'è anche un registratore «di prova» per imparare senza stampare nulla.",
+        "Officina: tasto «Stampa lo scontrino e consegna» sulla scheda del lavoro.",
+        "Presentazione: nuovo settore «Centro estetico» con un centro di Roma, clienti, appuntamenti, pacchetti e incassi già pronti."
+      ]
+    },
     {
       "versione": "8.0",
       "data": "2026-11-21",
@@ -152,23 +173,6 @@
         "Nell'Azienda di Test vedi solo gli avvisi della prova, e sui dati veri solo quelli veri.",
         "Versione nuova: QuadraGest controlla ogni ora invece che una volta al giorno. Quando c'è, nella barra in basso compare il pulsante arancione «⬆ Nuova versione: installa».",
         "«⟳ Aggiorna» nella barra in basso, accanto ad Aiuto: ricarica la pagina e controlla subito se c'è una versione nuova."
-      ]
-    },
-    {
-      "versione": "7.4.5",
-      "data": "2026-11-17",
-      "titolo": "Azienda di Test per finestra, +39 nei cellulari e «Copia link» in officina",
-      "riassunto": [
-        "Sul PC principale ogni finestra entra ed esce dall'Azienda di Test per conto suo: se ci entri da una finestra, le altre restano sui dati veri",
-        "Il cellulare scritto senza prefisso prende da solo il +39, così WhatsApp si apre subito sul numero giusto",
-        "Officina: accanto al link di approvazione c'è «📋 Copia link»"
-      ],
-      "voci": [
-        "Azienda di Test sul PC principale: prima la prova valeva per tutte le finestre del PC insieme, ora vale solo per la finestra (o la scheda del browser) da cui ci sei entrato. Le altre restano sui dati veri senza interruzioni. Se riavvii QuadraGest, la finestra che era nella prova ci rimane, con la fascia arancione.",
-        "Cellulare di clienti, fornitori, collaboratori e azienda: se scrivi un cellulare italiano senza prefisso (per esempio 347 1234567) QuadraGest salva +39 347 1234567. 0039 diventa +39. I numeri con un altro prefisso (+41…) e i fissi restano come li scrivi. Vale anche per il cliente scritto al volo nelle visite e all'accettazione in officina.",
-        "WhatsApp: anche i cellulari già salvati senza prefisso aprono la chat con +39, nelle richieste dell'agenzia e nel calendario dei tecnici come già in officina.",
-        "Officina › scheda › Da far approvare: il link mandato al cliente è in un campo con il pulsante «📋 Copia link», per incollarlo dove vuoi.",
-        "Con le schede aperte il pulsante «＋ Scheda» in alto non si vede più in trasparenza sopra le linguette: per aprire una scheda c'è il «+» nella barra delle schede (o Ctrl+T)."
       ]
     }
   ],
