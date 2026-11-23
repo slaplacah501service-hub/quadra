@@ -1,8 +1,30 @@
 {
-  "versione": "8.1",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.1/Quadra-Setup-8.1.exe",
-  "sha256": "c6e4b4e5de6016428f3e47fcd14e8c53c21fe5316fe2a05b4a84bbd4ee14e1ab",
+  "versione": "8.2",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.2/Quadra-Setup-8.2.exe",
+  "sha256": "665187e2942c1fd3af0d50c3483194039e83d3e0814040daa0bf863241d477d6",
   "novita": [
+    {
+      "versione": "8.2",
+      "data": "2026-11-23",
+      "titolo": "Cassa da negozio, emulatore del registratore e codici a barre",
+      "riassunto": [
+        "Nuova cassa a schermo intero con tasti grandi, lettore di codici a barre sempre in ascolto, resto da dare e conti sospesi",
+        "Impostazioni › Cassa e registratore: registratori (con ricerca nella rete), tasti, pagamenti, scontrino, fondo cassa e chiusure",
+        "Emulatore: con il registratore di prova vedi lo scontrino a video e lo salvi in PDF; codice a barre negli articoli e nei modelli Excel"
+      ],
+      "voci": [
+        "Vendite › 🛒 Cassa: categorie e tasti grandi per il touch, ricerca, scanner sempre in ascolto (codice a barre, QR della gift card, tessera sanitaria della cliente).",
+        "Pagamento con tastiera a schermo e banconote rapide, resto da dare in grande, carta, misto (parte carta, parte contanti), gift card, punti, codice fiscale sullo scontrino, fattura.",
+        "Conti sospesi, sconti sulla riga o sul conto, reparti liberi 22/10/4%, vendita di gift card.",
+        "Chiusura di cassa: conteggio di banconote e monete, quadratura con il fondo cassa e differenza, fondo per il giorno dopo, chiusura Z sul registratore e registro delle chiusure.",
+        "Impostazioni › Cassa e registratore con sei schede. La ricerca nella rete trova gli apparecchi che rispondono sulla porta 9100; la marca si sceglie tu.",
+        "Emulatore del registratore di prova: dopo la vendita il rotolo dello scontrino a video, da stampare o salvare in PDF con «Microsoft Print to PDF».",
+        "Gift card: con un registratore Epson, dopo lo scontrino esce il buono con il QR code (documento non fiscale).",
+        "Codice a barre negli articoli (si legge con lo scanner direttamente nella casella), nei modelli Excel e CSV di importazione e nell'esportazione.",
+        "Centro estetico: pacchetti composti da più trattamenti anche di categorie diverse, con le sedute contate per trattamento; «✏️ rinomina» per le categorie del listino.",
+        "Nuova guida PDF «Centro estetico: configurazione e manuale operativo»; manuale aggiornato con il capitolo «Cassa e registratore»."
+      ]
+    },
     {
       "versione": "8.1",
       "data": "2026-11-22",
@@ -157,22 +179,6 @@
         "Sul telefono del medico la scheda «Studio»: «Oggi sei a…» con l'indirizzo, i pazienti della giornata, la visita da scrivere (anche dettando) e la scheda del paziente.",
         "Compensi per medico e sede secondo gli accordi.",
         "Manuale: nuovo capitolo 23 «Studio medico»."
-      ]
-    },
-    {
-      "versione": "7.5",
-      "data": "2026-11-17",
-      "titolo": "Avvisi in tempo reale dal telefono e aggiornamenti controllati ogni ora",
-      "riassunto": [
-        "Quando arriva qualcosa dai tecnici, dai meccanici o dagli agenti compare un avviso in basso a destra, raccolto poi nel menu «🔔 Notifiche», e la pagina si aggiorna da sola",
-        "QuadraGest cerca la versione nuova ogni ora; nella barra in basso c'è «⟳ Aggiorna» accanto ad Aiuto"
-      ],
-      "voci": [
-        "Avvisi in basso a destra con il pulsante «Apri»: rapportino inviato, intervento chiuso, nuovo intervento dal telefono, lavoro da far approvare al cliente, veicolo pronto, risposta del cliente al link dell'officina, richiesta di reintegro del furgone, ferie e permessi, note spese, giornale di cantiere, nuova visita fissata. Dopo 1 minuto l'avviso diventa trasparente, dopo 5 minuti sparisce e passa nel menu «🔔 Notifiche» della barra in basso, dove il numero rosso dice quante non hai ancora visto. Aprendo il menu il numero si azzera; «Svuota» lo pulisce.",
-        "La pagina che hai davanti si ricarica da sola e dice «Pagina aggiornata alle…». Se stai scrivendo in un modulo (fattura, scheda, cliente) non si ricarica, così non perdi niente: arriva solo l'avviso.",
-        "Nell'Azienda di Test vedi solo gli avvisi della prova, e sui dati veri solo quelli veri.",
-        "Versione nuova: QuadraGest controlla ogni ora invece che una volta al giorno. Quando c'è, nella barra in basso compare il pulsante arancione «⬆ Nuova versione: installa».",
-        "«⟳ Aggiorna» nella barra in basso, accanto ad Aiuto: ricarica la pagina e controlla subito se c'è una versione nuova."
       ]
     }
   ],
