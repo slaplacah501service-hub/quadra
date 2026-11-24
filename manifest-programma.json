@@ -1,8 +1,30 @@
 {
-  "versione": "8.5",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.5/Quadra-Setup-8.5.exe",
-  "sha256": "6247e203cb393bc624724c38aa0101c1de2a4e1f201030c75aaefc16deaf4ac7",
+  "versione": "8.6",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.6/Quadra-Setup-8.6.exe",
+  "sha256": "8f84e395e9b147df30362a951e7af3cb132da454f573d430d9598d7b40bf576c",
   "novita": [
+    {
+      "versione": "8.6",
+      "data": "2026-11-24",
+      "titolo": "Fatture più sicure: numeri controllati, XML senza scarti, ritenuta, cassa e PA",
+      "riassunto": [
+        "🔢 Numeri delle fatture controllati: niente doppioni, date fuori ordine o bozze vuote che rubano un numero",
+        "✅ XML che lo SdI non scarta: apostrofi curvi, €, emoji e testi lunghi sistemati da soli; cliente estero privato; provincia e CAP",
+        "🏛 Fatture alla PA con ordine, CIG e CUP; nota di credito collegata; ritenuta d'acconto e cassa previdenziale",
+        "💾 Stato del backup in Home e avviso se un backup non riesce; PDF che si aprono anche con le lettere accentate"
+      ],
+      "voci": [
+        "I PDF (rapportini, schede immobile, referti, contratti…) di clienti con lettere accentate o apostrofi, come «Caffè Nicolò», ora si aprono anche dal telefono, dagli altri PC, dal Mac e da Internet.",
+        "Sul telefono del tecnico, se qualcosa non va compare un messaggio chiaro invece di tornare all'agenda senza dire niente.",
+        "«Nuova fattura» aperta e lasciata vuota non lascia più una bozza con il numero: la volta dopo si riusa. Prima di emettere QuadraGest blocca i numeri già usati e le date fuori ordine, e avvisa dei numeri saltati e delle bozze con numero più basso. Una bozza spostata nell'anno nuovo prende il numero del nuovo anno.",
+        "Nell'XML i caratteri che lo SdI rifiuta (’ “ ” – € emoji) vengono sostituiti e i testi troppo lunghi accorciati. Cliente estero senza partita IVA con il codice convenzionale. Provincia e CAP controllati: «Roma» nella scheda diventa RM.",
+        "Nuovo riquadro nella fattura: ordine/contratto/convenzione con CIG e CUP per la PA, fattura collegata per le note di credito, ritenuta d'acconto (RT01/RT02, causale 770) e cassa previdenziale (rivalsa INPS 4%, Inarcassa, ENPAM…), nel PDF e nell'XML. Valori proposti da Impostazioni › La mia azienda.",
+        "Altro ▾ › Crea nota di credito su una fattura emessa. Dichiarazione d'intento nella scheda cliente, messa nell'XML delle fatture art. 8 c.1 lett. c.",
+        "Il bollo virtuale da 2 € si mette da solo quando serve. Prezzi scritti come «1.250» o «€ 80» letti giusti e riscritti all'italiana.",
+        "«XML FatturaPA» su una bozza ora chiede conferma prima di emetterla. Nella procedura iniziale una partita IVA sbagliata non si salva più.",
+        "In Home lo stato del backup (verde, giallo se è sullo stesso disco, rosso se l'ultimo non è riuscito) e un avviso quando un backup automatico non va a buon fine."
+      ]
+    },
     {
       "versione": "8.5",
       "data": "2026-11-24",
@@ -164,17 +186,6 @@
         "Procedura guidata: nuovo passo 5 «Accesso».",
         "Dalla rete o da Internet, se la procedura guidata non è finita sul PC principale, compare un avviso invece di «troppi reindirizzamenti».",
         "Studio medico: medici e sedi creati per sbaglio e mai usati si possono eliminare."
-      ]
-    },
-    {
-      "versione": "7.7.3",
-      "data": "2026-11-18",
-      "titolo": "Correzione: caricare un nuovo logo",
-      "riassunto": [
-        "Caricare un nuovo logo dopo aver creato un PDF dava l'errore «sezione mappata dall'utente aperta»: ora si salva sempre"
-      ],
-      "voci": [
-        "I PDF leggono il logo senza tenerlo bloccato; se il vecchio file è comunque occupato, il nuovo logo si salva con un altro nome e il vecchio si cancella appena possibile."
       ]
     }
   ],
