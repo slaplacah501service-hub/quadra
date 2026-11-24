@@ -1,8 +1,29 @@
 {
-  "versione": "8.2",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.2/Quadra-Setup-8.2.exe",
-  "sha256": "665187e2942c1fd3af0d50c3483194039e83d3e0814040daa0bf863241d477d6",
+  "versione": "8.3",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.3/Quadra-Setup-8.3.exe",
+  "sha256": "1dcb2d31972007d6c92d00151dafd65ed28f3ad60f1096473d72de107c2554e5",
   "novita": [
+    {
+      "versione": "8.3",
+      "data": "2026-11-24",
+      "titolo": "Nuova reportistica: cruscotto, tutti i report e confronto con l'anno prima",
+      "riassunto": [
+        "Report › Cruscotto: ricavi, costi, margine, incassato, da incassare e scaduto, con il confronto con l'anno prima o il periodo precedente",
+        "Grafico di ricavi e costi mese per mese, migliori clienti, crediti per anzianità e un riquadro per ogni modulo attivo",
+        "Report › Tutti i report: tutti i report del programma in un posto solo, con la ricerca e le stelline dei preferiti"
+      ],
+      "voci": [
+        "Il menu Report ora si apre sul Cruscotto. Periodi pronti (questo mese, mese scorso, trimestre, anno, anno scorso, ultimi 12 mesi o date a scelta): quelli in corso arrivano fino a oggi, così il confronto con l'anno prima è alla pari.",
+        "Ricavi = fatture emesse (note di credito sottratte) più gli scontrini della cassa non trasformati in fattura, senza IVA. Costi = fatture d'acquisto ricevute. Margine = ricavi meno costi.",
+        "Incassato con il tempo medio d'incasso (giorni tra la fattura e l'incasso). Da incassare e scaduto a oggi, con i crediti divisi per anzianità (non scaduti, 1–30, 31–60, oltre 60 giorni).",
+        "Grafico di ricavi e costi con i ricavi del periodo di confronto tratteggiati; passando col mouse vedi i numeri, e c'è anche la tabella.",
+        "Migliori clienti con la variazione rispetto al periodo di confronto; un clic apre le loro fatture.",
+        "Riquadri dei moduli attivi: interventi (conclusi, ore, da fatturare), commesse (margine stimato, in perdita), presenze (ore, straordinari, note spese), magazzino (valore, sotto scorta, merce ferma da 6 mesi), cassa e fornitori da pagare.",
+        "Il cruscotto si esporta in PDF ed Excel (riepilogo, mesi e clienti su fogli separati) o si stampa.",
+        "Tutti i report: elenco per area (vendite, incassi, costi, interventi, commesse, persone, magazzino, cassa, il tuo settore) con ricerca; si vedono solo quelli dei moduli attivi. Con la stellina un report va tra i preferiti, che compaiono anche in cima al cruscotto.",
+        "Fatture e documenti (il report di prima): nelle viste per cliente, articolo, aliquota IVA e mese c'è «Confronta con: stesso periodo dell'anno prima», con le colonne Anno prima e Variazione anche in PDF ed Excel. Compaiono pure i clienti e gli articoli che c'erano solo l'anno prima."
+      ]
+    },
     {
       "versione": "8.2",
       "data": "2026-11-23",
@@ -156,29 +177,6 @@
         "Se nel frattempo l'ufficio ha chiuso o cambiato l'intervento, il rapportino non va perso: il telefono lo segna come non accettato e l'ufficio ne trova i dati nella scheda dell'intervento («Fatto senza linea: com'è arrivato»).",
         "Ufficio: Utenti e rete › Telefoni senza linea mostra chi ha la copia, quando si è aggiornata e cosa ha in attesa. Si può cancellare la copia a distanza e si scelgono le regole: giorni di lavori, durata del PIN, foto leggere, timbrature permesse, cancellazione dopo 3 PIN sbagliati.",
         "Funziona anche per gli agenti immobiliari (visite) e per i medici (visite e referti della giornata). Serve il Collegamento Cloudflare o un dominio in https; sull'iPhone QuadraGest va aggiunto alla schermata Home."
-      ]
-    },
-    {
-      "versione": "7.6",
-      "data": "2026-11-18",
-      "titolo": "Nuovo modulo Studio medico: agenda, pazienti, visite e Sistema TS",
-      "riassunto": [
-        "Nuovo modulo Studio medico per studi e poliambulatori, per il medico che lavora in più studi e per chi fa tutte e due le cose",
-        "Agenda per medico, stanza o settimana con promemoria e conferma dal link, cartella del paziente, visita con referto PDF, fattura sanitaria solo PDF con il bollo, file del Sistema TS e la giornata del medico sul telefono"
-      ],
-      "voci": [
-        "«Come lavori?»: studio medico, medico in più studi o tutti e due. QuadraGest prepara agenda, orari, listino e un modello di informativa privacy.",
-        "Sedi e stanze: i tuoi studi e quelli di altri medici, con l'accordo di ognuno (percentuale, a ore, a giornata, a canone) e i minuti per spostarsi.",
-        "Medici, orari della settimana in più sedi e listino delle prestazioni con il tipo di spesa per il Sistema TS.",
-        "Agenda per medico, per stanza o in settimana, con avviso se lo spazio è occupato o il medico è in un altro studio; sala d'attesa, lista d'attesa e promemoria per domani con WhatsApp o email. Il paziente conferma o disdice dal link e il messaggio non dice mai il motivo della visita.",
-        "Cartella del paziente: allergie e patologie sempre in evidenza, anamnesi con lo storico, visite, referti e allegati, consensi firmati, fatture. La segreteria non vede la cartella; accesso di emergenza con il motivo e registro di tutti gli accessi.",
-        "Visita con parametri (BMI automatico), diagnosi, terapia e note private che non vanno mai nel referto. Referto in PDF con l'intestazione del medico, da mandare per email.",
-        "Fattura dalla visita: per le prestazioni sanitarie a persone senza partita IVA solo PDF (niente SdI) e bollo da 2 € messo da solo sopra 77,47 €.",
-        "Sistema Tessera Sanitaria: spese del mese pronte, con opposizione o da correggere; file XML con i codici fiscali cifrati, uno per medico, da caricare su sistemats.it; scadenza in evidenza.",
-        "Consensi da far firmare con il dito sul tablet o sul telefono, con i dati del paziente e del medico già compilati.",
-        "Sul telefono del medico la scheda «Studio»: «Oggi sei a…» con l'indirizzo, i pazienti della giornata, la visita da scrivere (anche dettando) e la scheda del paziente.",
-        "Compensi per medico e sede secondo gli accordi.",
-        "Manuale: nuovo capitolo 23 «Studio medico»."
       ]
     }
   ],
