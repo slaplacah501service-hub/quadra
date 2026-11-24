@@ -1,8 +1,42 @@
 {
-  "versione": "8.3",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.3/Quadra-Setup-8.3.exe",
-  "sha256": "1dcb2d31972007d6c92d00151dafd65ed28f3ad60f1096473d72de107c2554e5",
+  "versione": "8.5",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.5/Quadra-Setup-8.5.exe",
+  "sha256": "6247e203cb393bc624724c38aa0101c1de2a4e1f201030c75aaefc16deaf4ac7",
   "novita": [
+    {
+      "versione": "8.5",
+      "data": "2026-11-24",
+      "titolo": "Report salvati e report che arrivano da soli per email",
+      "riassunto": [
+        "💾 Salva questo report: un report con periodo e filtri, da ritrovare con un clic in Tutti i report e nel cruscotto",
+        "✉ Invii automatici: un report arriva da solo per email ogni settimana, mese o trimestre, in PDF o Excel",
+        "Volendo parte solo se c'è qualcosa da guardare: scaduto, clienti in perdita, richiamate, costi da classificare"
+      ],
+      "voci": [
+        "In ogni report (cruscotto, redditività, tecnici, costi, fatture e documenti) il tasto «💾 Salva questo report» tiene periodo, confronto e filtri con un nome. I report salvati sono in Tutti i report e in cima al cruscotto; ogni utente ha i suoi.",
+        "Report › Invii automatici (amministratore): report, frequenza (settimana, mese, 3 mesi), giorno e ora, periodo appena finito o dall'inizio dell'anno, confronto, destinatari, PDF/Excel. «Mandalo per email» dentro un report tiene i filtri.",
+        "L'email ha i numeri principali nel testo e il report in allegato; con «solo se c'è qualcosa da guardare» parte solo con un avviso (⚠ anche nell'oggetto).",
+        "Parte dal PC principale con QuadraGest aperto; se era spento, parte alla riaccensione. Ultimo invio con l'esito, prossimo invio e «Prova ora» nell'elenco."
+      ]
+    },
+    {
+      "versione": "8.4",
+      "data": "2026-11-24",
+      "titolo": "Report: redditività per cliente, produttività dei tecnici e costi per categoria",
+      "riassunto": [
+        "Report › Redditività per cliente: ricavi meno materiale, acquisti collegati e ore × costo orario, con margine e ricavo per ora",
+        "Report › Tecnici: ore presenti e lavorate, utilizzo, interventi, richiamate e fatturato per ora, con il confronto",
+        "Fatture d'acquisto: categoria di costo e cliente per cui è stata fatta la spesa; nuovo report Costi per categoria e fornitore"
+      ],
+      "voci": [
+        "Redditività per cliente: per ogni cliente ricavi (fatture e scontrini, senza IVA) meno materiale al costo, fatture d'acquisto collegate al cliente o a una sua commessa e ore dei rapportini e dei cantieri × costo orario. Margine in euro e in %, ricavo per ora, clienti in perdita o sotto il 25% in evidenza, dettaglio con un clic, PDF ed Excel.",
+        "Produttività dei tecnici (modulo Interventi): presenza (modulo Presenze), ore su interventi e cantieri, utilizzo, numero e durata media degli interventi, richiamate (guasto dallo stesso cliente entro 30 giorni), fatturato diviso per le ore di ognuno, costo delle ore. Totali con il confronto con l'anno prima o il periodo precedente.",
+        "Fattura ricevuta › Per i report: categoria di costo (materiali, servizi, subappalti, carburante e veicoli, affitto e utenze, attrezzature, personale, altro), anche per tutte le fatture del fornitore, e cliente per cui è stata fatta la spesa.",
+        "Costi per categoria e fornitore: le fatture d'acquisto del periodo divise per categoria e per fornitore, con il confronto e le fatture ancora da classificare.",
+        "Costo orario delle persone: lo imposta l'amministratore dai report; è lo stesso del margine delle commesse.",
+        "Cruscotto: Costi apre i costi per categoria, Margine apre la redditività per cliente, il riquadro Interventi apre la produttività dei tecnici."
+      ]
+    },
     {
       "versione": "8.3",
       "data": "2026-11-24",
@@ -141,42 +175,6 @@
       ],
       "voci": [
         "I PDF leggono il logo senza tenerlo bloccato; se il vecchio file è comunque occupato, il nuovo logo si salva con un altro nome e il vecchio si cancella appena possibile."
-      ]
-    },
-    {
-      "versione": "7.7.2",
-      "data": "2026-11-18",
-      "titolo": "Barre riorganizzate e lavori senza fattura",
-      "riassunto": [
-        "La barra in alto ha al massimo otto aree con un'icona (Home, Vendite, Acquisti, Magazzino, Lavori, Persone, Anagrafiche, Report) e non va più a capo anche con tutti i moduli",
-        "In basso: + Nuovo e ⚙ Impostazioni a colonne, ricerca più grande, 🔔, Aiuto e ⟳",
-        "Interventi, visite e lavori d'officina senza compenso si chiudono come gratuiti, in garanzia o già pagati: non finiscono tra le cose da fatturare"
-      ],
-      "voci": [
-        "Lavori raccoglie in colonne i moduli di settore (Interventi, Commesse, Officina, Studio medico, Agenzia); con un solo settore la voce prende il suo nome.",
-        "Vendite (fatture, preventivi, DDT, ordini clienti) e Acquisti (fatture ricevute, ordini e bolle dei fornitori) separati; Persone con presenze, ferie, note spese e collaboratori.",
-        "Impostazioni spostate in basso accanto a + Nuovo e divise in colonne: La tua azienda, Documenti e fisco, Moduli, Persone e collegamenti, Dati e programma.",
-        "+ Nuovo diviso in Vendite, Lavori, Magazzino e acquisti, Anagrafiche, con le nuove voci per agenzia e commesse.",
-        "Sul telefono il menu ☰ mostra le aree e si apre quella toccata.",
-        "Telefoni senza linea: il PIN può valere anche 30 giorni o senza scadenza (lo sceglie l'ufficio nelle regole).",
-        "Lavori senza fattura regolari: un intervento si può chiudere come gratuito, in garanzia o compreso in un contratto già pagato; la visita medica come gratuita o controllo già pagato; l'officina consegna indicando il motivo. Restano registrati e non compaiono tra le cose da fatturare."
-      ]
-    },
-    {
-      "versione": "7.7",
-      "data": "2026-11-18",
-      "titolo": "Lavorare anche senza linea dal telefono",
-      "riassunto": [
-        "Il telefono tiene una copia cifrata dei lavori della persona (agenda, interventi, clienti, furgone, presenze, note spese) e la apre col PIN anche senza linea o col PC dell'ufficio spento",
-        "Rapportini, timbrature, note spese, scarichi del furgone e visite fatti senza linea restano in coda sul telefono e partono da soli appena torna la linea, una volta sola e in ordine"
-      ],
-      "voci": [
-        "Io › Lavora anche senza linea: si sceglie un PIN di 6 cifre (e l'impronta dove il telefono la offre). Il telefono scarica i lavori da ieri ai prossimi giorni e li tiene cifrati; si aggiorna da solo a ogni apertura con la linea e ogni 15 minuti.",
-        "Senza linea QuadraGest si apre lo stesso: chiede il PIN e mostra le stesse pagine di sempre con la barra «Senza linea · da …». Dopo 30 minuti fermo si richiude.",
-        "Ciò che si invia senza linea viene salvato cifrato e messo in coda; la pagina «In attesa di partire» mostra cosa deve ancora arrivare all'ufficio. Al ritorno della linea parte tutto in ordine, con l'ora del telefono (anche per le timbrature).",
-        "Se nel frattempo l'ufficio ha chiuso o cambiato l'intervento, il rapportino non va perso: il telefono lo segna come non accettato e l'ufficio ne trova i dati nella scheda dell'intervento («Fatto senza linea: com'è arrivato»).",
-        "Ufficio: Utenti e rete › Telefoni senza linea mostra chi ha la copia, quando si è aggiornata e cosa ha in attesa. Si può cancellare la copia a distanza e si scelgono le regole: giorni di lavori, durata del PIN, foto leggere, timbrature permesse, cancellazione dopo 3 PIN sbagliati.",
-        "Funziona anche per gli agenti immobiliari (visite) e per i medici (visite e referti della giornata). Serve il Collegamento Cloudflare o un dominio in https; sull'iPhone QuadraGest va aggiunto alla schermata Home."
       ]
     }
   ],
