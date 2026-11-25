@@ -1,8 +1,26 @@
 {
-  "versione": "8.6",
-  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.6/Quadra-Setup-8.6.exe",
-  "sha256": "8f84e395e9b147df30362a951e7af3cb132da454f573d430d9598d7b40bf576c",
+  "versione": "8.7",
+  "url": "https://github.com/slaplacah501service-hub/quadra/releases/download/v8.7/Quadra-Setup-8.7.exe",
+  "sha256": "2b4721a92538646b1e37d971b3f15574371b58c6fa29616037afb67093ba4c56",
   "novita": [
+    {
+      "versione": "8.7",
+      "data": "2026-11-24",
+      "titolo": "Sconti a mano in cassa e WhatsApp anche a chi non è in rubrica",
+      "riassunto": [
+        "% Sconto in cassa: sulla riga o sul totale, in percentuale o in euro, scritto a mano con il tastierino",
+        "Lo scontrino del registratore torna al centesimo con la cassa: «Sconto 15%» sotto la riga e «Sconto sul totale» dopo il subtotale",
+        "💬 WhatsApp: i PDF partono anche verso numeri non salvati in rubrica, dal PC e dal telefono"
+      ],
+      "voci": [
+        "Cassa › % Sconto: scegli Sulla riga o Sul totale del conto, poi % o €, e scrivi il valore (tasti rapidi −5%, −10%… e Arrotonda per togliere i centesimi). Lo sconto in % di una riga segue la quantità; le gift card vendute non si scontano.",
+        "Registratore: l'importo dello sconto lo calcola sempre QuadraGest. Epson: sconto sull'ultima vendita e sconto sul subtotale con la riga di subtotale; XON/XOFF: 3M e 4M. Con gift card nel conto lo sconto sul totale si divide sulle altre righe.",
+        "Corretto: lo sconto sul conto poteva sparire dallo scontrino se nessuna riga era abbastanza grande; l'annullo Epson ora tiene conto degli sconti di riga; nella fattura fatta da una vendita lo sconto si divide per aliquota IVA invece di andare tutto al 22%.",
+        "Invia PDF con WhatsApp e Quota interventi: nuova casella «Numero WhatsApp» (già compilata con il cellulare del cliente). «Copia e apri WhatsApp» apre direttamente quella chat, anche se il numero non è in rubrica: premi Ctrl+V e Invia.",
+        "Telefono del tecnico, rapportino: «💬 Apri la chat» con il numero del cliente prima di «Invia con WhatsApp», così la chat compare tra le recenti anche se il cliente non è in rubrica.",
+        "I link WhatsApp dei promemoria aperti dalla finestra di QuadraGest vanno direttamente nell'app WhatsApp del PC. I numeri senza prefisso diventano +39 (anche i fissi)."
+      ]
+    },
     {
       "versione": "8.6",
       "data": "2026-11-24",
@@ -163,29 +181,6 @@
       ],
       "voci": [
         "Nessun cambiamento nel funzionamento del programma: si aggiorna solo il testo del contratto di licenza che si accetta installando QuadraGest su un PC nuovo."
-      ]
-    },
-    {
-      "versione": "7.8",
-      "data": "2026-11-19",
-      "titolo": "Password sul PC principale e dati cifrati",
-      "riassunto": [
-        "Anche il PC principale chiede nome utente e password, si blocca da solo e con il tasto 🔒 (o Ctrl+L, Win+L)",
-        "Archivio e backup cifrati: senza il codice di recupero i file copiati sono illeggibili",
-        "Codice di recupero e foglio di ripristino da stampare; sblocco autorizzato dal fornitore se dimentichi la password"
-      ],
-      "voci": [
-        "Alla prima apertura scegli l'amministratore (uno che c'è già o uno nuovo): da allora chi si siede al PC deve entrare. Gli utenti dell'ufficio entrano con i loro permessi; i tecnici usano il telefono.",
-        "Blocco automatico dopo 15 minuti senza usarlo (si cambia in Utenti e rete › Accesso a questo PC), tasto 🔒 in alto, Ctrl+L e blocco di Windows. Le schede restano aperte; telefoni e altri PC continuano a lavorare.",
-        "Windows Hello: si entra anche con il PIN o l'impronta di Windows.",
-        "5 password sbagliate di fila: 5 minuti di attesa. Entrate, blocchi e cambi di password finiscono nel registro Ultimi accessi.",
-        "La prima apertura cifra l'archivio (AES-256); la chiave è custodita da Windows. Anche i backup sono cifrati.",
-        "Codice di recupero con foglio di ripristino da stampare: serve se dimentichi la password e per aprire i backup su un PC nuovo. Si rifà da Backup › Protezione dei dati.",
-        "Password dimenticata senza foglio: il fornitore autorizza lo sblocco dopo averti richiamato (anche con un codice da incollare se il PC non ha Internet). All'email dell'azienda arriva un avviso.",
-        "Copia sigillata della chiave per il fornitore (spenta di serie, la accendi in Backup › Protezione dei dati): se perdi PC e foglio, può prepararti un codice nuovo per un tuo backup senza vederne i dati.",
-        "Procedura guidata: nuovo passo 5 «Accesso».",
-        "Dalla rete o da Internet, se la procedura guidata non è finita sul PC principale, compare un avviso invece di «troppi reindirizzamenti».",
-        "Studio medico: medici e sedi creati per sbaglio e mai usati si possono eliminare."
       ]
     }
   ],
